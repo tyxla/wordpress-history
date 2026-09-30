@@ -1,0 +1,22 @@
+{
+  "note": "The illustrative website that evolves through the story. Entirely fictional: it is a demonstration, not a historical site.",
+  "siteTitle": "Kiln Diary",
+  "tagline": "Notes from a small pottery",
+  "author": "Ida",
+  "address": "http://kilndiary.example/",
+  "postTitle": "Hello, world.",
+  "postDate": "2003-05-27",
+  "paragraph": "I made a bowl today. It came out a little crooked, and I like it anyway. This is where I’ll keep notes on everything that comes out of the kiln.",
+  "imageAlt": "a drawing of a slightly lopsided bowl with a dripped glaze",
+  "imageCaption": "Bowl no. 1",
+  "disclosure": "Kiln Diary is an illustration made for this history. It is not a real website, and these pictures are not historical screenshots.",
+  "links": ["A potter’s almanac", "Glaze recipes", "Friends with wheels"],
+  "pages": ["Home", "About", "Pots", "Contact"],
+  "currency": "$",
+  "pots": [
+    { "id": "bowl", "name": "Crooked bowl", "price": "24" },
+    { "id": "mug", "name": "Morning mug", "price": "18" },
+    { "id": "vase", "name": "Bud vase", "price": "30" },
+    { "id": "plate", "name": "Supper plate", "price": "22" }
+  ]
+}

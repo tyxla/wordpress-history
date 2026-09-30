@@ -1,0 +1,140 @@
+{
+  "id": "blocks",
+  "label": "Chapter 7",
+  "title": "The page becomes blocks",
+  "years": "2017–2019",
+  "numeral": "2018",
+  "tick": "2018",
+  "tone": "night",
+  "dek": "On 6 December 2018 the editing screen a generation of writers knew was replaced. What changed underneath mattered more than what changed on top.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "For fifteen years a WordPress post was one long field of text. Anything more elaborate — a gallery, a form — was done with shortcodes: bracketed instructions such as `[gallery]`, typed on trust and seen only after publishing."
+    },
+    "In January 2017 Matías Ventura, leading the editor work with Joen Asmussen, named the problem: content in WordPress “has no inherent data structure.”[^focus-leads][^editor-overview] The answer was to treat each paragraph, image and heading as a *block* — a unit the software can recognise — while still saving the post as ordinary HTML. By February the project had a name: Gutenberg.[^gutenberg-prototype]",
+    {
+      "type": "exhibit",
+      "name": "blockScene",
+      "second": "Update: the crooked bowl found a home. I’m making more.",
+      "caption": "The editing screen before and after WordPress 5.0, redrawn and simplified. The comment syntax at the bottom is the real one.",
+      "steps": [
+        {
+          "label": "Before",
+          "text": "The classic editor: a title and one box. Heading, paragraphs and picture all live in the same stream of text, and the software cannot tell where one ends and the next begins."
+        },
+        {
+          "label": "6 December 2018",
+          "text": "WordPress 5.0 opens the same article and shows its seams. The writing has not changed. Each part is now a block that can be selected, moved or replaced on its own.[^wp50]"
+        },
+        {
+          "label": "Underneath",
+          "text": "What is saved is still HTML. Each block is marked off by a comment that browsers ignore. “Honoring the user content as HTML is important,” Ventura wrote: it “avoids platform lock-in.”[^theseus]"
+        }
+      ]
+    },
+    {
+      "type": "exhibit",
+      "name": "blockPlay",
+      "second": "Update: the crooked bowl found a home. I’m making more.",
+      "caption": "Rearrange the post with the arrow buttons, or drag a block by its grip. The panel shows what WordPress would store. (This page’s own source marks the paragraphs of this chapter the same way.)"
+    },
+    {
+      "type": "h3",
+      "text": "A release that pleased and alarmed the same people"
+    },
+    "Getting there was rough. A licensing dispute over Facebook’s React library nearly forced a rewrite in 2017.[^react][^fb-relicense] The release date slipped twice, then was fixed with about two days’ notice, on the eve of WordCamp US, the project’s flagship American conference.[^new-date]",
+    "Reactions did not sort neatly into for and against. Joost de Valk of Yoast wrote “I love Gutenberg” in the very post that asked for a delay.[^devalk-2018] Rian Rietveld resigned as head of the accessibility team, which then said it could not, as things stood, recommend the editor to people who rely on assistive technology.[^rietveld][^a11y-report] An independent audit in 2019 found “significant and pervasive accessibility problems” — and, for the most part, clean and accessible output.[^audit-summary]",
+    "A plugin restoring the old editor has sat on millions of sites ever since,[^classic-editor] and a fork, ClassicPress, was started in protest.[^classicpress] Accessibility fixes followed in later releases.[^wp53] Two days after 5.0, Mullenweg described the editor as a first phase and revealed a third and fourth to come.[^phases]",
+    {
+      "type": "archive",
+      "title": "The accessibility record, in its own words",
+      "items": [
+        {
+          "type": "quote",
+          "text": "To Matt Mullenweg I want to say: please take better care of your community, because WordPress is nothing without it.",
+          "by": "Rian Rietveld",
+          "where": "rianrietveld.com",
+          "date": "2018-10-09",
+          "cite": "rietveld"
+        },
+        {
+          "type": "quote",
+          "text": "These problems are solvable. Retrofitting accessibility is not an effective process.",
+          "by": "The WordPress accessibility team",
+          "where": "report posted by Joe Dolson",
+          "date": "2018-10-29",
+          "cite": "a11y-report"
+        },
+        {
+          "type": "quote",
+          "text": "We did kind of have some project management fails in this process where we had a team of volunteers that felt like they were disconnected from the rapid development that was happening with Gutenberg.",
+          "by": "Matt Mullenweg",
+          "where": "WordCamp Portland, as transcribed by WP Tavern",
+          "date": "2018-11",
+          "cite": "portland-qa"
+        },
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "The audit",
+              "Commissioned by WPCampus, a higher-education community; carried out by Tenon; cost just under $31,200, of which more than 100 community members gave $10,264 and Matt Mullenweg and Automattic covered the balance.[^audit-vendor][^audit]"
+            ],
+            [
+              "Findings",
+              "90 issues; an average task completion rate of 63% among nine testers; and, in the editor’s favour: “For the most part, the markup generated from the Gutenberg editor is clean, semantically correct and accessible.”[^audit-summary]"
+            ],
+            [
+              "Its limits",
+              "WPCampus asked that it be read as “a snapshot of the state of the editor in early 2019.” By publication, 116 further accessibility issues had been closed.[^audit]"
+            ],
+            [
+              "Afterwards",
+              "In December 2019 Rietveld added to her post that “other people have stepped up and there have been made improvements.”[^rietveld]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "Stars, installs and a referendum of sorts",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Plugin rating",
+              "The Gutenberg plugin averaged 2.7 stars out of 5 at the start of August 2018 and 2.3 by the end of that month, where it still stood the day after 5.0 shipped.[^tavern-200k][^gutenberg-rating]"
+            ],
+            [
+              "Classic Editor",
+              "Shown as 600,000+ active installs on 7 December 2018, 5+ million from mid-2019, 10+ million in mid-2024, and 8+ million on 30 September 2026. These are rounded-down bands, so they blur real movement.[^classic-editor]"
+            ],
+            [
+              "Support promise",
+              "“Until December 31, 2021” at first; today, “until 2024, or as long as is necessary.”[^classic-window][^classic-editor]"
+            ],
+            [
+              "Usage",
+              "By late 2019, per Jetpack’s statistics, more than 50 million posts had been written in the block editor — a partial sample, reported at State of the Word.[^sotw-2019]"
+            ]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "I welcome it; apathy would worry me a lot more than disagreement or controversy.",
+          "by": "Matt Mullenweg",
+          "where": "“We Called it Gutenberg for a Reason”",
+          "date": "2017-08-27",
+          "cite": "gutenberg-reason"
+        },
+        {
+          "type": "note",
+          "text": "The 5.0 announcement itself carried a caution: “Note to users of assistive technology: if you experience usability issues with the block editor, we recommend you continue to use the Classic Editor.”[^wp50]"
+        }
+      ]
+    }
+  ]
+}

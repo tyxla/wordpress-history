@@ -1,0 +1,123 @@
+{
+  "id": "extensible",
+  "label": "Chapter 2",
+  "title": "A tool other people could change",
+  "years": "2004–2005",
+  "numeral": "2004",
+  "tick": "2004",
+  "tone": "paper",
+  "dek": "Two releases turned a program into a platform. One let strangers add to what it did; the other let them change how it looked.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "On 13 May 2004 the makers of Movable Type, a widely used weblog tool, announced a new licence and a price list.[^mt-licence] The next day the programmer Mark Pilgrim moved his site to WordPress and explained himself in an essay called “Freedom 0”.[^freedom0]"
+    },
+    {
+      "type": "quote",
+      "text": "There is always a path forward. There are no dead ends.",
+      "by": "Mark Pilgrim",
+      "where": "“Freedom 0”",
+      "date": "2004-05-14",
+      "cite": "freedom0"
+    },
+    "Nine days after the price list, WordPress 1.2 arrived with an idea at its centre: “Plugins can now hook into nearly every action WordPress does.”[^wp12] A plugin is a separate file that attaches itself to named moments in the program and changes what happens there. The core could stay small. Everything else could be somebody else’s work.",
+    "The first commits went in under Matt Mullenweg’s name; the design was a conversation with Ryan Boren, who believes he wrote the first version and who spent that same spring marking every phrase in WordPress for translation — “That was no fun.”[^core-r1008][^boren-interview] A Hindi edition by Pankaj Narula was ready three days before release.[^hindi]",
+    {
+      "type": "exhibit",
+      "name": "plugins",
+      "caption": "Three invented plugins attach themselves to Kiln Diary, shown here in the default look of 2004. `the_content` and `shutdown` are real WordPress hooks — the second was added in April 2004[^core-r1008] — and the plugins are illustrations. The first official plugin, Hello Dolly, printed a song lyric in the admin screen and did nothing else."
+    },
+    {
+      "type": "h3",
+      "text": "The same words in different clothes"
+    },
+    "Version 1.5, in February 2005, did for appearance what 1.2 had done for behaviour. A site’s look became a *theme*: a folder of template files kept apart from the writing. Swap the folder and the same posts wore a different design. The release also added Pages — an “About” page, say — that sat outside the stream of dated entries.[^wp15]",
+    "Ryan Boren built both in August and September 2004.[^core-r1638] The new default theme, Kubrick, was Michael Heilemann’s; he had asked for it to be included, and changed its licence to the GPL so that it could be.[^heilemann]",
+    {
+      "type": "exhibit",
+      "name": "wardrobe",
+      "initial": "kubrick",
+      "caption": "Eight default themes and one unchanged post. Each is a reconstruction in HTML and CSS, set in typefaces already on your device; the notes say what is approximate. Later themes are included so that the separation of writing from design can be followed across twenty years."
+    },
+    "Not everyone was pleased: a forum thread titled “Why using Kubrick on 1.3 is a mistake” drew 131 replies.[^kubrick-thread] A default, it turned out, was something people would argue about.",
+    {
+      "type": "aside",
+      "label": "Counting",
+      "text": "“Over 50,000 of you have downloaded WordPress 1.5 in the two weeks since it’s been released,” Matt wrote on 1 March 2005.[^fifty]"
+    },
+    {
+      "type": "archive",
+      "title": "The writing screen, 2004",
+      "items": [
+        {
+          "type": "figure",
+          "asset": "wp12-write"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "“Freedom 0”, and the answer about money",
+      "items": [
+        {
+          "type": "quote",
+          "text": "WordPress is Free Software. Its rules will never change. In the event that the WordPress community disbands and development stops, a new community can form around the orphaned code. It’s happened once already.",
+          "by": "Mark Pilgrim",
+          "where": "diveintomark.org",
+          "date": "2004-05-14",
+          "cite": "freedom0"
+        },
+        {
+          "type": "note",
+          "text": "Pilgrim worked out that the new licence would have cost him $535, and gave that sum to the WordPress developers instead: “It’s not about money; it’s about freedom.”[^freedom0]"
+        },
+        {
+          "type": "quote",
+          "text": "I have been receiving emails all morning asking if I have any plans to charge for WordPress in the future. The answer is no, but my answer doesn’t matter.",
+          "by": "Matt Mullenweg",
+          "where": "wordpress.org",
+          "date": "2004-05-13",
+          "cite": "new-pricing"
+        },
+        {
+          "type": "note",
+          "text": "His answer did not matter, he went on, because the licence already guaranteed it. How many people switched because of the price list cannot be isolated: WordPress 1.2 came out in the same month."
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The first plugin, and the Kubrick argument",
+      "items": [
+        {
+          "type": "quote",
+          "text": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong. Hello, Dolly. This is, by the way, the world’s first official WordPress plugin. Wish it did something useful.",
+          "by": "Matt Mullenweg",
+          "where": "header of hello.php",
+          "date": "2004-03-25",
+          "cite": "core-r1008"
+        },
+        {
+          "type": "quote",
+          "text": "Think of Kubrick like a classic frame or nice table.",
+          "by": "Matt Mullenweg",
+          "where": "WordPress support forum",
+          "date": "2004-08-23",
+          "cite": "kubrick-thread"
+        },
+        {
+          "type": "quote",
+          "text": "Design by a committee is bad, design by a community – well that’s impossible :)",
+          "by": "Carthik Sharma",
+          "where": "the same thread",
+          "date": "2004-08-23",
+          "cite": "kubrick-thread"
+        },
+        {
+          "type": "note",
+          "text": "Kubrick stayed the default until Twenty Ten replaced it in 2010.[^wp30] Heilemann said later of the row, “I still feel like it ended up where it should. Even if the process of it perhaps was not the best.”[^heilemann]"
+        }
+      ]
+    }
+  ]
+}

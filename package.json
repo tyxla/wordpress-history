@@ -1,0 +1,18 @@
+{
+  "name": "wordpress-history",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hello, World. — an independent, interactive history of WordPress and the people who built it.",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node tools/serve.mjs --watch",
+    "serve": "node tools/serve.mjs",
+    "check:links": "node tools/check-links.mjs",
+    "check": "node build.mjs --strict"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

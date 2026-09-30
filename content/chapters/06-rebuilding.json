@@ -1,0 +1,153 @@
+{
+  "id": "rebuilding",
+  "label": "Chapter 6",
+  "title": "Rebuilding while the world keeps publishing",
+  "years": "2008–2017",
+  "numeral": "2013",
+  "tick": "2013",
+  "tone": "paper",
+  "dek": "Phones, JavaScript and machine-readable data changed what the web expected. WordPress had to change too, without breaking the sites already standing on it.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "Imagine renovating a building whose tenants cannot be asked to move out. By September 2013 one website in five ran on WordPress,[^w3-2013] with plugins and themes written to the habits of a decade. Whatever changed had to keep all of that working."
+    },
+    "The contributors’ handbook makes it policy: “WordPress strives to never break backward compatibility.”[^version-numbering] The price was patience. For almost eight years WordPress supported the same old version of PHP, the language it is written in, because sites still ran on it.[^php-min]",
+    "So the renovation went room by room. In 2013 a group led by the designer Matt Miklic rebuilt the admin’s look as a plugin, MP6, releasing it weekly to anyone who would try it;[^mp6] that December it became the face of WordPress 3.8, which would “adapt” to phone, tablet or desk.[^wp38] Build it as a plugin, merge it when ready: this became the method.[^features-plugins] Weeks earlier, 3.7 had begun installing security fixes by itself — “Updates while you sleep.”[^wp37]",
+    {
+      "type": "exhibit",
+      "name": "viewport",
+      "caption": "One post, three destinations. The third is what a program receives when it asks the REST API for the same post: no design, only structured data. The field names are the real ones; the response is abridged."
+    },
+    {
+      "type": "h3",
+      "text": "Four stages, four dates"
+    },
+    "One structural change took four years. Ryan McCue’s idea was that any program — a phone app, another site — should be able to read and write a WordPress site’s content as plain data, through what is called a REST API.",
+    {
+      "type": "exhibit",
+      "name": "track",
+      "caption": "A plan written in 2015 expected the content endpoints one release after the infrastructure. They took three.[^rest-2015]",
+      "steps": [
+        {
+          "stage": "experiment",
+          "label": "Experiment",
+          "date": "2012",
+          "text": "A proof of concept, made at a contributor summit.[^rest-2016]"
+        },
+        {
+          "stage": "plugin",
+          "label": "Feature plugin",
+          "date": "2013–2015",
+          "text": "A Google Summer of Code project, then two versions of a plugin kept going by a small team.[^rest-2013][^rest-2015]"
+        },
+        {
+          "stage": "core",
+          "label": "Infrastructure in core",
+          "date": "8 Dec 2015",
+          "text": "WordPress 4.4 ships what McCue called an “API construction kit”, without the content itself.[^wp44][^rest-infra]"
+        },
+        {
+          "stage": "public",
+          "label": "Public endpoints",
+          "date": "6 Dec 2016",
+          "text": "WordPress 4.7: posts, comments, terms, users and more, on by default.[^wp47]"
+        }
+      ]
+    },
+    "Even then, something went wrong. Six weeks after 4.7 a flaw was reported that let strangers rewrite posts. The fix went out silently through automatic updates; attackers still defaced pages on an estimated 40,000 sites that had not updated, by the security firm Wordfence’s count.[^rest-disclosure][^defacements]",
+    "Meanwhile Automattic had rebuilt WordPress.com’s interface in JavaScript, and in December 2015 Mullenweg set a conference audience some homework: “Learn JavaScript, deeply.”[^calypso][^js-deeply]",
+    {
+      "type": "aside",
+      "label": "Meanwhile, the share",
+      "text": "By W3Techs’ measure, WordPress ran 13.1% of all websites in early 2011 and 30% by March 2018.[^w3-2018]"
+    },
+    {
+      "type": "archive",
+      "title": "The admin after MP6",
+      "items": [
+        {
+          "type": "figure",
+          "asset": "wp39-admin"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The cost of never breaking things",
+      "items": [
+        {
+          "type": "quote",
+          "text": "It works for users now. When it stops working for them, it’s our fault and we lose their trust.",
+          "by": "Andrew Nacin",
+          "where": "quoted by Aaron Jorbin in “User Trust Matters”, 2017",
+          "cite": "user-trust"
+        },
+        {
+          "type": "quote",
+          "text": "Two of the things that helped make WordPress the strong, stable, powerful tool it is — backward compatibility and working without JavaScript — were actually holding it back.",
+          "by": "Matt Mullenweg",
+          "where": "“Dance to Calypso”",
+          "date": "2015-11-23",
+          "cite": "calypso"
+        },
+        {
+          "type": "note",
+          "text": "Mullenweg was writing about WordPress.com’s interface, not the core software; the tension he names was the same one. Version 3.2 (2011) dropped PHP 4; the minimum then stayed at PHP 5.2 until version 5.2 raised it in May 2019.[^php-min]"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The REST API argument of 2016",
+      "items": [
+        {
+          "type": "quote",
+          "text": "No partial endpoints in core. Let’s design a complete API, not half-do it and foist it on millions of sites.",
+          "by": "Matt Mullenweg",
+          "where": "project chat, as reported by WP Tavern",
+          "date": "2016-02",
+          "cite": "rest-gridlock"
+        },
+        {
+          "type": "quote",
+          "text": "We’ve got a bit of a chicken and egg: without core adoption, potential API consumers are hesitant to take the plunge, but without adoption it won’t be tested sufficiently to be merged.",
+          "by": "K. Adam White",
+          "where": "the same discussion",
+          "date": "2016-02",
+          "cite": "rest-gridlock"
+        },
+        {
+          "type": "note",
+          "text": "WP Tavern counted “just four major contributors operating at less than part time” on the project at that point.[^rest-gridlock]"
+        }
+      ]
+    },
+    {
+      "type": "chronology",
+      "title": "Also in these years",
+      "items": [
+        {
+          "date": "July 2008",
+          "text": "The first official mobile app, WordPress for iPhone.[^iphone]"
+        },
+        {
+          "date": "June 2012",
+          "text": "The theme customizer arrives in 3.4: change a design and watch a live preview.[^wp34]"
+        },
+        {
+          "date": "April 2015",
+          "text": "Version 4.2 moves databases, where it can, to a fuller character set — which brings emoji.[^wp42]"
+        },
+        {
+          "date": "Dec 2015",
+          "text": "Version 4.4 makes images responsive with no work from theme authors.[^wp44]"
+        },
+        {
+          "date": "March 2016",
+          "text": "A rule is announced: all new or updated code must meet the WCAG 2.0 accessibility guidelines at level AA. “We’re not there yet,” the announcement adds.[^a11y-2016]"
+        }
+      ]
+    }
+  ]
+}

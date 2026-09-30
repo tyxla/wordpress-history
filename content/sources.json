@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "wp-history",
+    "title": "History: every major release and the musician it honours",
+    "publisher": "WordPress.org",
+    "url": "https://wordpress.org/about/history/"
+  },
+  {
+    "id": "milestones",
+    "title": "Milestones: The Story of WordPress",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/",
+    "note": "The project’s official history; a secondary source."
+  },
+  {
+    "id": "michel-2001",
+    "title": "Weblog post announcing the start of b2",
+    "author": "Michel Valdrighi",
+    "publisher": "zengun.org",
+    "date": "2001-06-09",
+    "url": "https://web.archive.org/web/20060214031311/http://zengun.org/weblog/archives/2001/06/post1958",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "cafelog-2003",
+    "title": "cafelog.com front page, as captured on 7 February 2003",
+    "author": "Michel Valdrighi",
+    "publisher": "cafelog.com",
+    "date": "2002-11-06",
+    "url": "https://web.archive.org/web/20030207143741/http://www.cafelog.com/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "cafelog-whereabouts",
+    "title": "“Michel’s whereabouts”, with readers’ comments",
+    "publisher": "cafelog.com",
+    "date": "2003-03-17",
+    "url": "https://web.archive.org/web/20031214122636/http://cafelog.com/index.php?p=499&c=1",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "cafelog-return",
+    "title": "Post naming WordPress the future official branch of b2",
+    "author": "Michel Valdrighi",
+    "publisher": "cafelog.com",
+    "date": "2003-05-23",
+    "url": "https://web.archive.org/web/20031211111316/http://www.cafelog.com/index.php?p=500&c=1",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "dilemma",
+    "title": "The Blogging Software Dilemma (and Mike Little’s comment)",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2003-01-24",
+    "url": "https://ma.tt/2003/01/the-blogging-software-dilemma/"
+  },
+  {
+    "id": "mike-little",
+    "title": "About Mike Little",
+    "author": "Mike Little",
+    "publisher": "mikelittle.org",
+    "url": "https://mikelittle.org/"
+  },
+  {
+    "id": "about-2003",
+    "title": "About WordPress, as captured on 1 June 2003",
+    "publisher": "WordPress.org",
+    "date": "2003-06-01",
+    "url": "https://web.archive.org/web/20030601125339/http://wordpress.org/about/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "core-r2",
+    "title": "WordPress core repository, revision 2: the first commit",
+    "publisher": "WordPress Trac",
+    "date": "2003-04-01",
+    "url": "https://core.trac.wordpress.org/changeset/2",
+    "note": "06:17 UTC, which is 00:17 in Houston."
+  },
+  {
+    "id": "core-r306",
+    "title": "WordPress core repository, revision 306: Michel Valdrighi’s first commit",
+    "publisher": "WordPress Trac",
+    "date": "2003-08-12",
+    "url": "https://core.trac.wordpress.org/changeset/306"
+  },
+  {
+    "id": "core-r58",
+    "title": "WordPress core repository, revision 58 (“Updated instructions.”), and the readme shipped with 0.71",
+    "publisher": "WordPress Trac",
+    "date": "2003-05-23",
+    "url": "https://core.trac.wordpress.org/changeset/58",
+    "note": "The word “Famous” arrives in revision 1341, 22 May 2004."
+  },
+  {
+    "id": "core-r1008",
+    "title": "WordPress core repository, revisions 883–1340: actions, the plugin loader, Hello Dolly, the shutdown hook",
+    "publisher": "WordPress Trac",
+    "date": "2004-03-25",
+    "url": "https://core.trac.wordpress.org/changeset/1008"
+  },
+  {
+    "id": "core-r1638",
+    "title": "WordPress core repository, revisions 1527 (“Static pages. Take 1.”) and 1638 (“Themes.”)",
+    "publisher": "WordPress Trac",
+    "date": "2004-09-11",
+    "url": "https://core.trac.wordpress.org/changeset/1638"
+  },
+  {
+    "id": "mullenweg-interview",
+    "title": "Interview with Matt Mullenweg for the Milestones book",
+    "publisher": "WordPress.org archive",
+    "date": "2013-03-19",
+    "url": "https://archive.wordpress.org/interviews/2013_03_19_Mullenweg.html"
+  },
+  {
+    "id": "planque",
+    "title": "Evolution of b2, 180° from WordPress!",
+    "author": "François Planque",
+    "publisher": "b2evolution.net",
+    "url": "https://web.archive.org/web/20140210102957/http://b2evolution.net/about/b2evolution-vs-wordpress",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "donncha-interview",
+    "title": "Interview with Donncha Ó Caoimh for the Milestones book",
+    "publisher": "WordPress.org archive",
+    "date": "2013-05-03",
+    "url": "https://archive.wordpress.org/interviews/2013_05_03_OCaoimh.html"
+  },
+  {
+    "id": "donncha-2003",
+    "title": "b2 updates, referer spamming, b2++ and WordPress",
+    "author": "Donncha Ó Caoimh",
+    "publisher": "odd.blog",
+    "date": "2003-05-29",
+    "url": "https://odd.blog/2003/05/29/b2-updates-referer-spamming-b2-and-wordpress/"
+  },
+  {
+    "id": "wp07",
+    "title": "WordPress Now Available",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2003-05-27",
+    "url": "https://wordpress.org/news/2003/05/wordpress-now-available/"
+  },
+  {
+    "id": "renaming",
+    "title": "The Great Renaming",
+    "author": "Alex King",
+    "publisher": "WordPress.org News",
+    "date": "2003-12-12",
+    "url": "https://wordpress.org/news/2003/12/the-great-renaming/"
+  },
+  {
+    "id": "home-2003",
+    "title": "wordpress.org home page, as captured on 18 June 2003",
+    "publisher": "WordPress.org",
+    "date": "2003-06-18",
+    "url": "https://web.archive.org/web/20030618021947/http://wordpress.org/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "alexking-2003",
+    "title": "b2, WordPress and b2++",
+    "author": "Alex King",
+    "publisher": "alexking.org",
+    "date": "2003-05-27",
+    "url": "https://alexking.org/blog/2003/05/27/b2-wordpress-and-b2"
+  },
+  {
+    "id": "wp10",
+    "title": "WordPress 1.0",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2004-01-03",
+    "url": "https://wordpress.org/news/2004/01/wordpress-10/"
+  },
+  {
+    "id": "road-10",
+    "title": "The Road to 1.0",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2003-12-15",
+    "url": "https://wordpress.org/news/2003/12/the-road-to-10/"
+  },
+  {
+    "id": "miles",
+    "title": "1.0.1 “Miles” Release Available",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2004-01-25",
+    "url": "https://wordpress.org/news/2004/01/101-miles-release-available/"
+  },
+  {
+    "id": "mt-licence",
+    "title": "Movable Type Developer Edition 3.0",
+    "author": "Mena Trott",
+    "publisher": "Six Apart",
+    "date": "2004-05-13",
+    "url": "https://web.archive.org/web/20040605225637/http://www.sixapart.com/corner/archives/2004/05/movable_type_de.shtml",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "freedom0",
+    "title": "Freedom 0",
+    "author": "Mark Pilgrim",
+    "publisher": "diveintomark.org",
+    "date": "2004-05-14",
+    "url": "https://web.archive.org/web/20070911032533/http://diveintomark.org/archives/2004/05/14/freedom-0",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "new-pricing",
+    "title": "New Pricing Scheme",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2004-05-13",
+    "url": "https://wordpress.org/news/2004/05/new-pricing-scheme/"
+  },
+  {
+    "id": "wp12",
+    "title": "WordPress 1.2",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2004-05-22",
+    "url": "https://wordpress.org/news/2004/05/heres-the-beef/"
+  },
+  {
+    "id": "boren-interview",
+    "title": "Interview with Ryan Boren for the Milestones book",
+    "publisher": "WordPress.org archive",
+    "date": "2013-05-15",
+    "url": "https://archive.wordpress.org/interviews/2013_05_15_Boren1.html"
+  },
+  {
+    "id": "hindi",
+    "title": "WordPress in Hindi",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2004-05-19",
+    "url": "https://ma.tt/2004/05/wordpress-in-hindi/"
+  },
+  {
+    "id": "wp15",
+    "title": "Announcing WordPress 1.5",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2005-02-17",
+    "url": "https://wordpress.org/news/2005/02/strayhorn/"
+  },
+  {
+    "id": "heilemann",
+    "title": "Interview with Michael Heilemann for the Milestones book",
+    "publisher": "WordPress.org archive",
+    "date": "2013-11-06",
+    "url": "https://archive.wordpress.org/interviews/2013_11_06_Heilemann.html"
+  },
+  {
+    "id": "kubrick-thread",
+    "title": "Forum thread: “Why using Kubrick on 1.3 is a mistake”",
+    "publisher": "WordPress.org support forums",
+    "date": "2004-08-23",
+    "url": "https://wordpress.org/support/topic/why-using-kubrick-on-13-is-a-mistake/"
+  },
+  {
+    "id": "fifty",
+    "title": "Fifty Thousand",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2005-03-01",
+    "url": "https://wordpress.org/news/2005/03/fifty-thousand/"
+  },
+  {
+    "id": "response",
+    "title": "A Response",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2005-04-01",
+    "url": "https://ma.tt/2005/04/a-response/"
+  },
+  {
+    "id": "waxy",
+    "title": "WordPress Website’s Search Engine Spam",
+    "author": "Andy Baio",
+    "publisher": "waxy.org",
+    "date": "2005-03-30",
+    "url": "https://waxy.org/2005/03/wordpress_websi/"
+  },
+  {
+    "id": "back-online",
+    "title": "Back Online",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2005-03-31",
+    "url": "https://ma.tt/2005/03/back-online/"
+  },
+  {
+    "id": "donncha-18",
+    "title": "Eighteen Years at Automattic",
+    "author": "Donncha Ó Caoimh",
+    "publisher": "odd.blog",
+    "date": "2023-06-20",
+    "url": "https://odd.blog/2023/06/20/eighteen-years-at-automattic/"
+  },
+  {
+    "id": "automattic-2005",
+    "title": "Automattic “About” page, as captured on 23 December 2005",
+    "publisher": "Automattic",
+    "date": "2005-12-23",
+    "url": "https://web.archive.org/web/20051223160551/http://automattic.com/about/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "toni-2006",
+    "title": "Moving on from Yahoo: Automattic",
+    "author": "Toni Schneider",
+    "publisher": "toni.org",
+    "date": "2006-01-11",
+    "url": "https://toni.org/2006/01/11/moving-on-from-yahoo-automattic/"
+  },
+  {
+    "id": "wpcom-invites",
+    "title": "Invites",
+    "author": "Matt Mullenweg",
+    "publisher": "matt.wordpress.com",
+    "date": "2005-08-15",
+    "url": "https://matt.wordpress.com/2005/08/15/invites/"
+  },
+  {
+    "id": "akismet",
+    "title": "Akismet Stops Spam",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2005-10-25",
+    "url": "https://ma.tt/2005/10/akismet-stops-spam/"
+  },
+  {
+    "id": "riley-interview",
+    "title": "Interview with Mark Riley for the Milestones book",
+    "publisher": "WordPress.org archive",
+    "date": "2013-07-04",
+    "url": "https://archive.wordpress.org/interviews/2013_07_04_Riley.html"
+  },
+  {
+    "id": "lorelle",
+    "title": "About Lorelle on WordPress",
+    "author": "Lorelle VanFossen",
+    "publisher": "lorelle.wordpress.com",
+    "url": "https://lorelle.wordpress.com/about/",
+    "note": "Self-reported figures."
+  },
+  {
+    "id": "polyglots-2005",
+    "title": "Polyglots",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2005-02-14",
+    "url": "https://wordpress.org/news/2005/02/polyglots/"
+  },
+  {
+    "id": "wordcamp-announce",
+    "title": "WordCamp",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2006-07-09",
+    "url": "https://ma.tt/2006/07/wordcamp/"
+  },
+  {
+    "id": "wordcamp-update",
+    "title": "WordCamp Update",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2006-07-10",
+    "url": "https://ma.tt/2006/07/wordcamp-update/"
+  },
+  {
+    "id": "wordcamp-2006",
+    "title": "WordCamp 2006 site, with the sign-up list",
+    "publisher": "WordCamp San Francisco",
+    "date": "2006",
+    "url": "https://sf.wordcamp.org/2006/"
+  },
+  {
+    "id": "wordcamp-wrapup",
+    "title": "WordCamp Wrapup",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2006-08-08",
+    "url": "https://ma.tt/2006/08/wordcamp-wrapup/"
+  },
+  {
+    "id": "wc-past",
+    "title": "Past WordCamps",
+    "publisher": "WordCamp Central",
+    "url": "https://central.wordcamp.org/schedule/past-wordcamps/"
+  },
+  {
+    "id": "wc-about",
+    "title": "About WordCamp Central",
+    "publisher": "WordCamp Central",
+    "date": "2026-09-30",
+    "url": "https://central.wordcamp.org/about/",
+    "note": "Figures as read on 30 September 2026."
+  },
+  {
+    "id": "license",
+    "title": "The GNU Public License",
+    "publisher": "WordPress.org",
+    "url": "https://wordpress.org/about/license/"
+  },
+  {
+    "id": "com-vs-org",
+    "title": "WordPress.com vs. WordPress.org",
+    "publisher": "WordPress.com",
+    "url": "https://wordpress.com/support/com-vs-org/"
+  },
+  {
+    "id": "automattic-about",
+    "title": "About Automattic",
+    "publisher": "Automattic",
+    "url": "https://automattic.com/about/"
+  },
+  {
+    "id": "foundation-launch",
+    "title": "Getting Off the Ground",
+    "publisher": "WordPress Foundation",
+    "date": "2010-01-22",
+    "url": "https://wordpressfoundation.org/news/2010/getting-off-the-ground/"
+  },
+  {
+    "id": "trademark-2010",
+    "title": "WordPress Trademark",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2010-09-09",
+    "url": "https://ma.tt/2010/09/wordpress-trademark/"
+  },
+  {
+    "id": "wp21",
+    "title": "WordPress 2.1 “Ella”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2007-01-22",
+    "url": "https://wordpress.org/news/2007/01/ella-21/"
+  },
+  {
+    "id": "wp20",
+    "title": "WordPress 2",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2005-12-31",
+    "url": "https://wordpress.org/news/2005/12/wp2/"
+  },
+  {
+    "id": "wp205",
+    "title": "WordPress 2.0.5 “Ronan”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2006-10-27",
+    "url": "https://wordpress.org/news/2006/10/205-ronan/"
+  },
+  {
+    "id": "wp22",
+    "title": "WordPress 2.2",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2007-05-16",
+    "url": "https://wordpress.org/news/2007/05/wordpress-22/"
+  },
+  {
+    "id": "wp23",
+    "title": "WordPress 2.3",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2007-09-25",
+    "url": "https://wordpress.org/news/2007/09/wordpress-23/"
+  },
+  {
+    "id": "wp25",
+    "title": "WordPress 2.5",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2008-03-29",
+    "url": "https://wordpress.org/news/2008/03/wordpress-25-brecker/"
+  },
+  {
+    "id": "wp26",
+    "title": "WordPress 2.6",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2008-07-15",
+    "url": "https://wordpress.org/news/2008/07/wordpress-26-tyner/"
+  },
+  {
+    "id": "crazyhorse",
+    "title": "Usability Testing Report: 2.5 and Crazyhorse",
+    "author": "Jane Wells",
+    "publisher": "WordPress.org News",
+    "date": "2008-10-29",
+    "url": "https://wordpress.org/news/2008/10/usability-testing-report-25-and-crazyhorse/"
+  },
+  {
+    "id": "wp29",
+    "title": "WordPress 2.9, oh so fine",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2009-12-19",
+    "url": "https://wordpress.org/news/2009/12/wordpress-2-9/"
+  },
+  {
+    "id": "wp30",
+    "title": "WordPress 3.0 “Thelonious”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2010-06-17",
+    "url": "https://wordpress.org/news/2010/06/thelonious/"
+  },
+  {
+    "id": "menus",
+    "title": "Menus, Merge and a Patch Sprint",
+    "author": "Jane Wells",
+    "publisher": "WordPress.org News",
+    "date": "2010-02-23",
+    "url": "https://wordpress.org/news/2010/02/menus-merge-patch-sprint/"
+  },
+  {
+    "id": "dd32",
+    "title": "dd32, whatcha gonna do?",
+    "author": "Matt Mullenweg",
+    "publisher": "Make WordPress Core",
+    "date": "2010-01-12",
+    "url": "https://make.wordpress.org/core/2010/01/12/dd32-whatcha-gonna-do/"
+  },
+  {
+    "id": "number10",
+    "title": "Number 10 goes Web 2.0",
+    "author": "John Oates",
+    "publisher": "The Register",
+    "date": "2008-08-13",
+    "url": "https://www.theregister.com/2008/08/13/tendowning_blogtastic/"
+  },
+  {
+    "id": "umw",
+    "title": "FAQ for universities interested in WPMU",
+    "author": "Jim Groom",
+    "publisher": "bavatuesdays",
+    "date": "2009-10-14",
+    "url": "https://bavatuesdays.com/faq-for-universities-interested-in-wpmu/"
+  },
+  {
+    "id": "cms-award",
+    "title": "WordPress Wins CMS Award",
+    "publisher": "WordPress.org News",
+    "date": "2009-11-18",
+    "url": "https://wordpress.org/news/2009/11/wordpress-wins-cms-award/"
+  },
+  {
+    "id": "wp34",
+    "title": "WordPress 3.4 “Green”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2012-06-13",
+    "url": "https://wordpress.org/news/2012/06/green/"
+  },
+  {
+    "id": "wp35",
+    "title": "WordPress 3.5 “Elvin”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2012-12-11",
+    "url": "https://wordpress.org/news/2012/12/elvin/"
+  },
+  {
+    "id": "premium-themes",
+    "title": "Premium Themes (Milestones, chapter 29)",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/2015/11/premium-themes/",
+    "note": "Official history; secondary."
+  },
+  {
+    "id": "theme-purge",
+    "title": "Why Were 200 WordPress Themes Removed?",
+    "author": "Jeff Chandler",
+    "publisher": "jeffro2pt0.com",
+    "date": "2008-12-12",
+    "url": "https://web.archive.org/web/20090315162659/http://www.jeffro2pt0.com/why-were-200-wordpress-themes-removed",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "themes-gpl",
+    "title": "Themes are GPL, too",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2009-07-02",
+    "url": "https://wordpress.org/news/2009/07/themes-are-gpl-too/"
+  },
+  {
+    "id": "thesis",
+    "title": "Thesis (Milestones, chapter 39)",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/2015/11/thesis/",
+    "note": "Official history; secondary."
+  },
+  {
+    "id": "syn-thesis",
+    "title": "Syn-thesis 1",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2010-07-14",
+    "url": "https://ma.tt/2010/07/syn-thesis-1/"
+  },
+  {
+    "id": "woo-fork",
+    "title": "WooThemes forks Jigoshop into WooCommerce",
+    "author": "Ryan Imel",
+    "publisher": "WPCandy",
+    "date": "2011-08-25",
+    "url": "https://web.archive.org/web/20111225034531/http://wpcandy.com/reports/woothemes-forks-jigoshop-into-woocommerce",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "woo-arrived",
+    "title": "WooCommerce Has Arrived",
+    "author": "Mark Forrester",
+    "publisher": "WooCommerce",
+    "date": "2011-09-27",
+    "url": "https://woocommerce.com/posts/woocommerce-has-arrived/"
+  },
+  {
+    "id": "jigoshop",
+    "title": "Our forking views",
+    "publisher": "Jigoshop",
+    "date": "2011-08-26",
+    "url": "https://web.archive.org/web/20141222123219/https://www.jigoshop.com/blog/2011/08/26/our-forking-views/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "woomattic",
+    "title": "Woo & Automattic",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2015-05-19",
+    "url": "https://ma.tt/2015/05/woomattic/"
+  },
+  {
+    "id": "w3techs-wp-history",
+    "title": "Historical yearly trends in the usage of WordPress subcategories",
+    "publisher": "W3Techs",
+    "date": "2026-09-30",
+    "url": "https://w3techs.com/technologies/history_details/cm-wordpress/all/y",
+    "note": "WooCommerce detected on 19.8% of WordPress sites, 30 September 2026."
+  },
+  {
+    "id": "fftf",
+    "title": "Five for the Future",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2014-09-30",
+    "url": "https://ma.tt/2014/09/five-for-the-future/"
+  },
+  {
+    "id": "metcalfe",
+    "title": "The feasibility and governance concerns behind 5% contribution to WordPress Core",
+    "author": "Ben Metcalfe",
+    "publisher": "benmetcalfe.com",
+    "date": "2014-09",
+    "url": "http://benmetcalfe.com/blog/2014/09/wordpress-what-exactly-do-they-get-for-their-5/"
+  },
+  {
+    "id": "stats-66",
+    "title": "WordPress 6.6 Statistics",
+    "publisher": "Make WordPress Project",
+    "date": "2024-09-12",
+    "url": "https://make.wordpress.org/project/wordpress-6-6-statistics/"
+  },
+  {
+    "id": "economy-study",
+    "title": "WordPress Economy Drives More Than Half a Trillion in Revenue, New Global Study Finds",
+    "publisher": "WP Engine",
+    "date": "2021-06-08",
+    "url": "https://wpengine.com/blog/wordpress-economy-drives-more-than-half-a-trillion-in-revenue-new-global-study",
+    "note": "Press release for research commissioned by WP Engine."
+  },
+  {
+    "id": "sotw-2021",
+    "title": "State of the Word 2021: recap",
+    "author": "Courtney Robertson",
+    "publisher": "GoDaddy",
+    "date": "2021-12-15",
+    "url": "https://www.godaddy.com/resources/news/state-of-the-word-2021"
+  },
+  {
+    "id": "w3-2013",
+    "title": "WordPress powers 1 in 5 websites",
+    "publisher": "W3Techs",
+    "date": "2013-09-23",
+    "url": "https://w3techs.com/blog/entry/wordpress_powers_1_in_5_websites"
+  },
+  {
+    "id": "version-numbering",
+    "title": "Version Numbering",
+    "publisher": "WordPress Core Contributor Handbook",
+    "url": "https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/"
+  },
+  {
+    "id": "php-min",
+    "title": "Minimum PHP Version update",
+    "author": "Aaron Jorbin",
+    "publisher": "WordPress.org News",
+    "date": "2019-04-01",
+    "url": "https://wordpress.org/news/2019/04/minimum-php-version-update/"
+  },
+  {
+    "id": "mp6",
+    "title": "MP6 (Milestones, chapter 44)",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/2015/11/mp6/",
+    "note": "Official history; secondary."
+  },
+  {
+    "id": "wp38",
+    "title": "WordPress 3.8 “Parker”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2013-12-12",
+    "url": "https://wordpress.org/news/2013/12/parker/"
+  },
+  {
+    "id": "features-plugins",
+    "title": "WordPress 3.8 meeting Thursday, August 8",
+    "author": "Andrew Nacin",
+    "publisher": "Make WordPress Core",
+    "date": "2013-08-07",
+    "url": "https://make.wordpress.org/core/2013/08/07/wordpress-3-8-meeting-thursday-august-8/"
+  },
+  {
+    "id": "wp37",
+    "title": "WordPress 3.7 “Basie”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2013-10-24",
+    "url": "https://wordpress.org/news/2013/10/basie/"
+  },
+  {
+    "id": "rest-2016",
+    "title": "REST API Merge Proposal, Part 2: Content API",
+    "author": "Ryan McCue",
+    "publisher": "Make WordPress Core",
+    "date": "2016-10-08",
+    "url": "https://make.wordpress.org/core/2016/10/08/rest-api-merge-proposal-part-2-content-api/"
+  },
+  {
+    "id": "rest-2013",
+    "title": "JSON REST API",
+    "author": "Ryan McCue",
+    "publisher": "Make WordPress Core",
+    "date": "2013-06-17",
+    "url": "https://make.wordpress.org/core/2013/06/17/json-rest-api/"
+  },
+  {
+    "id": "rest-2015",
+    "title": "WP REST API: Merge Proposal",
+    "author": "Ryan McCue",
+    "publisher": "Make WordPress Core",
+    "date": "2015-09-21",
+    "url": "https://make.wordpress.org/core/2015/09/21/wp-rest-api-merge-proposal/"
+  },
+  {
+    "id": "wp44",
+    "title": "WordPress 4.4 “Clifford”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2015-12-08",
+    "url": "https://wordpress.org/news/2015/12/clifford/"
+  },
+  {
+    "id": "wp47",
+    "title": "WordPress 4.7 “Vaughan”",
+    "author": "Helen Hou-Sandí",
+    "publisher": "WordPress.org News",
+    "date": "2016-12-06",
+    "url": "https://wordpress.org/news/2016/12/vaughan/"
+  },
+  {
+    "id": "rest-disclosure",
+    "title": "Disclosure of Additional Security Fix in WordPress 4.7.2",
+    "author": "Aaron D. Campbell",
+    "publisher": "Make WordPress Core",
+    "date": "2017-02-01",
+    "url": "https://make.wordpress.org/core/2017/02/01/disclosure-of-additional-security-fix-in-wordpress-4-7-2/"
+  },
+  {
+    "id": "defacements",
+    "title": "Recent WordPress vulnerability used to deface 1.5 million pages",
+    "author": "IDG News Service",
+    "publisher": "PCWorld",
+    "date": "2017-02-10",
+    "url": "https://www.pcworld.com/article/3168846/recent-wordpress-vulnerability-used-to-deface-1-5-million-pages.html",
+    "note": "Figures from Wordfence."
+  },
+  {
+    "id": "calypso",
+    "title": "Dance to Calypso",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2015-11-23",
+    "url": "https://ma.tt/2015/11/dance-to-calypso/"
+  },
+  {
+    "id": "js-deeply",
+    "title": "State of the Word 2015: JavaScript and API-Driven Interfaces Are the Future",
+    "author": "Sarah Gooding",
+    "publisher": "WP Tavern",
+    "date": "2015-12-06",
+    "url": "https://wptavern.com/state-of-the-word-2015-javascript-and-api-driven-interfaces-are-the-future",
+    "note": "The address was given on 5 December."
+  },
+  {
+    "id": "w3-2018",
+    "title": "WordPress now powers 30% of all websites",
+    "publisher": "W3Techs",
+    "date": "2018-03-05",
+    "url": "https://w3techs.com/blog/entry/fact_20180305"
+  },
+  {
+    "id": "user-trust",
+    "title": "User Trust Matters",
+    "author": "Aaron Jorbin",
+    "publisher": "aaron.jorb.in",
+    "date": "2017-01-05",
+    "url": "https://aaron.jorb.in/user-trust-matters/"
+  },
+  {
+    "id": "rest-gridlock",
+    "title": "WP REST API Delayed, Contributors Facing Gridlock",
+    "author": "Sarah Gooding",
+    "publisher": "WP Tavern",
+    "date": "2016-02-05",
+    "url": "https://wptavern.com/wp-rest-api-delayed-contributors-facing-gridlock"
+  },
+  {
+    "id": "iphone",
+    "title": "WordPress for iPhone: Available Now",
+    "publisher": "iphone.wordpress.org",
+    "date": "2008-07-22",
+    "url": "https://web.archive.org/web/20081218020419/http://iphone.wordpress.org/2008/07/22/wordpress-for-iphone-available-now/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "wp42",
+    "title": "WordPress 4.2 “Powell”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2015-04-23",
+    "url": "https://wordpress.org/news/2015/04/powell/"
+  },
+  {
+    "id": "a11y-2016",
+    "title": "WordPress goes WCAG",
+    "author": "Rian Rietveld",
+    "publisher": "Make WordPress Accessibility",
+    "date": "2016-03-21",
+    "url": "https://make.wordpress.org/accessibility/2016/03/21/wordpress-goes-wcag/"
+  },
+  {
+    "id": "focus-leads",
+    "title": "Focus Tech and Design Leads",
+    "author": "Matt Mullenweg",
+    "publisher": "Make WordPress Core",
+    "date": "2017-01-04",
+    "url": "https://make.wordpress.org/core/2017/01/04/focus-tech-and-design-leads/"
+  },
+  {
+    "id": "editor-overview",
+    "title": "Editor Technical Overview",
+    "author": "Matías Ventura",
+    "publisher": "Make WordPress Core",
+    "date": "2017-01-17",
+    "url": "https://make.wordpress.org/core/2017/01/17/editor-technical-overview/"
+  },
+  {
+    "id": "wp50",
+    "title": "WordPress 5.0 “Bebo”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2018-12-06",
+    "url": "https://wordpress.org/news/2018/12/bebo/"
+  },
+  {
+    "id": "theseus",
+    "title": "Gutenberg, or the Ship of Theseus",
+    "author": "Matías Ventura",
+    "publisher": "matiasventura.com",
+    "date": "2017-10-09",
+    "url": "https://matiasventura.com/post/gutenberg-or-the-ship-of-theseus/"
+  },
+  {
+    "id": "react",
+    "title": "On React and WordPress",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2017-09-14",
+    "url": "https://ma.tt/2017/09/on-react-and-wordpress/"
+  },
+  {
+    "id": "fb-relicense",
+    "title": "Relicensing React, Jest, Flow, and Immutable.js",
+    "author": "Adam Wolff",
+    "publisher": "Facebook Engineering",
+    "date": "2017-09-22",
+    "url": "https://engineering.fb.com/2017/09/22/web/relicensing-react-jest-flow-and-immutable-js/"
+  },
+  {
+    "id": "new-date",
+    "title": "New 5.0 Target Date",
+    "author": "Matt Mullenweg",
+    "publisher": "Make WordPress Core",
+    "date": "2018-12-04",
+    "url": "https://make.wordpress.org/core/2018/12/04/new-5-0-target-date/"
+  },
+  {
+    "id": "devalk-2018",
+    "title": "WordPress 5.0 needs a different timeline",
+    "author": "Joost de Valk",
+    "publisher": "joost.blog",
+    "date": "2018-11-06",
+    "url": "https://joost.blog/wordpress-5-0-needs-a-different-timeline/"
+  },
+  {
+    "id": "rietveld",
+    "title": "I have resigned as the WordPress accessibility team lead. Here is why.",
+    "author": "Rian Rietveld",
+    "publisher": "rianrietveld.com",
+    "date": "2018-10-09",
+    "url": "https://rianrietveld.com/2018/10/09/i-have-resigned-the-wordpress-accessibility-team/"
+  },
+  {
+    "id": "a11y-report",
+    "title": "Report on the Accessibility Status of Gutenberg",
+    "author": "Joe Dolson",
+    "publisher": "Make WordPress Accessibility",
+    "date": "2018-10-29",
+    "url": "https://make.wordpress.org/accessibility/2018/10/29/report-on-the-accessibility-status-of-gutenberg/"
+  },
+  {
+    "id": "audit",
+    "title": "Results of the Gutenberg accessibility audit",
+    "publisher": "WPCampus",
+    "date": "2019-05-01",
+    "url": "https://wpcampus.org/2019/05/gutenberg-audit-results/"
+  },
+  {
+    "id": "audit-summary",
+    "title": "Gutenberg accessibility audit: executive summary",
+    "author": "Tenon LLC",
+    "publisher": "WPCampus",
+    "date": "2019-04-02",
+    "url": "https://documents.wpcampus.org/gutenberg/audit/Gutenberg_Executive_Summary.pdf"
+  },
+  {
+    "id": "classic-editor",
+    "title": "Classic Editor plugin page",
+    "publisher": "WordPress.org plugin directory",
+    "date": "2026-09-30",
+    "url": "https://wordpress.org/plugins/classic-editor/",
+    "note": "Install counts from this page and archived copies of it."
+  },
+  {
+    "id": "classic-window",
+    "title": "Classic Editor Plugin Support Window",
+    "author": "Gary Pendergast",
+    "publisher": "Make WordPress Core",
+    "date": "2018-11-07",
+    "url": "https://make.wordpress.org/core/2018/11/07/classic-editor-plugin-support-window/"
+  },
+  {
+    "id": "classicpress",
+    "title": "ClassicPress: Gutenberg Not Included",
+    "author": "Jeff Chandler",
+    "publisher": "WP Tavern",
+    "date": "2018-08-21",
+    "url": "https://wptavern.com/classicpress-gutenberg-not-included"
+  },
+  {
+    "id": "wp53",
+    "title": "WordPress 5.3 “Kirk”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2019-11-12",
+    "url": "https://wordpress.org/news/2019/11/kirk/"
+  },
+  {
+    "id": "phases",
+    "title": "State of the Word 2018: WordPress Embraces the Block Editor",
+    "author": "Sarah Gooding",
+    "publisher": "WP Tavern",
+    "date": "2018-12-11",
+    "url": "https://wptavern.com/state-of-the-word-2018-wordpress-embraces-the-block-editor"
+  },
+  {
+    "id": "portland-qa",
+    "title": "Matt Mullenweg Addresses Controversies Surrounding Gutenberg at WordCamp Portland Q&A",
+    "author": "Sarah Gooding",
+    "publisher": "WP Tavern",
+    "date": "2018-11-10",
+    "url": "https://wptavern.com/matt-mullenweg-addresses-controversies-surrounding-gutenberg-at-wordcamp-portland-qa"
+  },
+  {
+    "id": "gutenberg-rating",
+    "title": "Gutenberg plugin page, as captured on 7 December 2018",
+    "publisher": "WordPress.org plugin directory",
+    "date": "2018-12-07",
+    "url": "https://web.archive.org/web/20181207035303/https://wordpress.org/plugins/gutenberg/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "sotw-2019",
+    "title": "State of the Word 2019 Recap: All Roads Lead to the Block Editor",
+    "author": "Justin Tadlock",
+    "publisher": "WP Tavern",
+    "date": "2019-11-04",
+    "url": "https://wptavern.com/state-of-the-word-2019-recap-all-roads-lead-to-the-block-editor"
+  },
+  {
+    "id": "gutenberg-reason",
+    "title": "We Called it Gutenberg for a Reason",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2017-08-27",
+    "url": "https://ma.tt/2017/08/we-called-it-gutenberg-for-a-reason/"
+  },
+  {
+    "id": "wp55",
+    "title": "WordPress 5.5 “Eckstine”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2020-08-11",
+    "url": "https://wordpress.org/news/2020/08/eckstine/"
+  },
+  {
+    "id": "wp56",
+    "title": "WordPress 5.6 “Simone”",
+    "author": "Josepha Haden",
+    "publisher": "WordPress.org News",
+    "date": "2020-12-08",
+    "url": "https://wordpress.org/news/2020/12/simone/"
+  },
+  {
+    "id": "wp58",
+    "title": "WordPress 5.8 “Tatum”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2021-07-20",
+    "url": "https://wordpress.org/news/2021/07/tatum/"
+  },
+  {
+    "id": "wp59",
+    "title": "WordPress 5.9 “Joséphine”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2022-01-25",
+    "url": "https://wordpress.org/news/2022/01/josephine/"
+  },
+  {
+    "id": "wp59-delay",
+    "title": "WordPress 5.9 Revised Release Schedule",
+    "author": "Tonya Mork",
+    "publisher": "Make WordPress Core",
+    "date": "2021-11-22",
+    "url": "https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/"
+  },
+  {
+    "id": "wp60",
+    "title": "WordPress 6.0 “Arturo”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2022-05-24",
+    "url": "https://wordpress.org/news/2022/05/arturo/"
+  },
+  {
+    "id": "wp62",
+    "title": "WordPress 6.2 “Dolphy”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2023-03-29",
+    "url": "https://wordpress.org/news/2023/03/dolphy/"
+  },
+  {
+    "id": "wp63",
+    "title": "WordPress 6.3 “Lionel”",
+    "author": "Matías Ventura",
+    "publisher": "WordPress.org News",
+    "date": "2023-08-08",
+    "url": "https://wordpress.org/news/2023/08/lionel/"
+  },
+  {
+    "id": "tadlock-2020",
+    "title": "Where Gutenberg Went Wrong: Theme Developer Edition",
+    "author": "Justin Tadlock",
+    "publisher": "WP Tavern",
+    "date": "2020-05-13",
+    "url": "https://wptavern.com/where-gutenberg-went-wrong-theme-developer-edition"
+  },
+  {
+    "id": "openverse",
+    "title": "CC Search to join WordPress.org",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2021-04-27",
+    "url": "https://ma.tt/2021/04/cc-search-to-join-wordpress-org/"
+  },
+  {
+    "id": "playground",
+    "title": "Client-side WebAssembly WordPress with no server",
+    "author": "Adam Zieliński",
+    "publisher": "Make WordPress Core",
+    "date": "2022-09-23",
+    "url": "https://make.wordpress.org/core/2022/09/23/client-side-webassembly-wordpress-with-no-server/"
+  },
+  {
+    "id": "playground-eras",
+    "title": "Run any era of WordPress in Playground",
+    "publisher": "Make WordPress Playground",
+    "date": "2026-08-24",
+    "url": "https://make.wordpress.org/playground/2026/08/24/run-any-era-of-wordpress-in-playground/"
+  },
+  {
+    "id": "wp20-birthday",
+    "title": "Celebrating 20 Years of WordPress",
+    "author": "Josepha Haden Chomphosy",
+    "publisher": "WordPress.org News",
+    "date": "2023-05-27",
+    "url": "https://wordpress.org/news/2023/05/celebrating-20-years-of-wordpress/"
+  },
+  {
+    "id": "key-concepts",
+    "title": "Key Concepts",
+    "publisher": "Block Editor Handbook",
+    "url": "https://developer.wordpress.org/block-editor/explanations/architecture/key-concepts/"
+  },
+  {
+    "id": "theme-json",
+    "title": "Introduction to theme.json",
+    "publisher": "Theme Handbook",
+    "url": "https://developer.wordpress.org/themes/global-settings-and-styles/introduction-to-theme-json/"
+  },
+  {
+    "id": "style-variations",
+    "title": "Style Variations",
+    "publisher": "Theme Handbook",
+    "url": "https://developer.wordpress.org/themes/global-settings-and-styles/style-variations/"
+  },
+  {
+    "id": "site-editor-name",
+    "title": "Site Editor: a more user-friendly name",
+    "author": "Josepha Haden Chomphosy",
+    "publisher": "Make WordPress Updates",
+    "date": "2022-11-04",
+    "url": "https://make.wordpress.org/updates/2022/11/04/site-editor-a-more-user-friendly-name/"
+  },
+  {
+    "id": "wcasia-2020",
+    "title": "WordCamp Asia Cancelled Due to COVID-19",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2020-02-12",
+    "url": "https://wordpress.org/news/2020/02/wordcamp-asia-cancelled-due-to-covid-19/"
+  },
+  {
+    "id": "learn",
+    "title": "Introducing Learn WordPress",
+    "author": "Hugh Lashbrooke",
+    "publisher": "WordPress.org News",
+    "date": "2020-12-15",
+    "url": "https://wordpress.org/news/2020/12/introducing-learn-wordpress/"
+  },
+  {
+    "id": "in-person",
+    "title": "Announcement: updated guidelines for in-person WordCamps",
+    "author": "Rocio Valdivia",
+    "publisher": "Make WordPress Community",
+    "date": "2021-09-13",
+    "url": "https://make.wordpress.org/community/2021/09/13/announcement-updated-guidelines-for-in-person-wordcamps/"
+  },
+  {
+    "id": "release-leads",
+    "title": "The Transition to Release Leads (Milestones)",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/2015/11/the-transition-to-release-leads/",
+    "note": "Official history; secondary."
+  },
+  {
+    "id": "exec-director",
+    "title": "Expanding WordPress Leadership",
+    "author": "Matt Mullenweg",
+    "publisher": "Make WordPress Updates",
+    "date": "2019-01-16",
+    "url": "https://make.wordpress.org/updates/2019/01/16/expanding-wordpress-leadership/"
+  },
+  {
+    "id": "schedule-2026",
+    "title": "Proposal: 2026 Major Release Schedule",
+    "publisher": "Make WordPress Project",
+    "date": "2025-12-18",
+    "url": "https://make.wordpress.org/project/2025/12/18/proposal-2026-major-release-schedule/"
+  },
+  {
+    "id": "wp68",
+    "title": "WordPress 6.8 “Cecil”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2025-04-15",
+    "url": "https://wordpress.org/news/2025/04/cecil/"
+  },
+  {
+    "id": "wp69",
+    "title": "WordPress 6.9 “Gene”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2025-12-02",
+    "url": "https://wordpress.org/news/2025/12/gene/"
+  },
+  {
+    "id": "wp70",
+    "title": "WordPress 7.0 “Armstrong”",
+    "publisher": "WordPress.org News",
+    "date": "2026-05-20",
+    "url": "https://wordpress.org/news/2026/05/armstrong/"
+  },
+  {
+    "id": "wp70-delay",
+    "title": "Extending the 7.0 cycle",
+    "publisher": "Make WordPress Core",
+    "date": "2026-03-31",
+    "url": "https://make.wordpress.org/core/2026/03/31/extending-the-7-0-cycle/"
+  },
+  {
+    "id": "wp70-path",
+    "title": "The path forward for WordPress 7.0",
+    "publisher": "Make WordPress Core",
+    "date": "2026-04-02",
+    "url": "https://make.wordpress.org/core/2026/04/02/the-path-forward-for-wordpress-7-0/"
+  },
+  {
+    "id": "ai-merge",
+    "title": "Proposal for merging WP AI Client into WordPress 7.0",
+    "publisher": "Make WordPress Core",
+    "date": "2026-02-03",
+    "url": "https://make.wordpress.org/core/2026/02/03/proposal-for-merging-wp-ai-client-into-wordpress-7-0/"
+  },
+  {
+    "id": "ai-plugin",
+    "title": "What’s new in AI 1.0.0",
+    "publisher": "Make WordPress AI",
+    "date": "2026-05-21",
+    "url": "https://make.wordpress.org/ai/2026/05/21/whats-new-in-ai-1-0-0/"
+  },
+  {
+    "id": "wp71",
+    "title": "WordPress 7.1 “Mary Lou”",
+    "publisher": "WordPress.org News",
+    "date": "2026-08-19",
+    "url": "https://wordpress.org/news/2026/08/mary-lou/"
+  },
+  {
+    "id": "rtc-removed",
+    "title": "RTC removed from 7.0",
+    "publisher": "Make WordPress Core",
+    "date": "2026-05-08",
+    "url": "https://make.wordpress.org/core/2026/05/08/rtc-removed-from-7-0/"
+  },
+  {
+    "id": "roadmap-72",
+    "title": "Roadmap to 7.2",
+    "publisher": "Make WordPress Core",
+    "date": "2026-09-18",
+    "url": "https://make.wordpress.org/core/2026/09/18/roadmap-to-7-2/"
+  },
+  {
+    "id": "rtc-server",
+    "title": "Moving to a server-aware approach for collaboration",
+    "publisher": "Make WordPress Core",
+    "date": "2026-09-18",
+    "url": "https://make.wordpress.org/core/2026/09/18/moving-to-a-server-aware-approach-for-collaboration/"
+  },
+  {
+    "id": "ipsum",
+    "title": "Introducing Ipsum, the new default theme",
+    "publisher": "Make WordPress Core",
+    "date": "2026-09-16",
+    "url": "https://make.wordpress.org/core/2026/09/16/introducing-ipsum-the-new-default-theme/"
+  },
+  {
+    "id": "roadmap",
+    "title": "Roadmap",
+    "publisher": "WordPress.org",
+    "date": "2026-09-30",
+    "url": "https://wordpress.org/about/roadmap/",
+    "note": "As read on 30 September 2026."
+  },
+  {
+    "id": "w3-current",
+    "title": "Usage statistics and market share of WordPress",
+    "publisher": "W3Techs",
+    "date": "2026-09-30",
+    "url": "https://w3techs.com/technologies/details/cm-wordpress"
+  },
+  {
+    "id": "w3-yearly",
+    "title": "Historical yearly trends in the usage of content management systems (share of all websites)",
+    "publisher": "W3Techs",
+    "date": "2026-09-30",
+    "url": "https://w3techs.com/technologies/history_overview/content_management/all/y"
+  },
+  {
+    "id": "w3-ms",
+    "title": "Historical yearly trends in the market share of content management systems (share of sites with a known CMS)",
+    "publisher": "W3Techs",
+    "date": "2026-09-30",
+    "url": "https://w3techs.com/technologies/history_overview/content_management/ms/y"
+  },
+  {
+    "id": "security-initiative",
+    "title": "The Core Security Initiative",
+    "publisher": "Make WordPress Security",
+    "date": "2026-08-28",
+    "url": "https://make.wordpress.org/security/2026/08/28/the-core-security-initiative/"
+  },
+  {
+    "id": "wp712",
+    "title": "WordPress 7.1.2 Release",
+    "publisher": "WordPress.org News",
+    "date": "2026-09-22",
+    "url": "https://wordpress.org/news/2026/09/wordpress-7-1-2-release/"
+  },
+  {
+    "id": "wcasia-2026",
+    "title": "Celebrating WordCamp Asia 2026",
+    "publisher": "WordPress.org News",
+    "date": "2026-04-11",
+    "url": "https://wordpress.org/news/2026/04/celebrating-wcasia-2026/"
+  },
+  {
+    "id": "wceu-2026",
+    "title": "WordCamp Europe 2026 recap",
+    "publisher": "WordPress.org News",
+    "date": "2026-06-06",
+    "url": "https://wordpress.org/news/2026/06/wceu-2026-recap/"
+  },
+  {
+    "id": "wcus-2026",
+    "title": "WordCamp US 2026 recap",
+    "publisher": "WordPress.org News",
+    "date": "2026-08-20",
+    "url": "https://wordpress.org/news/2026/08/wcus-2026-recap/"
+  },
+  {
+    "id": "meetups-2026",
+    "title": "Meetup Organizer Newsletter, August 2026",
+    "publisher": "Make WordPress Community",
+    "date": "2026-08-14",
+    "url": "https://make.wordpress.org/community/2026/08/14/wordcamp-us-opens-students-ship-108-sites-in-bangladesh-and-a-lesson-in-the-dark/"
+  },
+  {
+    "id": "credits",
+    "title": "Monthly Education Buzz Report, August 2026",
+    "publisher": "Make WordPress Community",
+    "date": "2026-09-09",
+    "url": "https://make.wordpress.org/community/2026/09/09/monthly-education-buzz-report-august-2026/"
+  },
+  {
+    "id": "campus-connect",
+    "title": "Monthly Education Buzz Report, April 2026",
+    "publisher": "Make WordPress Community",
+    "date": "2026-05-11",
+    "url": "https://make.wordpress.org/community/2026/05/11/monthly-education-buzz-report-april-2026/"
+  },
+  {
+    "id": "photos",
+    "title": "March 2026 stats for the WordPress Photo Directory",
+    "publisher": "Make WordPress Photos",
+    "date": "2026-03-06",
+    "url": "https://make.wordpress.org/photos/2026/03/06/march-2026-stats-for-the-wordpress-photo-directory/"
+  },
+  {
+    "id": "polyglots-teams",
+    "title": "Translation Teams",
+    "publisher": "Make WordPress Polyglots",
+    "date": "2026-09-30",
+    "url": "https://make.wordpress.org/polyglots/teams/",
+    "note": "As read on 30 September 2026."
+  },
+  {
+    "id": "hubbard",
+    "title": "Proud Mary",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2024-10-08",
+    "url": "https://wordpress.org/news/2024/10/proud-mary/"
+  },
+  {
+    "id": "foundation",
+    "title": "WordPress Foundation: mission",
+    "publisher": "WordPress Foundation",
+    "url": "https://wordpressfoundation.org/"
+  },
+  {
+    "id": "fse-outreach",
+    "title": "Evolving the FSE Outreach Program",
+    "author": "Anne McCarthy",
+    "publisher": "Make WordPress Core",
+    "date": "2023-09-07",
+    "url": "https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/"
+  },
+  {
+    "id": "fftf-pledges",
+    "title": "Five for the Future: pledges",
+    "publisher": "WordPress.org",
+    "date": "2026-09-30",
+    "url": "https://wordpress.org/five-for-the-future/pledges/",
+    "note": "Self-reported by the companies and people listed."
+  },
+  {
+    "id": "fftf-open",
+    "title": "Five for the Future: Open for Pledges",
+    "author": "Andrea Middleton",
+    "publisher": "Make WordPress Updates",
+    "date": "2019-11-02",
+    "url": "https://make.wordpress.org/updates/2019/11/02/five-for-the-future-open-for-pledges/"
+  },
+  {
+    "id": "free-rider",
+    "title": "Open Source and how we sustain ourselves",
+    "author": "Josepha Haden Chomphosy",
+    "publisher": "Make WordPress Project",
+    "date": "2022-08-01",
+    "url": "https://make.wordpress.org/project/2022/08/01/open-source-and-the-free-rider-problem/"
+  },
+  {
+    "id": "hack-day-2012",
+    "title": "Roundup: WordCamp San Francisco Hack Day",
+    "author": "Andrew Nacin",
+    "publisher": "Make WordPress Core",
+    "date": "2012-08-15",
+    "url": "https://make.wordpress.org/core/2012/08/15/roundup-wordcamp-san-francisco-hack-day/"
+  },
+  {
+    "id": "meetup-2012",
+    "title": "Year of the Meetup",
+    "author": "Jane Wells",
+    "publisher": "WordPress.org News",
+    "date": "2012-01-27",
+    "url": "https://wordpress.org/news/2012/01/year-of-the-meetup/"
+  },
+  {
+    "id": "core-program",
+    "title": "Announcing the Core Program Team",
+    "author": "Mary Hubbard",
+    "publisher": "Make WordPress Project",
+    "date": "2025-09-15",
+    "url": "https://make.wordpress.org/project/2025/09/15/announcing-the-core-program-team/"
+  },
+  {
+    "id": "building-blocks-8",
+    "title": "Building Blocks: The Evolution of WordPress, chapter 8",
+    "publisher": "WordPress.org",
+    "date": "2023-05",
+    "url": "https://github.com/WordPress/wp20-book/blob/trunk/Content/BB-Chapter-8-Gutenberg.md",
+    "note": "The project’s official history; a secondary source."
+  },
+  {
+    "id": "japan-2003",
+    "title": "wordpress.xwd.jp, as captured on 5 December 2003",
+    "date": "2003-12-05",
+    "url": "https://web.archive.org/web/20031205101812/http://wordpress.xwd.jp/",
+    "note": "via the Internet Archive"
+  },
+  {
+    "id": "ten-years",
+    "title": "Ten Years of Automattic",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2015-06-22",
+    "url": "https://ma.tt/2015/06/ten-years-of-automattic/"
+  },
+  {
+    "id": "leaving-cnet",
+    "title": "Leaving CNET",
+    "author": "Matt Mullenweg",
+    "publisher": "ma.tt",
+    "date": "2005-10-20",
+    "url": "https://ma.tt/2005/10/leaving-cnet/"
+  },
+  {
+    "id": "trademark-policy",
+    "title": "Trademark Policy",
+    "publisher": "WordPress Foundation",
+    "url": "https://wordpressfoundation.org/trademark-policy/",
+    "note": "As read on 30 September 2026."
+  },
+  {
+    "id": "wp27",
+    "title": "WordPress 2.7 “Coltrane”",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2008-12-11",
+    "url": "https://wordpress.org/news/2008/12/coltrane/"
+  },
+  {
+    "id": "themes-gpl-book",
+    "title": "Themes are GPL, too (Milestones, chapter 31)",
+    "publisher": "WordPress.org",
+    "date": "2015-11",
+    "url": "https://wordpress.org/book/2015/11/themes-are-gpl-too/",
+    "note": "Official history; secondary."
+  },
+  {
+    "id": "rest-infra",
+    "title": "REST API: Welcome the Infrastructure to Core",
+    "author": "Ryan McCue",
+    "publisher": "Make WordPress Core",
+    "date": "2015-10-28",
+    "url": "https://make.wordpress.org/core/2015/10/28/rest-api-welcome-the-infrastructure-to-core/"
+  },
+  {
+    "id": "gutenberg-prototype",
+    "title": "Initial Gutenberg prototype editor testing",
+    "author": "Tammie Lister",
+    "publisher": "Make WordPress Design",
+    "date": "2017-02-09",
+    "url": "https://make.wordpress.org/design/2017/02/09/initial-gutenberg-prototype-editor-testing/"
+  },
+  {
+    "id": "audit-vendor",
+    "title": "Vendor selected for the Gutenberg accessibility audit",
+    "publisher": "WPCampus",
+    "date": "2019-01-10",
+    "url": "https://wpcampus.org/2019/01/gutenberg-audit-vendor/"
+  },
+  {
+    "id": "tavern-200k",
+    "title": "Gutenberg and Classic Editor Plugins Pass 200,000 Active Installations",
+    "author": "Sarah Gooding",
+    "publisher": "WP Tavern",
+    "date": "2018-08-24",
+    "url": "https://wptavern.com/gutenberg-and-classic-editor-plugins-pass-200000-active-installations-wordpress-4-9-9-planning-underway"
+  },
+  {
+    "id": "playground-rename",
+    "title": "Commit: “Rename the project to WordPress Playground”",
+    "publisher": "GitHub, WordPress/wordpress-playground",
+    "date": "2022-12-13",
+    "url": "https://github.com/WordPress/wordpress-playground/commit/36b362ea0200c5a099372b1a66aeeb41b2e69558"
+  },
+  {
+    "id": "wp072",
+    "title": "0.72 Final Version Available",
+    "author": "Matt Mullenweg",
+    "publisher": "WordPress.org News",
+    "date": "2003-10-11",
+    "url": "https://wordpress.org/news/2003/10/072-final-version-available/"
+  },
+  {
+    "id": "twentyten-commit",
+    "title": "Commit: “Twenty Ten initial import”",
+    "author": "Ryan Boren",
+    "publisher": "GitHub, WordPress/WordPress",
+    "date": "2010-02-07",
+    "url": "https://github.com/WordPress/WordPress/commit/1fb181a4ebc1355db1b8eb2eda001db1e077ed76"
+  },
+  {
+    "id": "twentythirteen-intro",
+    "title": "Introducing Twenty Thirteen",
+    "author": "Mark Jaquith",
+    "publisher": "Make WordPress Core",
+    "date": "2013-02-18",
+    "url": "https://make.wordpress.org/core/2013/02/18/introducing-twenty-thirteen/"
+  },
+  {
+    "id": "twentynineteen-intro",
+    "title": "Introducing Twenty Nineteen",
+    "author": "Allan Cole",
+    "publisher": "Make WordPress Core",
+    "date": "2018-10-16",
+    "url": "https://make.wordpress.org/core/2018/10/16/introducing-twenty-nineteen/"
+  },
+  {
+    "id": "twentytwentytwo-intro",
+    "title": "Introducing Twenty Twenty-Two",
+    "publisher": "Make WordPress Core",
+    "date": "2021-10-06",
+    "url": "https://make.wordpress.org/core/2021/10/06/introducing-twenty-twenty-two/"
+  },
+  {
+    "id": "twentytwentyfive-intro",
+    "title": "Introducing Twenty Twenty-Five",
+    "author": "Beatriz Fialho",
+    "publisher": "Make WordPress Core",
+    "date": "2024-08-15",
+    "url": "https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "id": "today",
+  "label": "Chapter 10",
+  "title": "Today is not an ending",
+  "years": "2025–2026",
+  "numeral": "2026",
+  "tick": "2026",
+  "tone": "paper",
+  "dek": "To 30 September 2026: new releases, new contributors, and the same daily work.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "WordPress 7.0 arrived on 20 May 2026, named for Louis Armstrong. It was the fifty-fourth major release. Three months later there was a fifty-fifth.[^wp70][^wp71]"
+    },
+    {
+      "type": "h3",
+      "text": "Released"
+    },
+    "WordPress 6.9, in December 2025, let editors pin notes to a block — the first piece of the promised collaboration phase that writers could see.[^wp69] Version 7.0 added plumbing for artificial intelligence: a standard way for plugins to call AI models, which does nothing until a site’s owner connects one.[^ai-merge] Version 7.1, on 19 August, let blocks be styled differently for different screens.[^wp71]",
+    {
+      "type": "h3",
+      "text": "Still in the workshop"
+    },
+    "Editing a document together, live, is not ready. It was built for 7.0 and taken out before release, and it is not in 7.1 or on the roadmap for 7.2. Its developers have begun exploring a different design; for now it is an opt-in experiment in the Gutenberg plugin.[^rtc-removed][^roadmap-72][^rtc-server] Version 7.2, with a new default theme called Ipsum, is a plan for December — not yet a fact.[^roadmap-72][^ipsum]",
+    {
+      "type": "h3",
+      "text": "The scale"
+    },
+    "By W3Techs’ count WordPress runs 40.2% of all websites — two in every five — and 58.7% of those built with any identifiable content management system.[^w3-current] In early 2011 the first of those figures was 13.1%.[^w3-2018]",
+    {
+      "type": "exhibit",
+      "name": "share",
+      "title": "WordPress’s share of the web, counted two ways",
+      "caption": "The two lines answer different questions, and both are needed: many websites use no identifiable content management system at all. The share of all websites reached 43.6% at the start of 2025.[^w3-yearly][^w3-ms]"
+    },
+    "Looking after that many sites is serious work. In August 2026 the security team reported a substantial increase in incoming reports, which it attributes to AI-assisted research, and set out a plan to handle it.[^security-initiative]",
+    {
+      "type": "h3",
+      "text": "The people"
+    },
+    "And the ordinary work went on. In Mumbai in April, more than 1,500 people gave a day to contributing.[^wcasia-2026] In Kraków in June, CERN announced that its main website now runs on WordPress.[^wceu-2026] The translation teams’ page lists 208 locales, 53 of them fully up to date.[^polyglots-teams] Playground can start WordPress from any era, back to 0.7, in a browser tab.[^playground-eras]",
+    {
+      "type": "figure",
+      "asset": "wceu-2026-contributor-day",
+      "layout": "wide"
+    },
+    "The latest release as this is written is 7.1.2, a security fix published on 22 September 2026.[^wp712] It will not be the last.",
+    {
+      "type": "archive",
+      "title": "Released, experimental, planned — on 30 September 2026",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Released",
+              "Notes on blocks (6.9; on selected text, with mentions, in 7.1). The Abilities API, a machine-readable list of what a site can do (6.9). An AI client and a Connectors screen, with no AI provider built in (7.0). A refreshed dashboard and visual revisions (7.0). Responsive block styles, a new media editor, image processing in the browser (7.1).[^wp69][^wp70][^wp71]"
+            ],
+            [
+              "Experiment",
+              "Real-time collaborative editing, available only by opting in through the Gutenberg plugin.[^rtc-removed] User-facing AI features, which live in a separate plugin.[^ai-plugin]"
+            ],
+            [
+              "Planned",
+              "WordPress 7.2 in early December 2026, with the Ipsum theme and no more year-named default themes.[^roadmap-72][^ipsum] A fourth flagship event, WordCamp India, in 2027.[^wcasia-2026]"
+            ],
+            [
+              "Unscheduled",
+              "The fourth Gutenberg phase, multilingual sites, has no date.[^roadmap]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The road to 7.0 and 7.1",
+      "items": [
+        {
+          "type": "chronology",
+          "items": [
+            {
+              "date": "18 Dec 2025",
+              "text": "A schedule proposes 7.0 for 9 April 2026, the contributor day of WordCamp Asia.[^schedule-2026]"
+            },
+            {
+              "date": "31 March",
+              "text": "The date is abandoned to rework how collaborative editing stores its data. Going back to beta after a release candidate, the project acknowledges, “is unprecedented.”[^wp70-delay][^wp70-path]"
+            },
+            {
+              "date": "8 May",
+              "text": "Real-time collaboration is removed from 7.0 for further work.[^rtc-removed]"
+            },
+            {
+              "date": "20 May",
+              "text": "WordPress 7.0 “Armstrong” ships after five release candidates, led by Matías Ventura, with more than 875 contributors credited.[^wp70]"
+            },
+            {
+              "date": "19 Aug",
+              "text": "WordPress 7.1 “Mary Lou”, led by Anne McCarthy, is released on stage at WordCamp US in Phoenix, on schedule.[^wp71]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "Who turned up",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Credited per release",
+              "6.8: more than 900 · 6.9: more than 900 · 7.0: more than 875 · 7.1: more than 800. First-time contributors: over 250, 279, 200 and 170. The cycles differ in length, so these are not like-for-like.[^wp68][^wp69][^wp70][^wp71]"
+            ],
+            [
+              "Flagship events, 2026",
+              "WordCamp Asia, Mumbai: 2,627 attendees. WordCamp Europe, Kraków: 2,458 ticket holders from 81 countries. WordCamp US, Phoenix: over 1,100 registered.[^wcasia-2026][^wceu-2026][^wcus-2026]"
+            ],
+            [
+              "Meetups",
+              "707 groups in 100 countries, as of August 2026.[^meetups-2026]"
+            ],
+            [
+              "Students",
+              "WordPress Credits: 191 students at work and 352 graduates. Campus Connect: 5,586 attendees at 71 institutions.[^credits][^campus-connect]"
+            ],
+            [
+              "Photographs",
+              "The project’s free photo directory held 33,067 pictures from 2,846 contributors in March 2026.[^photos]"
+            ],
+            [
+              "Executive director",
+              "Mary Hubbard, since October 2024.[^hubbard]"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

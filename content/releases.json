@@ -1,0 +1,497 @@
+[
+  {
+    "version": "0.7",
+    "date": "2003-05-27",
+    "codename": "",
+    "musician": "",
+    "instrument": "",
+    "url": "https://wordpress.org/news/2003/05/wordpress-now-available/",
+    "highlight": "The first release: Texturize, a link manager, manual excerpts, a simpler admin screen."
+  },
+  {
+    "version": "1.0",
+    "date": "2004-01-03",
+    "codename": "Miles",
+    "musician": "Miles Davis",
+    "instrument": "trumpeter",
+    "url": "https://wordpress.org/news/2004/01/wordpress-10/",
+    "highlight": "Permalinks, multiple categories, comment moderation, setup in the browser. Named for Miles Davis after the fact."
+  },
+  {
+    "version": "1.2",
+    "date": "2004-05-22",
+    "codename": "Mingus",
+    "musician": "Charles Mingus",
+    "instrument": "bassist and composer",
+    "url": "https://wordpress.org/news/2004/05/heres-the-beef/",
+    "highlight": "Plugin architecture, sub-categories, localization, thumbnails, post preview, encrypted passwords."
+  },
+  {
+    "version": "1.5",
+    "date": "2005-02-17",
+    "codename": "Strayhorn",
+    "musician": "Billy Strayhorn",
+    "instrument": "pianist and composer",
+    "url": "https://wordpress.org/news/2005/02/strayhorn/",
+    "highlight": "Flexible theme system and static Pages."
+  },
+  {
+    "version": "2.0",
+    "date": "2005-12-31",
+    "codename": "Duke",
+    "musician": "Duke Ellington",
+    "instrument": "pianist and composer",
+    "url": "https://wordpress.org/news/2005/12/wp2/",
+    "highlight": "Redesigned admin backend, faster AJAX administration, WYSIWYG editing, Akismet bundled."
+  },
+  {
+    "version": "2.1",
+    "date": "2007-01-22",
+    "codename": "Ella",
+    "musician": "Ella Fitzgerald",
+    "instrument": "vocalist",
+    "url": "https://wordpress.org/news/2007/01/ella-21/",
+    "highlight": "Autosave, tabbed visual/code editor with spell check, lossless XML import/export."
+  },
+  {
+    "version": "2.2",
+    "date": "2007-05-16",
+    "codename": "Getz",
+    "musician": "Stan Getz",
+    "instrument": "tenor saxophonist",
+    "url": "https://wordpress.org/news/2007/05/wordpress-22/",
+    "highlight": "Widgets integrated into core, Atom 1.0 support, new Blogger importer."
+  },
+  {
+    "version": "2.3",
+    "date": "2007-09-24",
+    "codename": "Dexter",
+    "musician": "Dexter Gordon",
+    "instrument": "tenor saxophonist",
+    "url": "https://wordpress.org/news/2007/09/wordpress-23/",
+    "highlight": "Native tagging, core and plugin update notifications, URL handling improvements."
+  },
+  {
+    "version": "2.5",
+    "date": "2008-03-29",
+    "codename": "Brecker",
+    "musician": "Michael Brecker",
+    "instrument": "saxophonist",
+    "url": "https://wordpress.org/news/2008/03/wordpress-25-brecker/",
+    "highlight": "Redesigned dashboard with widgets, multi-file upload, one-click plugin upgrades, galleries."
+  },
+  {
+    "version": "2.6",
+    "date": "2008-07-15",
+    "codename": "Tyner",
+    "musician": "McCoy Tyner",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2008/07/wordpress-26-tyner/",
+    "highlight": "Post revisions, Press This bookmarklet, Google Gears support."
+  },
+  {
+    "version": "2.7",
+    "date": "2008-12-10",
+    "codename": "Coltrane",
+    "musician": "John Coltrane",
+    "instrument": "saxophonist",
+    "url": "https://wordpress.org/news/2008/12/coltrane/",
+    "highlight": "New admin interface, one-click plugin installs and upgrades, comment threading, sticky posts."
+  },
+  {
+    "version": "2.8",
+    "date": "2009-06-11",
+    "codename": "Baker",
+    "musician": "Chet Baker",
+    "instrument": "trumpeter and vocalist",
+    "url": "https://wordpress.org/news/2009/06/wordpress-28/",
+    "highlight": "One-click theme installs, CodePress syntax highlighting, faster scripts, improved widgets."
+  },
+  {
+    "version": "2.9",
+    "date": "2009-12-18",
+    "codename": "Carmen",
+    "musician": "Carmen McRae",
+    "instrument": "vocalist",
+    "url": "https://wordpress.org/news/2009/12/wordpress-2-9/",
+    "highlight": "Trash/undo, built-in image editor, batch plugin updates, easier video embeds."
+  },
+  {
+    "version": "3.0",
+    "date": "2010-06-17",
+    "codename": "Thelonious",
+    "musician": "Thelonious Monk",
+    "instrument": "pianist and composer",
+    "url": "https://wordpress.org/news/2010/06/thelonious/",
+    "highlight": "Twenty Ten theme, custom post types and menus, WordPress MU merged as multisite."
+  },
+  {
+    "version": "3.1",
+    "date": "2011-02-23",
+    "codename": "Reinhardt",
+    "musician": "Django Reinhardt",
+    "instrument": "guitarist",
+    "url": "https://wordpress.org/news/2011/02/threeone/",
+    "highlight": "Admin bar, redesigned internal linking, post formats, Network Admin."
+  },
+  {
+    "version": "3.2",
+    "date": "2011-07-04",
+    "codename": "Gershwin",
+    "musician": "George Gershwin",
+    "instrument": "composer and pianist",
+    "url": "https://wordpress.org/news/2011/07/gershwin/",
+    "highlight": "Faster, lighter release: refreshed dashboard, Twenty Eleven theme, distraction-free writing."
+  },
+  {
+    "version": "3.3",
+    "date": "2011-12-12",
+    "codename": "Sonny",
+    "musician": "Sonny Stitt",
+    "instrument": "saxophonist",
+    "url": "https://wordpress.org/news/2011/12/sonny/",
+    "highlight": "Drag-and-drop uploader, hover navigation menus, new toolbar, improved co-editing support."
+  },
+  {
+    "version": "3.4",
+    "date": "2012-06-13",
+    "codename": "Green",
+    "musician": "Grant Green",
+    "instrument": "guitarist",
+    "url": "https://wordpress.org/news/2012/06/green/",
+    "highlight": "Theme customizer with live previews, custom headers, Twitter embeds, HTML image captions."
+  },
+  {
+    "version": "3.5",
+    "date": "2012-12-11",
+    "codename": "Elvin",
+    "musician": "Elvin Jones",
+    "instrument": "drummer",
+    "url": "https://wordpress.org/news/2012/12/elvin/",
+    "highlight": "Re-imagined media uploading and galleries, Twenty Twelve theme, Retina-ready dashboard."
+  },
+  {
+    "version": "3.6",
+    "date": "2013-08-01",
+    "codename": "Oscar",
+    "musician": "Oscar Peterson",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2013/08/oscar/",
+    "highlight": "Twenty Thirteen theme, revamped revisions, post locking, built-in audio/video player."
+  },
+  {
+    "version": "3.7",
+    "date": "2013-10-24",
+    "codename": "Basie",
+    "musician": "Count Basie",
+    "instrument": "pianist and bandleader",
+    "url": "https://wordpress.org/news/2013/10/basie/",
+    "highlight": "Automatic background updates for maintenance and security releases; stronger password meter."
+  },
+  {
+    "version": "3.8",
+    "date": "2013-12-12",
+    "codename": "Parker",
+    "musician": "Charlie Parker",
+    "instrument": "alto saxophonist",
+    "url": "https://wordpress.org/news/2013/12/parker/",
+    "highlight": "Redesigned admin dashboard with eight color schemes; Twenty Fourteen theme."
+  },
+  {
+    "version": "3.9",
+    "date": "2014-04-16",
+    "codename": "Smith",
+    "musician": "Jimmy Smith",
+    "instrument": "organist",
+    "url": "https://wordpress.org/news/2014/04/smith/",
+    "highlight": "Smoother media editing, gallery previews, audio/video playlists, live widget and header previews."
+  },
+  {
+    "version": "4.0",
+    "date": "2014-09-04",
+    "codename": "Benny",
+    "musician": "Benny Goodman",
+    "instrument": "clarinetist and bandleader",
+    "url": "https://wordpress.org/news/2014/09/benny/",
+    "highlight": "Media library grid view, embed previews in the editor, improved plugin search."
+  },
+  {
+    "version": "4.1",
+    "date": "2014-12-18",
+    "codename": "Dinah",
+    "musician": "Dinah Washington",
+    "instrument": "singer",
+    "url": "https://wordpress.org/news/2014/12/dinah/",
+    "highlight": "Twenty Fifteen theme, distraction-free writing mode, language switching, plugin recommendations."
+  },
+  {
+    "version": "4.2",
+    "date": "2015-04-23",
+    "codename": "Powell",
+    "musician": "Bud Powell",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2015/04/powell/",
+    "highlight": "Redesigned Press This, emoji and extended character support, theme switching in Customizer."
+  },
+  {
+    "version": "4.3",
+    "date": "2015-08-18",
+    "codename": "Billie",
+    "musician": "Billie Holiday",
+    "instrument": "singer",
+    "url": "https://wordpress.org/news/2015/08/billie/",
+    "highlight": "Menus in the Customizer, formatting shortcuts, site icons, stronger default passwords."
+  },
+  {
+    "version": "4.4",
+    "date": "2015-12-08",
+    "codename": "Clifford",
+    "musician": "Clifford Brown",
+    "instrument": "trumpeter",
+    "url": "https://wordpress.org/news/2015/12/clifford/",
+    "highlight": "Twenty Sixteen theme, responsive images, post embeds, REST API infrastructure."
+  },
+  {
+    "version": "4.5",
+    "date": "2016-04-12",
+    "codename": "Coleman",
+    "musician": "Coleman Hawkins",
+    "instrument": "tenor saxophonist",
+    "url": "https://wordpress.org/news/2016/04/coleman/",
+    "highlight": "Inline linking, live responsive previews, custom logos, selective refresh in the Customizer."
+  },
+  {
+    "version": "4.6",
+    "date": "2016-08-16",
+    "codename": "Pepper",
+    "musician": "Pepper Adams",
+    "instrument": "baritone saxophonist",
+    "url": "https://wordpress.org/news/2016/08/pepper/",
+    "highlight": "Streamlined updates, native fonts in the dashboard, inline link checker, content recovery."
+  },
+  {
+    "version": "4.7",
+    "date": "2016-12-06",
+    "codename": "Vaughan",
+    "musician": "Sarah Vaughan",
+    "instrument": "vocalist",
+    "url": "https://wordpress.org/news/2016/12/vaughan/",
+    "highlight": "Twenty Seventeen theme, REST API content endpoints, custom CSS and video headers."
+  },
+  {
+    "version": "4.8",
+    "date": "2017-06-08",
+    "codename": "Evans",
+    "musician": "Bill Evans",
+    "instrument": "pianist and composer",
+    "url": "https://wordpress.org/news/2017/06/evans/",
+    "highlight": "Image, video, audio and rich-text widgets; link boundaries; nearby-events dashboard widget."
+  },
+  {
+    "version": "4.9",
+    "date": "2017-11-15",
+    "codename": "Tipton",
+    "musician": "Billy Tipton",
+    "instrument": "pianist and bandleader",
+    "url": "https://wordpress.org/news/2017/11/tipton/",
+    "highlight": "Customizer drafts and scheduling, code syntax highlighting and error checking, gallery widget."
+  },
+  {
+    "version": "5.0",
+    "date": "2018-12-06",
+    "codename": "Bebo",
+    "musician": "Bebo Valdés",
+    "instrument": "pianist, bandleader and composer",
+    "url": "https://wordpress.org/news/2018/12/bebo/",
+    "highlight": "Block editor (Gutenberg) becomes the default editor; Twenty Nineteen theme."
+  },
+  {
+    "version": "5.1",
+    "date": "2019-02-21",
+    "codename": "Betty",
+    "musician": "Betty Carter",
+    "instrument": "vocalist",
+    "url": "https://wordpress.org/news/2019/02/betty/",
+    "highlight": "First Site Health features (PHP version notices) and block editor performance gains."
+  },
+  {
+    "version": "5.2",
+    "date": "2019-05-07",
+    "codename": "Jaco",
+    "musician": "Jaco Pastorius",
+    "instrument": "bassist",
+    "url": "https://wordpress.org/news/2019/05/jaco/",
+    "highlight": "Site Health check and PHP fatal error protection with recovery mode."
+  },
+  {
+    "version": "5.3",
+    "date": "2019-11-12",
+    "codename": "Kirk",
+    "musician": "Rahsaan Roland Kirk",
+    "instrument": "multi-instrumentalist (saxophones, flute)",
+    "url": "https://wordpress.org/news/2019/11/kirk/",
+    "highlight": "Twenty Twenty theme, block editor refinements, PHP 7.4 compatibility, admin email verification."
+  },
+  {
+    "version": "5.4",
+    "date": "2020-03-31",
+    "codename": "Adderley",
+    "musician": "Nat Adderley",
+    "instrument": "cornetist",
+    "url": "https://wordpress.org/news/2020/03/adderley/",
+    "highlight": "Social Icons and Buttons blocks, faster editor, privacy tool improvements."
+  },
+  {
+    "version": "5.5",
+    "date": "2020-08-11",
+    "codename": "Eckstine",
+    "musician": "Billy Eckstine",
+    "instrument": "vocalist and bandleader",
+    "url": "https://wordpress.org/news/2020/08/eckstine/",
+    "highlight": "Plugin and theme auto-updates, XML sitemaps, lazy-loaded images, block patterns."
+  },
+  {
+    "version": "5.6",
+    "date": "2020-12-08",
+    "codename": "Simone",
+    "musician": "Nina Simone",
+    "instrument": "singer and pianist",
+    "url": "https://wordpress.org/news/2020/12/simone/",
+    "highlight": "Twenty Twenty-One theme, application passwords, opt-in major auto-updates, PHP 8 beta support."
+  },
+  {
+    "version": "5.7",
+    "date": "2021-03-09",
+    "codename": "Esperanza",
+    "musician": "Esperanza Spalding",
+    "instrument": "bassist and vocalist",
+    "url": "https://wordpress.org/news/2021/03/esperanza/",
+    "highlight": "One-click HTTP-to-HTTPS switch, new admin color palette, lazy-loaded iframes, Robots API."
+  },
+  {
+    "version": "5.8",
+    "date": "2021-07-20",
+    "codename": "Tatum",
+    "musician": "Art Tatum",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2021/07/tatum/",
+    "highlight": "Block widgets, Query Loop, template editor, theme.json, WebP; Internet Explorer 11 dropped."
+  },
+  {
+    "version": "5.9",
+    "date": "2022-01-25",
+    "codename": "Joséphine",
+    "musician": "Joséphine Baker",
+    "instrument": "singer and entertainer",
+    "url": "https://wordpress.org/news/2022/01/josephine/",
+    "highlight": "Full site editing: Site Editor, block themes, global styles; Twenty Twenty-Two theme."
+  },
+  {
+    "version": "6.0",
+    "date": "2022-05-24",
+    "codename": "Arturo",
+    "musician": "Arturo O’Farrill",
+    "instrument": "pianist, composer and bandleader",
+    "url": "https://wordpress.org/news/2022/05/arturo/",
+    "highlight": "Style variation switching, block locking, List View and template improvements, page patterns."
+  },
+  {
+    "version": "6.1",
+    "date": "2022-11-01",
+    "codename": "Misha",
+    "musician": "Mikhail “Misha” Alperin",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2022/11/misha/",
+    "highlight": "Twenty Twenty-Three theme with style variations, fluid typography, expanded template options."
+  },
+  {
+    "version": "6.2",
+    "date": "2023-03-29",
+    "codename": "Dolphy",
+    "musician": "Eric Dolphy",
+    "instrument": "multi-instrumentalist (alto saxophone, bass clarinet, flute)",
+    "url": "https://wordpress.org/news/2023/03/dolphy/",
+    "highlight": "Site Editor out of beta, Style Book, distraction-free writing, Openverse integration."
+  },
+  {
+    "version": "6.3",
+    "date": "2023-08-08",
+    "codename": "Lionel",
+    "musician": "Lionel Hampton",
+    "instrument": "vibraphonist, pianist, percussionist and bandleader",
+    "url": "https://wordpress.org/news/2023/08/lionel/",
+    "highlight": "Site Editor unifies pages, patterns, styles and navigation; Command Palette."
+  },
+  {
+    "version": "6.4",
+    "date": "2023-11-07",
+    "codename": "Shirley",
+    "musician": "Shirley Horn",
+    "instrument": "vocalist and pianist",
+    "url": "https://wordpress.org/news/2023/11/shirley/",
+    "highlight": "Twenty Twenty-Four theme, image lightbox, pattern categories, Block Hooks."
+  },
+  {
+    "version": "6.5",
+    "date": "2024-04-02",
+    "codename": "Regina",
+    "musician": "Regina Carter",
+    "instrument": "violinist",
+    "url": "https://wordpress.org/news/2024/04/regina/",
+    "highlight": "Font Library, Interactivity API, Block Bindings API, plugin dependencies, AVIF support."
+  },
+  {
+    "version": "6.6",
+    "date": "2024-07-16",
+    "codename": "Dorsey",
+    "musician": "Tommy Dorsey",
+    "instrument": "trombonist and big-band leader",
+    "url": "https://wordpress.org/news/2024/07/dorsey/",
+    "highlight": "Pattern overrides, rollback for failed plugin auto-updates, color and font sets."
+  },
+  {
+    "version": "6.7",
+    "date": "2024-11-12",
+    "codename": "Rollins",
+    "musician": "Sonny Rollins",
+    "instrument": "tenor saxophonist",
+    "url": "https://wordpress.org/news/2024/11/rollins/",
+    "highlight": "Twenty Twenty-Five theme, Zoom Out view, new font management features."
+  },
+  {
+    "version": "6.8",
+    "date": "2025-04-15",
+    "codename": "Cecil",
+    "musician": "Cecil Taylor",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2025/04/cecil/",
+    "highlight": "Speculative loading, bcrypt password hashing, restructured Style Book for classic themes."
+  },
+  {
+    "version": "6.9",
+    "date": "2025-12-02",
+    "codename": "Gene",
+    "musician": "Gene Harris",
+    "instrument": "pianist",
+    "url": "https://wordpress.org/news/2025/12/gene/",
+    "highlight": "Block-level Notes, Command Palette across the dashboard, Abilities API, fit-text typography."
+  },
+  {
+    "version": "7.0",
+    "date": "2026-05-20",
+    "codename": "Armstrong",
+    "musician": "Louis Armstrong",
+    "instrument": "trumpeter and vocalist",
+    "url": "https://wordpress.org/news/2026/05/armstrong/",
+    "highlight": "AI Client and Connectors screen, refreshed dashboard, new blocks. Real-time collaboration removed before release."
+  },
+  {
+    "version": "7.1",
+    "date": "2026-08-19",
+    "codename": "Mary Lou",
+    "musician": "Mary Lou Williams",
+    "instrument": "pianist, arranger and composer",
+    "url": "https://wordpress.org/news/2026/08/mary-lou/",
+    "highlight": "Responsive block styles, admin bar in every editor, media editor, client-side media processing."
+  }
+]

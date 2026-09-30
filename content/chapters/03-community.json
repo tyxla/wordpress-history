@@ -1,0 +1,148 @@
+{
+  "id": "community",
+  "label": "Chapter 3",
+  "title": "People gather around the software",
+  "years": "2005–2010",
+  "numeral": "2006",
+  "tick": "2006",
+  "tone": "paper",
+  "dek": "Forum moderators, translators, a conference announced twenty-seven days ahead — and the awkward question of how any of it would be paid for.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "In the spring of 2005 the project lived on donations. “It’s a good month for donations if they go into three figures,” Matt Mullenweg wrote, “and I still hand-write an email thanking almost every person who donates.”[^response]"
+    },
+    "He wrote that in an apology. To raise money he had let a company place thousands of keyword-targeted articles on wordpress.org, their links hidden from visitors; the writer Andy Baio reported it, and within a day the site’s Google PageRank fell to zero.[^waxy] The articles came down. “To thrive as an independent project WordPress needs to be self-sufficient,” the apology said.[^response]",
+    "Later that year a company took shape. Automattic formed during 2005 — its first employee, Donncha Ó Caoimh, started that June — and launched WordPress.com, a hosting service, and Akismet, a spam filter.[^donncha-18][^wpcom-invites][^akismet]",
+    "The other answer was everyone else. Mark Riley, a former nurse in England, answered questions in the support forums for years.[^riley-interview] Lorelle VanFossen, by her own count, wrote or edited more than six hundred articles in the documentation wiki.[^lorelle] A Japanese edition was circulating in late 2003, before the software formally supported translation;[^japan-2003] by February 2005 Matt counted twenty-six languages.[^polyglots-2005]",
+    {
+      "type": "quote",
+      "text": "If you go and look in the WordPress credits for instance, you wouldn’t find my name. You wouldn’t find the name of all the other people who’ve helped. Hours, and hours, and hours, and hours in the forums.",
+      "by": "Mark Riley",
+      "where": "interview for the project’s history",
+      "date": "2013-07-04",
+      "cite": "riley-interview"
+    },
+    {
+      "type": "h3",
+      "text": "A conference with a date and no venue"
+    },
+    "On 9 July 2006 Matt announced a gathering called WordCamp — “BarCamp-style,” which he glossed as “a code phrase for ‘last minute.’”[^wordcamp-announce] Twenty-seven days later, well over three hundred people came to a hall in San Francisco for a free day of talks and barbecue.[^wordcamp-wrapup] The next year there were WordCamps in Beijing, Tel Aviv, Buenos Aires and Melbourne.[^wc-past]",
+    {
+      "type": "figure",
+      "asset": "wordcamp-2006-hall",
+      "layout": "wide",
+      "tilt": true
+    },
+    {
+      "type": "exhibit",
+      "name": "entities",
+      "title": "Five things that share a name",
+      "intro": "As the project grew, “WordPress” came to sit on several different things. They are related, and they are not the same.",
+      "items": [
+        {
+          "id": "software",
+          "kind": "The software",
+          "name": "WordPress",
+          "text": "The program itself, begun in 2003 and released under the GPL: anyone may run it, study it, change it and share it.[^license]"
+        },
+        {
+          "id": "org",
+          "kind": "The website",
+          "name": "WordPress.org",
+          "text": "The project’s home: downloads, documentation, support forums, and the directories of plugins and themes. It is a different thing from the hosting service that shares its name;[^com-vs-org] the project’s official history describes it as “the site Matt owns”.[^release-leads]"
+        },
+        {
+          "id": "com",
+          "kind": "The service",
+          "name": "WordPress.com",
+          "text": "A commercial hosting service owned by Automattic, opened by invitation in 2005. Same software, Automattic’s servers.[^com-vs-org][^wpcom-invites]"
+        },
+        {
+          "id": "automattic",
+          "kind": "The company",
+          "name": "Automattic",
+          "text": "A company formed in 2005 by Matt Mullenweg and three fellow WordPress developers.[^toni-2006] It runs WordPress.com and WooCommerce and employs many contributors. The software is not its property.[^automattic-about]"
+        },
+        {
+          "id": "foundation",
+          "kind": "The non-profit",
+          "name": "WordPress Foundation",
+          "text": "A US charity made public in 2010, set up to keep the software freely available “in perpetuity”. It holds the WordPress trademark, donated by Automattic that September; Automattic keeps the exclusive licence for commercial use of the name.[^foundation][^foundation-launch][^trademark-2010][^trademark-policy]"
+        }
+      ]
+    },
+    "Announcing the gift, Mullenweg described a structure in which “for-profit, non-profit, and not-just-for-profit could coexist and balance each other out.”[^trademark-2010]",
+    {
+      "type": "archive",
+      "title": "The first WordCamp, by the numbers",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Announced",
+              "9 July 2006, with a date and “a few things to figure out, such as a venue, schedule, and other little things like that.”[^wordcamp-announce]"
+            ],
+            [
+              "Held",
+              "Saturday 5 August 2006, Swedish American Hall, San Francisco.[^wc-past]"
+            ],
+            [
+              "Sign-ups",
+              "104 within a day of the announcement; about 500 names on the archived sign-up list.[^wordcamp-update][^wordcamp-2006]"
+            ],
+            [
+              "Attendance",
+              "“Well over 300,” by Matt’s count afterwards.[^wordcamp-wrapup]"
+            ],
+            [
+              "Left over",
+              "“Now I just need to figure out what to do with the 20 pounds of Memphis Minnie’s brisket in my fridge.”[^wordcamp-wrapup]"
+            ],
+            [
+              "Twenty years on",
+              "WordCamp Central counts 1,508 events in 421 cities and 72 countries.[^wc-about]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The hidden articles of 2005",
+      "items": [
+        {
+          "type": "quote",
+          "text": "My one request: please be calm and rational. WordPress is a great project, and Matt is a good guy.",
+          "by": "Andy Baio",
+          "where": "waxy.org",
+          "date": "2005-03-30",
+          "cite": "waxy"
+        },
+        {
+          "type": "quote",
+          "text": "The content should have been more topical to WP issue, I should have kept up with the content that was going up, the links should have never had the overflow CSS, and I should have discussed it with more people. Each was a mistake and they combined badly — I’m very sorry.",
+          "by": "Matt Mullenweg",
+          "where": "ma.tt",
+          "date": "2005-04-01",
+          "cite": "response"
+        },
+        {
+          "type": "note",
+          "text": "The story broke while Mullenweg was on holiday in Italy. He heard about it from his sister on the telephone and got online from an airport the next morning.[^back-online] The fee paid for the articles was never disclosed."
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "When did Automattic begin?",
+      "items": [
+        {
+          "type": "note",
+          "text": "The company’s own people give three answers. Its first employee started on 20 June 2005, the date used for anniversaries.[^donncha-18][^ten-years] Its website in December 2005 said it “first got started around August of 2005.”[^automattic-2005] Toni Schneider, arriving as chief executive in January 2006, described it as “Formed last Fall by Matt Mullenweg and three of the other developers”.[^toni-2006] Mullenweg himself left his job at CNET on 21 October 2005 and unveiled the company that December.[^leaving-cnet]"
+        }
+      ]
+    }
+  ]
+}

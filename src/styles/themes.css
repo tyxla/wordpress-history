@@ -1,0 +1,435 @@
+/* ─────────────────────────────────────────────────────────────
+   Appearances for the living website.
+   The historical ones are reconstructions of WordPress default themes,
+   approximated with typefaces already on the reader's device.
+   Each block is written against .site[data-theme="…"]; the build also
+   attaches wardrobe themes to their radio button (see build.mjs).
+   ───────────────────────────────────────────────────────────── */
+
+/* ── Classic: the WordPress 1.2 default look ── */
+.site[data-theme="classic"] {
+  --link: #675;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: .86em;
+  color: #000;
+  background: #fff;
+  border: solid #565;
+  border-width: 3px 2px 1px;
+
+  .site-page { padding: 0 0 1em; }
+  .site-head {
+    padding: 1.1em .8em 1.1em 3.6em;
+    background: #849684;
+    border: solid 1px;
+    border-color: #9a9 #565 #aba #9a9;
+    border-bottom: 3px double #aba;
+  }
+  .site-title { font: italic 400 2.3em/1.1 "Times New Roman", Times, serif; letter-spacing: .2em; color: #fff; }
+  .site-tagline, .site-nav { display: none; }
+  .site-body { grid-template-columns: minmax(0, 1fr) 9.5em; gap: 0; margin-top: 0; }
+  .site-main { padding: 1.4em 1.6em 0 2.6em; }
+  .post-date {
+    padding-bottom: .1em;
+    border-bottom: 1px dotted #ccc;
+    font: 400 1.05em "Times New Roman", Times, serif;
+    letter-spacing: .2em;
+    color: #333;
+  }
+  .post-title {
+    margin-top: .9em;
+    padding-bottom: .1em;
+    border-bottom: 1px dotted #eee;
+    font: 400 1.75em/1.2 "Times New Roman", Times, serif;
+    color: #342;
+  }
+  .post-meta { font-size: .78em; color: #6b6b6b; }
+  .post-content { line-height: 1.6; }
+  .post-foot { color: #675; text-decoration: none; font-size: .78em; }
+  .site-side {
+    margin-top: 0;
+    padding: 1.2em .4em 1em 1.2em;
+    border-left: 1px dotted #ccc;
+    border-top: 3px solid #e0e6e0;
+  }
+  .side-h { font: italic 400 1.15em "Times New Roman", Times, serif; letter-spacing: .1em; color: #000; }
+  .site-side li { font-size: .88em; text-decoration: none; }
+  .site-foot { margin: 1.6em 1.6em 0; padding-top: .8em; border-top: 0; text-align: center; font-size: .75em; color: #6b6b6b; letter-spacing: .05em; }
+}
+
+/* ── Kubrick: the default from WordPress 1.5 (2005) ── */
+.site[data-theme="kubrick"] {
+  --link: #06c;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: .82em;
+  color: #333;
+  background: #d5d6d7;
+  padding: 1.2em 1.4em;
+
+  .site-page { padding: 0; background: #fff; border: 1px solid #959596; border-radius: .7em; overflow: hidden; }
+  .site-head {
+    margin: .75em .75em 0;
+    padding: 3.3em 1em 2.9em;
+    border-radius: .5em;
+    background: linear-gradient(#6fa6d8, #4180b6);
+    text-align: center;
+    color: #fff;
+  }
+  .site-title { font: 700 3.1em/1 "Trebuchet MS", "Lucida Grande", Verdana, sans-serif; letter-spacing: -.01em; }
+  .site-tagline { margin-top: .5em; font-size: 1.05em; }
+  .site-nav { display: none; }
+  .site-body { grid-template-columns: minmax(0, 1fr) 11em; gap: 2em; margin: 0; padding: 1.6em 1.6em .4em 3.2em; }
+  .post-date { order: 2; font: .82em Arial, Helvetica, sans-serif; color: #6b6b6b; }
+  .post { display: flex; flex-direction: column; }
+  .post-title { order: 1; margin-top: 0; font: 700 1.75em/1.15 "Trebuchet MS", "Lucida Grande", sans-serif; color: #333; }
+  .post-meta { display: none; }
+  .post-content { order: 3; line-height: 1.55; text-align: justify; }
+  .post-foot { order: 4; color: #6b6b6b; text-decoration: none; font-size: .85em; }
+  .side-h { font: 700 1.15em "Lucida Grande", Verdana, sans-serif; color: #333; }
+  .site-side { font-size: .95em; }
+  .site-side li { text-decoration: none; color: #06c; padding-left: .9em; text-indent: -.9em; }
+  .site-side li::before { content: "» "; color: #999; }
+  .site-foot {
+    margin: 1.2em 0 0;
+    padding: 1.4em 1em 1.6em;
+    border-top: 0;
+    background: linear-gradient(#fff, #e7e7e7);
+    text-align: center;
+    color: #333;
+    font-size: .85em;
+  }
+}
+
+/* ── Twenty Ten (WordPress 3.0, 2010) ── */
+.site[data-theme="twentyten"] {
+  --link: #06c;
+  font-family: Georgia, "Bitstream Charter", serif;
+  font-size: .9em;
+  color: #444;
+  background: #f1f1f1;
+  padding: 1.2em 1.2em 0;
+
+  .site-page { padding: 1.5em 1.6em 1.2em; background: #fff; }
+  .site-head { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: .4em 1em; }
+  .site-title { font: 700 2em/1.1 "Helvetica Neue", Arial, Helvetica, sans-serif; color: #000; }
+  .site-tagline { font-style: italic; font-size: .85em; color: #666; }
+  .site-banner {
+    display: block;
+    grid-column: 1 / -1;
+    height: 5.6em;
+    margin-top: .6em;
+    border-top: 4px solid #000;
+    border-bottom: 1px solid #000;
+    background:
+      linear-gradient(100deg, transparent 47%, #b9ab8c 47.5% 52.5%, transparent 53%) 0 100% / 100% 42% no-repeat,
+      radial-gradient(ellipse at 22% 58%, #4f6138 0 22%, transparent 23%),
+      radial-gradient(ellipse at 78% 58%, #55683c 0 24%, transparent 25%),
+      radial-gradient(ellipse at 50% 60%, #6f8450 0 30%, transparent 31%),
+      linear-gradient(#cfd9cb 0 56%, #7d8a58 56.5% 100%);
+  }
+  .site-nav {
+    grid-column: 1 / -1;
+    gap: 0;
+    background: #000;
+    font: 1em "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #aaa;
+  }
+  .site-nav li { padding: .75em .9em; }
+  .site-nav .is-current { color: #fff; }
+  .site-body { margin-top: 1.8em; }
+  .site-body:has(> .site-side) { grid-template-columns: minmax(0, 1fr) 10em; gap: 2em; }
+  .post-date, .post-meta { font: .78em "Helvetica Neue", Arial, Helvetica, sans-serif; color: #6b6b6b; }
+  .post { display: flex; flex-direction: column; }
+  .post-title { order: -1; margin: 0 0 .1em; font: 700 1.55em/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif; color: #000; }
+  .post-meta { display: none; }
+  .post-content { line-height: 1.6; }
+  .post-foot { font: .78em "Helvetica Neue", Arial, sans-serif; color: #6b6b6b; text-decoration: none; }
+  .side-h, .section-h { font: 700 1em "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222; }
+  .site-side { font: .88em "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  .site-side li { text-decoration: none; color: #06c; }
+  .section-h { margin-top: 1.6em; }
+  .page-intro .post-title { font-size: 1.55em; }
+  .page-intro .post-text { margin-top: .5em; line-height: 1.6; }
+  .pots-pic { background: #f1f1f1; }
+  .pots-name { font-family: "Helvetica Neue", Arial, sans-serif; }
+  .site-foot { margin-top: 1.8em; padding-top: 1em; border-top: 4px solid #000; font: 700 .85em "Helvetica Neue", Arial, sans-serif; color: #666; }
+}
+
+/* ── Twenty Thirteen (WordPress 3.6, 2013) ── */
+.site[data-theme="twentythirteen"] {
+  --link: #bc360a;
+  --pot-glaze: #f7f5e7;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .92em;
+  color: #141412;
+  background: #fff;
+
+  .site-page { padding: 0; }
+  .site-head {
+    position: relative;
+    padding: 2.4em 1.6em 0 16%;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 12% 150%, rgba(224, 93, 34, .9) 0 7.5em, transparent 7.55em),
+      radial-gradient(circle at 46% -60%, rgba(244, 162, 60, .85) 0 9em, transparent 9.05em),
+      radial-gradient(circle at 58% 95%, rgba(217, 68, 18, .88) 0 6em, transparent 6.05em),
+      radial-gradient(circle at 84% 120%, rgba(244, 170, 80, .8) 0 8em, transparent 8.05em),
+      radial-gradient(circle at 96% -20%, rgba(181, 96, 40, .9) 0 5em, transparent 5.05em),
+      #f7f5e7;
+  }
+  .site-title { font: 700 3em/1 Bitter, Rockwell, Georgia, serif; color: #141412; }
+  .site-tagline { margin: .35em 0 2em; font: italic 300 1.2em "Source Sans Pro", "Helvetica Neue", sans-serif; }
+  .site-nav { gap: 0; margin: 0 -1.6em 0 -19.05%; padding: 0 1.2em 0 16%; background: #f7f5e7; font-size: .95em; position: relative; }
+  .site-nav li { padding: .8em 1.6em .8em 0; }
+  .site-nav .is-current { font-style: italic; color: #bc360a; }
+  .site-body { grid-template-columns: minmax(0, 1fr) !important; margin: 0; padding: 2.2em 16% 2em; }
+  .site-side { display: none; }
+  .post-title { font: 400 2.6em/1.1 Bitter, Rockwell, Georgia, serif; }
+  .post-date { float: left; margin: .9em 1em 0 0; font-size: .85em; color: #bc360a; }
+  .post-meta { margin-top: 1.05em; font-size: .85em; color: #bc360a; }
+  .post-content { clear: both; padding-top: .5em; font-size: 1.05em; line-height: 1.5; }
+  .post-foot { color: #bc360a; text-decoration: none; }
+  .site-foot { margin: 2.4em 0 0; padding: 1.5em 16%; border: 0; background: #e8e5ce; color: #55543f; font-size: .85em; box-shadow: 0 -2.4em 0 #220e10; }
+}
+
+/* ── Twenty Nineteen (WordPress 5.0, 2018) ── */
+.site[data-theme="twentynineteen"] {
+  --link: #0073aa;
+  font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  font-size: 1em;
+  color: #111;
+  background: #fff;
+
+  .site-page { padding: 1.8em 9% 1.4em; }
+  .site-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .1em .6em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .site-title { font-size: 1.05em; font-weight: 700; }
+  .site-tagline { margin: 0; font-size: 1.05em; color: #6b6b6b; }
+  .site-tagline::before { content: "— "; }
+  .site-nav { flex-basis: 100%; gap: 0 1em; margin-top: .2em; font-weight: 700; color: #0073aa; }
+  .site-body { grid-template-columns: minmax(0, 1fr) !important; margin-top: 2.8em; }
+  .site-side { display: none; }
+  .post { display: flex; flex-direction: column; }
+  .post-title {
+    order: -2;
+    font: 700 2.7em/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -.02em;
+  }
+  .post-title::before { content: ""; display: block; width: 1em; height: 2px; margin: .55em 0 .45em; background: #767676; }
+  .post-date { order: -1; margin-top: .9em; font: 500 .78em -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #6b6b6b; }
+  .post-meta { display: none; }
+  .post-content { margin-top: 1.2em; font-size: 1.2em; line-height: 1.6; }
+  .post-figcap { font: .68em -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-style: normal; color: #6b6b6b; text-align: center; }
+  .post-foot { font: 500 .78em -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #0073aa; text-decoration: none; }
+  .site-foot { border: 0; margin-top: 2.6em; font: .78em -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #6b6b6b; }
+}
+
+/* ── Twenty Twenty-One (WordPress 5.6, 2020) ── */
+.site[data-theme="twentytwentyone"] {
+  --link: #28303d;
+  --pot-glaze: #f0f7f4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #28303d;
+  background: #d1e4dd;
+
+  .site-page { padding: 2.2em 8% 1.6em; }
+  .site-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4em 1.5em; }
+  .site-title { font-size: 1.25em; font-weight: 400; text-transform: uppercase; letter-spacing: .01em; }
+  .site-tagline { order: 3; flex-basis: 100%; margin: 0; font-size: .95em; }
+  .site-nav { gap: 0 1.2em; font-size: .9em; text-transform: uppercase; }
+  .site-nav .is-current { text-decoration: underline; text-underline-offset: .25em; }
+  .site-body { grid-template-columns: minmax(0, 1fr) !important; margin-top: 3.4em; }
+  .site-side { display: none; }
+  .post-title { padding-bottom: .45em; border-bottom: 3px solid #28303d; font-size: 3.6em; font-weight: 300; line-height: 1.05; letter-spacing: -.01em; }
+  .post-date, .post-meta { display: none; }
+  .post-content { margin-top: 1.6em; font-size: 1.12em; line-height: 1.65; }
+  .post-figcap { font-style: normal; }
+  .post-foot { margin-top: 1.6em; padding-top: 1em; border-top: 3px solid #28303d; font-size: .9em; color: #28303d; text-decoration: none; }
+  .site-foot { margin-top: 2.6em; padding-top: 1.1em; border-top: 3px solid #28303d; font-size: .9em; }
+}
+
+/* ── Twenty Twenty-Two (WordPress 5.9, 2022) ── */
+.site[data-theme="twentytwentytwo"] {
+  --link: #1a4548;
+  --pot: #d9653b;
+  --pot-in: #8d3a1e;
+  --pot-glaze: #ffe2c7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #000;
+  background: #fff;
+
+  .site-page { padding: 0; }
+  .site-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: .4em 1.5em;
+    padding: 2em 8% 1.2em;
+    background: #000;
+    color: #fff;
+  }
+  .site-title { font-size: 1.05em; font-weight: 500; }
+  .site-tagline { display: none; }
+  .site-nav { gap: 0 1.5em; font-size: .95em; }
+  .site-body { grid-template-columns: minmax(0, 1fr) !important; margin: 0; padding: 0 8%; }
+  .site-side { display: none; }
+  .post { display: flex; flex-direction: column; }
+  .post-title {
+    order: -1;
+    margin: 0 -9.6%;
+    padding: .7em 8% 1.1em;
+    background: #000;
+    color: #fff;
+    font: 300 3.5em/1.12 "Source Serif Pro", "Source Serif 4", Georgia, "Times New Roman", serif;
+    letter-spacing: -.01em;
+  }
+  .post-date { margin-top: 2.4em; font-size: .85em; color: #1a4548; }
+  .post-meta { display: none; }
+  .post-content { margin-top: .8em; font-size: 1.1em; line-height: 1.65; }
+  .post-figcap { font-style: normal; color: #555; }
+  .post-foot { color: #1a4548; font-size: .9em; }
+  .site-foot { margin: 2.6em 8% 0; padding: 1.2em 0 1.6em; border-top: 1px solid #000; font-size: .85em; }
+}
+
+/* ── Twenty Twenty-Five (WordPress 6.7, 2024) ── */
+.site[data-theme="twentytwentyfive"] {
+  --link: #111;
+  --pot-glaze: #fbfaf3;
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1em;
+  color: #111;
+  background: #fff;
+
+  .site-page { padding: 1.6em 7% 1.4em; }
+  .site-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4em 1.5em; }
+  .site-title { font-size: 1.15em; font-weight: 700; letter-spacing: -.01em; }
+  .site-tagline { display: none; }
+  .site-nav { gap: 0 1.2em; font-size: .95em; }
+  .site-body { grid-template-columns: minmax(0, 1fr) !important; margin: 3.2em auto 0; max-width: 34em; }
+  .site-side { display: none; }
+  .post { display: flex; flex-direction: column; }
+  .post-date { order: -1; font-size: .82em; color: #5e5e5e; }
+  .post-title { margin-top: .25em; font-size: 2.9em; font-weight: 400; line-height: 1.08; letter-spacing: -.025em; }
+  .post-meta { margin-top: .9em; font-size: .82em; color: #5e5e5e; }
+  .post-content { margin-top: 1.5em; font-size: 1.12em; line-height: 1.6; }
+  .post-figure { width: 60%; padding: 1em; background: #fbfaf3; border-radius: .5em; }
+  .post-figcap { margin-top: .5em; font-style: normal; font-size: .72em; color: #5e5e5e; }
+  .post-foot { font-size: .85em; color: #111; }
+  .site-foot { margin-top: 3em; padding-top: 1.2em; border-top: 1px solid #111; font-size: .82em; color: #5e5e5e; }
+}
+
+/* ── Not historical: a generic early-2010s shop ── */
+.site[data-theme="shop"] {
+  --link: #111;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: .95em;
+  color: #2b2b2b;
+
+  .site-page { padding: 0 0 1em; }
+  .site-head { display: flex; flex-wrap: wrap; align-items: center; gap: .5em 1.4em; padding: 1.1em 1.5em; border-bottom: 1px solid #e3e0d8; }
+  .site-title { font-size: 1.35em; letter-spacing: -.01em; }
+  .site-nav { gap: 0 1.1em; font-size: .92em; color: #555; }
+  .site-nav .is-current { color: #111; font-weight: 700; box-shadow: 0 2px 0 #111; }
+  .basket { display: flex; align-items: center; gap: .5em; margin-left: auto; padding: .35em .8em; border: 1px solid #2b2b2b; border-radius: 999px; font-size: .88em; }
+  .basket-icon { width: 1em; height: .8em; border: 1.5px solid currentColor; border-top: 0; border-radius: 0 0 .25em .25em; position: relative; }
+  .basket-icon::before { content: ""; position: absolute; left: .15em; right: .15em; top: -.45em; height: .45em; border: 1.5px solid currentColor; border-bottom: 0; border-radius: .4em .4em 0 0; }
+  .basket.has-items { background: #2b2b2b; color: #fff; }
+  .site-body { margin: 0; padding: 1.3em 1.5em 0; }
+  .shop-head { display: grid; gap: .3em; padding-bottom: 1.1em; border-bottom: 1px solid #e3e0d8; }
+  .shop-head .post-title { margin: 0; font-size: 1.15em; }
+  .shop-head .post-text { font-size: .92em; color: #555; max-width: 40em; }
+  .section-h { font-size: 1.5em; letter-spacing: -.01em; margin-top: .9em; }
+  .site-foot { margin: 1.4em 1.5em 0; border-color: #e3e0d8; color: #666; }
+}
+
+/* ── Not historical: a fluid, mid-2010s layout ── */
+.site[data-theme="responsive"] {
+  --link: #007acc;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a1a1a;
+
+  .site-page { padding: 1.3em 1.6em 1.1em; border: .5em solid #1a1a1a; }
+  .site-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4em 1em; }
+  .site-title { font: 700 1.35em "Helvetica Neue", Arial, sans-serif; }
+  .site-tagline { display: none; }
+  .site-nav { font: .9em "Helvetica Neue", Arial, sans-serif; }
+  .site-nav .is-current { color: #007acc; }
+  .site-body { margin-top: 1.6em; }
+  .post-title { font: 700 1.9em/1.15 "Helvetica Neue", Arial, sans-serif; }
+  .post-date { font: .78em "Helvetica Neue", Arial, sans-serif; color: #5e5e5e; }
+  .post-meta { display: none; }
+  .post-content { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 1.2em; align-items: start; line-height: 1.6; }
+  .post-figure { width: 100%; max-width: 15em; margin-top: 0; }
+  .post-foot { font: .78em "Helvetica Neue", Arial, sans-serif; color: #007acc; text-decoration: none; }
+  .site-foot { border-color: #d1d1d1; font-family: "Helvetica Neue", Arial, sans-serif; color: #5e5e5e; }
+}
+
+/* ── Not historical: a present-day block theme, restyled by variations ── */
+.site[data-theme="block"] {
+  --v-bg: #fbfaf6;
+  --v-fg: #1b1a17;
+  --v-soft: #6a665c;
+  --v-accent: #1d3fc4;
+  --v-tint: #efece3;
+  --v-head: Georgia, "Times New Roman", serif;
+  --v-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --v-weight: 400;
+  --v-radius: .35em;
+  --link: var(--v-accent);
+  font-family: var(--v-body);
+  color: var(--v-fg);
+  background: var(--v-bg);
+  transition: background .35s, color .35s;
+
+  .site-page { padding: 0; }
+  .site-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4em 1.4em; padding: 1.3em 1.7em; }
+  .site-title { font: var(--v-weight) 1.25em var(--v-head); letter-spacing: -.01em; }
+  .site-nav { gap: 0 1.1em; font-size: .9em; }
+  .site-body { margin: 0; padding: .6em 1.7em 0; }
+  .post-date { font-size: .78em; letter-spacing: .04em; text-transform: uppercase; color: var(--v-soft); }
+  .post-title { margin-top: .2em; font: var(--v-weight) 2.7em/1.04 var(--v-head); letter-spacing: -.02em; }
+  .post-meta { display: none; }
+  .post-content { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.4em; align-items: start; margin-top: 1em; font-size: 1.05em; line-height: 1.6; }
+  .post-figure { width: 100%; margin: 0; padding: 1em; background: var(--v-tint); border-radius: var(--v-radius); }
+  .post-figcap { margin-top: .4em; font-style: normal; font-size: .72em; color: var(--v-soft); }
+  .post-foot { display: none; }
+  .section-h { margin-top: 1.8em; padding-top: .9em; border-top: 1px solid color-mix(in srgb, var(--v-fg) 25%, transparent); font: var(--v-weight) 1.3em var(--v-head); }
+  .pots { margin-top: 1em; }
+  .pots-pic { background: var(--v-tint); border-radius: var(--v-radius); }
+  .pots-price { color: var(--v-accent); }
+  .site-foot { margin: 1.8em 1.7em 0; padding: 1em 0 1.3em; border-color: color-mix(in srgb, var(--v-fg) 25%, transparent); color: var(--v-soft); }
+}
+
+/* ── Narrow frames ──
+   These themes were drawn for desktop monitors. In a narrow frame the
+   reconstructions fold their sidebar under the post rather than shrink
+   into illegibility — a liberty the originals did not take. */
+@container (max-width: 470px) {
+  .site[data-theme="plain"] .site-body,
+  .site[data-theme="classic"] .site-body,
+  .site[data-theme="kubrick"] .site-body,
+  .site[data-theme="twentyten"] .site-body { grid-template-columns: minmax(0, 1fr); }
+  .site[data-theme="plain"] .site-side { padding: .8em 0 0; border-left: 0; border-top: 1px solid #bbb; }
+  .site[data-theme="classic"] .site-main { padding: 1.2em 1.2em 0; }
+  .site[data-theme="classic"] .site-side { margin: 1.2em 1.2em 0; padding: .9em 0 0; border-left: 0; }
+  .site[data-theme="classic"] .site-head { padding-left: 1.2em; }
+  .site[data-theme="classic"] .site-title { letter-spacing: .12em; }
+  .site[data-theme="kubrick"] { padding: .7em; }
+  .site[data-theme="kubrick"] .site-body { padding: 1.3em 1.3em .4em; gap: 1.2em; }
+  .site[data-theme="kubrick"] .post-content { text-align: left; }
+  .site[data-theme="kubrick"] .site-title { font-size: 2.5em; }
+  .site[data-theme="twentyten"] { padding: .7em .7em 0; }
+  .site[data-theme="twentyten"] .site-page { padding: 1.1em 1.1em 1em; }
+  .site[data-theme="twentyten"] .site-head { grid-template-columns: 1fr; }
+  .site[data-theme="twentythirteen"] .site-body,
+  .site[data-theme="twentythirteen"] .site-foot { padding-inline: 1.3em; }
+  .site[data-theme="twentythirteen"] .site-title { font-size: 2.5em; }
+  .site[data-theme="twentytwentyone"] .post-title { font-size: 2.7em; }
+  .site[data-theme="twentytwentytwo"] .post-title { font-size: 2.7em; }
+  .site[data-theme="block"] .post-content { grid-template-columns: minmax(0, 1fr); }
+  .site[data-theme="block"] .post-title { font-size: 2.2em; }
+  .site[data-theme="block"] .site-head,
+  .site[data-theme="block"] .site-body { padding-inline: 1.1em; }
+  .site[data-theme="block"] .site-foot { margin-inline: 1.1em; }
+}

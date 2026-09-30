@@ -1,0 +1,207 @@
+[
+  {
+    "id": "wordcamp-2006-hall",
+    "file": "wordcamp-2006-hall",
+    "kind": "Photograph",
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 960,
+    "title": "The first WordCamp, Swedish American Hall, San Francisco",
+    "alt": "A wood-panelled hall with a balcony. Rows of folding chairs fill the floor; people stand talking in small groups between them and lean on the balcony rail above.",
+    "caption": "The Swedish American Hall in San Francisco during a break at the first WordCamp, 5 August 2006 — announced twenty-seven days earlier without a venue.",
+    "creator": "Zach Petersen",
+    "date": "2006-08-05",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_page": "https://www.flickr.com/photos/12149418@N00/209135491",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "wceu-2026-contributor-day",
+    "file": "wceu-2026-contributor-day",
+    "kind": "Photograph",
+    "widths": [
+      640,
+      1200
+    ],
+    "width": 1200,
+    "height": 800,
+    "title": "Contributor Day, WordCamp Europe 2026, Kraków",
+    "alt": "Seen from a balcony: a dark hall filled with round white tables, each ringed with people working at laptops.",
+    "caption": "Contributor Day at WordCamp Europe in Kraków, 4 June 2026.",
+    "creator": "Jeroen Rotty / WordCamp Europe",
+    "date": "2026-06-04",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_page": "https://www.flickr.com/photos/141979713@N07/55314045541",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "b2-admin",
+    "file": "b2-admin",
+    "kind": "Screenshot",
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 920,
+    "title": "b2/cafelog 0.6.2.1: the Post / Edit screen",
+    "alt": "A plain web form: a b2 logo, a row of menu links, fields for a title and category, a large empty box for the post with formatting buttons above it, and a list showing one post titled “Hello world !”.",
+    "caption": "b2’s writing screen, version 0.6.2.1 — the software WordPress was forked from. The screenshot is a later re-run of the old code, made for the project’s official history; the first post already says “Hello world !”.",
+    "creator": "From “Milestones: The Story of WordPress”",
+    "date": "2014-11",
+    "license": "GPLv2 / CC BY-SA 4.0 (the book’s licence)",
+    "license_url": "https://github.com/WordPress/library#license",
+    "source_page": "https://github.com/WordPress/library/blob/trunk/milestones-vol-1/Resources/images/2/b2admin.png",
+    "changes": "Resized and re-encoded. The image carries no licence of its own; the software shown is GPL."
+  },
+  {
+    "id": "wp12-write",
+    "file": "wp12-write",
+    "kind": "Screenshot",
+    "widths": [
+      640,
+      1277
+    ],
+    "width": 1277,
+    "height": 665,
+    "title": "WordPress 1.2: the Write screen",
+    "alt": "An early WordPress admin page: the word WordPress in serif type, a menu beginning Write, Edit, Categories, Links, and a form with a title field, a post box with a row of small formatting buttons, and a Publish button.",
+    "caption": "The Write screen of WordPress 1.2, in a later re-run made for the official history. “Plugins” has just appeared in the menu.",
+    "creator": "From “Milestones: The Story of WordPress”",
+    "date": "",
+    "license": "GPLv2 / CC BY-SA 4.0 (the book’s licence)",
+    "license_url": "https://github.com/WordPress/library#license",
+    "source_page": "https://github.com/WordPress/library/blob/trunk/milestones-vol-1/Resources/images/28/wp_1_5.png",
+    "changes": "Resized and re-encoded. The image carries no licence of its own; the software shown is GPL. (The book labels it 1.5; its footer reads 1.2.)"
+  },
+  {
+    "id": "wp39-admin",
+    "file": "wp39-admin",
+    "kind": "Screenshot",
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 728,
+    "title": "The admin after MP6: Add New Post, WordPress 3.9 beta",
+    "alt": "A WordPress admin screen with a dark sidebar menu on the left, a blue highlight on the current item, and a white editing area with a toolbar and a Publish box on the right.",
+    "caption": "The admin design that began as the MP6 plugin and shipped in WordPress 3.8, seen here in a 3.9 beta: a dark sidebar, and a layout that adapts to small screens.",
+    "creator": "From “Milestones: The Story of WordPress”",
+    "date": "2014-03",
+    "license": "GPLv2 / CC BY-SA 4.0 (the book’s licence)",
+    "license_url": "https://github.com/WordPress/library#license",
+    "source_page": "https://github.com/WordPress/library/blob/trunk/milestones-vol-1/Resources/images/45/mp6.jpg",
+    "changes": "Resized and re-encoded. The image carries no licence of its own; the software shown is GPL."
+  },
+  {
+    "id": "kubrick-2005",
+    "file": "kubrick-2005",
+    "kind": "Screenshot",
+    "widths": [
+      320,
+      640
+    ],
+    "width": 640,
+    "height": 610,
+    "thumbWidth": 320,
+    "title": "Kubrick on a WordPress 1.5 test site, February 2005",
+    "alt": "A real screenshot of the Kubrick theme: a blue rounded header reading “WordPress 1.5 Testing”, a “Hello world!” post, and a sidebar.",
+    "caption": "Screenshot: a WordPress 1.5 test site in Kubrick, February 2005. Its blogroll lists Matt, Carthik, Donncha, Ryan, Dougal, Mike, Alex and Michel.",
+    "creator": "Uploader not named; via Wikimedia Commons",
+    "date": "2005-02",
+    "license": "GPL-2.0-or-later",
+    "license_url": "https://www.gnu.org/licenses/gpl.html",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Wordpress_main_theme.png",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "theme-twentythirteen",
+    "file": "theme-twentythirteen",
+    "kind": "Screenshot",
+    "widths": [
+      320,
+      640
+    ],
+    "width": 640,
+    "height": 480,
+    "thumbWidth": 320,
+    "title": "Twenty Thirteen: the theme’s own screenshot",
+    "alt": "The screenshot image distributed with the Twenty Thirteen theme.",
+    "caption": "Screenshot: the image distributed with the theme. The header circles are the theme’s own artwork.",
+    "creator": "The WordPress team",
+    "date": "",
+    "license": "GPL-2.0-or-later",
+    "license_url": "https://www.gnu.org/licenses/gpl-2.0.html",
+    "source_page": "https://wordpress.org/themes/twentythirteen/",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "theme-twentytwentyone",
+    "file": "theme-twentytwentyone",
+    "kind": "Screenshot",
+    "widths": [
+      320,
+      640
+    ],
+    "width": 640,
+    "height": 480,
+    "thumbWidth": 320,
+    "title": "Twenty Twenty-One: the theme’s own screenshot",
+    "alt": "The screenshot image distributed with the Twenty Twenty-One theme.",
+    "caption": "Screenshot: the image distributed with the theme. The painting is by Berthe Morisot (public domain), as credited in the theme.",
+    "creator": "The WordPress team",
+    "date": "",
+    "license": "GPL-2.0-or-later",
+    "license_url": "https://www.gnu.org/licenses/gpl-2.0.html",
+    "source_page": "https://wordpress.org/themes/twentytwentyone/",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "theme-twentytwentytwo",
+    "file": "theme-twentytwentytwo",
+    "kind": "Screenshot",
+    "widths": [
+      320,
+      640
+    ],
+    "width": 640,
+    "height": 480,
+    "thumbWidth": 320,
+    "title": "Twenty Twenty-Two: the theme’s own screenshot",
+    "alt": "The screenshot image distributed with the Twenty Twenty-Two theme.",
+    "caption": "Screenshot: the image distributed with the theme. The bird illustration is public-domain or CC0 artwork, as credited in the theme.",
+    "creator": "The WordPress team",
+    "date": "",
+    "license": "GPL-2.0-or-later",
+    "license_url": "https://www.gnu.org/licenses/gpl-2.0.html",
+    "source_page": "https://wordpress.org/themes/twentytwentytwo/",
+    "changes": "Resized and re-encoded."
+  },
+  {
+    "id": "theme-twentytwentyfive",
+    "file": "theme-twentytwentyfive",
+    "kind": "Screenshot",
+    "widths": [
+      320,
+      640
+    ],
+    "width": 640,
+    "height": 480,
+    "thumbWidth": 320,
+    "title": "Twenty Twenty-Five: the theme’s own screenshot",
+    "alt": "The screenshot image distributed with the Twenty Twenty-Five theme.",
+    "caption": "Screenshot: the image distributed with the theme. The photograph is a public-domain (CC0) image, as credited in the theme.",
+    "creator": "The WordPress team",
+    "date": "",
+    "license": "GPL-2.0-or-later",
+    "license_url": "https://www.gnu.org/licenses/gpl-2.0.html",
+    "source_page": "https://wordpress.org/themes/twentytwentyfive/",
+    "changes": "Resized and re-encoded."
+  }
+]

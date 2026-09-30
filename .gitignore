@@ -1,0 +1,10 @@
+.DS_Store
+.spacefast/
+.spacefast/.space-link-*.tmp
+.spacefast/.spacefast-*
+.spacefast/state.json
+/.spacefast-*
+dist/
+node_modules/
+research/
+research/assets/_rejected/

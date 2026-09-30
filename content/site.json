@@ -1,0 +1,67 @@
+{
+  "title": "Hello, World.",
+  "subtitle": "A history of WordPress, and the people who built it.",
+  "description": "An independent, interactive history of WordPress from its origins to 30 September 2026, told through one small website that keeps changing.",
+  "verifiedThrough": "2026-09-30",
+  "verifiedLabel": "History verified through September 30, 2026.",
+  "releasesAfter": "whole-site",
+  "opening": {
+    "eyebrow": "An independent history · 2001–2026",
+    "micro": "A small beginning. An unfinished story.",
+    "figcaption": "Kiln Diary, an imaginary website, as it might have looked in 2003. It is a drawing made for this history, not a historical page. Watch what happens to it.",
+    "hook": "In January 2003 a nineteen-year-old in Houston noticed that the software behind his weblog had gone quiet. He said so in public. The next day, one person replied.",
+    "after": "This is the story of what that reply set going. It starts in 2001, with someone else’s code.",
+    "cta": "Begin with the prologue"
+  },
+  "releases": {
+    "title": "The release collection",
+    "dek": "Since 2004, every major release of WordPress has been named for a jazz musician its developers admire — fifty-four so far, from Miles Davis to Mary Lou Williams.[^wp-history] Here they are as a crate of records. The sleeves are invented for this page; the names and dates follow the official history page, and the notes come from the announcements.[^wp71]",
+    "placeholder": "Try “Coltrane”, 2010 or 5.0",
+    "empty": "Nothing in the crate by that name.",
+    "foot": "Dates follow the official history page, which occasionally differs by a day from an announcement’s own timestamp — a matter of time zones.[^wp-history] Version 0.7 had no codename, and 1.0 was given Miles Davis after the fact. No music plays."
+  },
+  "ending": {
+    "title": "Back to the beginning",
+    "paragraphs": [
+      "Here is the website from the top of this page, and here is what it has become. The first could publish a paragraph. The second can be a shop, a portfolio, a newsroom or a classroom; it can be redesigned without code, read by other programs, and written in scores of languages.",
+      "The smallest thing on the page has not changed. Somebody had something to say, and a place to say it that was theirs."
+    ],
+    "question": "What would you publish?",
+    "placeholder": "A sentence of your own",
+    "note": "This stays on your screen. Your sentence appears in the illustration above and nowhere else: nothing is uploaded, saved or published.",
+    "lastLine": "The next chapter hasn’t been published yet."
+  },
+  "colophon": {
+    "about": [
+      "**Hello, World.** is an independent historical project. It is not an official WordPress publication, and it is not affiliated with or endorsed by the WordPress Foundation, WordPress.org or Automattic. WordPress and WordCamp are trademarks of their owners and are used here only to refer to the things themselves.",
+      "Factual claims carry numbered sources, and where sources disagree or a detail could not be confirmed, the text tries to say so. This is an appreciation: it follows what was built and the people who built it, and leaves the project’s commercial and legal disputes to other accounts. Kiln Diary and every other site pictured are illustrations, and every interface shown is a reconstruction unless its caption says it is a screenshot.",
+      "The research, writing, design and code were produced with Claude, an AI model made by Anthropic, working from the sources listed here. Mistakes are possible. Corrections are welcome."
+    ],
+    "further": [
+      {
+        "label": "The official history",
+        "url": "https://wordpress.org/about/history/",
+        "note": "Every release and its musician."
+      },
+      {
+        "label": "Milestones and Building Blocks",
+        "url": "https://wordpress.org/book/",
+        "note": "The project’s own two history books, free to read."
+      },
+      {
+        "label": "WordPress Playground",
+        "url": "https://playground.wordpress.net/",
+        "note": "Run WordPress in this browser, with nothing to install."
+      },
+      {
+        "label": "Make WordPress",
+        "url": "https://make.wordpress.org/",
+        "note": "Where the work is organised: code, translation, documentation, support, events."
+      }
+    ],
+    "sourcesIntro": "Sources are numbered in the order they are first cited. Primary material — announcements, archived pages, the code’s own history — was preferred; reporting and the project’s official history books are used where they are the best available account, and are named as such.",
+    "assetsIntro": "Photographs and screenshots are reproduced under the licences shown, resized and re-encoded but otherwise unaltered. Everything else on this page — the living website, the browser windows, the editing screens, the diagrams and the record sleeves — was drawn for this history in HTML, CSS and SVG. Theme reconstructions approximate the originals with typefaces already on your device.",
+    "type": "Headlines are set in [Fraunces](https://github.com/undercasetype/Fraunces); text in [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/) and its monospaced companion, designed by the Braille Institute for legibility. All three are used under the SIL Open Font License and served from this site.",
+    "fineprint": "History verified through 30 September 2026. The site’s code and text are published under the GNU General Public License, version 3 or later — the licence family that made this story possible."
+  }
+}

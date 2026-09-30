@@ -1,0 +1,478 @@
+/* ─────────────────────────────────────────────────────────────
+   The story: opening scene, reading column, quotations, archives
+   ───────────────────────────────────────────────────────────── */
+
+/* ── Opening ── */
+.opening {
+  --p: 0;
+  position: relative;
+  padding-top: var(--mast);
+}
+.opening-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.75rem;
+  padding: clamp(2rem, 6vh, 4rem) var(--gutter) 3.5rem;
+}
+.eyebrow { color: var(--ink-soft); }
+.opening-title {
+  margin-top: .35em;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(3.6rem, 1.6rem + 10.5vw, 10.5rem);
+  font-variation-settings: "opsz" 144, "WONK" 1;
+  line-height: .9;
+  letter-spacing: -.035em;
+}
+.opening-title span { color: var(--blue); }
+.opening-sub {
+  margin-top: .9em;
+  max-width: 17em;
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 1.1rem + .9vw, 1.9rem);
+  font-weight: 350;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+.opening-micro {
+  margin-top: 1.1rem;
+  font-family: var(--mono);
+  font-size: .78rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.opening-window { position: relative; max-width: 38rem; }
+.opening-mount { position: relative; }
+.opening-window figcaption {
+  margin-top: .9rem;
+  max-width: 30rem;
+  font-size: .8rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.opening-year {
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: clamp(7rem, 30vw, 24rem);
+  font-variation-settings: "opsz" 144, "WONK" 0;
+  line-height: .8;
+  letter-spacing: -.045em;
+  color: var(--numeral);
+  user-select: none;
+}
+.yr-roll {
+  display: inline-grid;
+  grid-auto-rows: .8em;
+  height: .8em;
+  overflow: hidden;
+  overflow: clip;
+  overflow-clip-margin: .04em;
+}
+.yr-roll span {
+  display: block;
+  height: .8em;
+  transform: translateY(calc(var(--roll, 0) * -200%));
+}
+
+.opening-hook { max-width: 30rem; }
+.hook {
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 1.1rem + .6vw, 1.55rem);
+  line-height: 1.32;
+  text-wrap: pretty;
+}
+.hook-after { margin-top: .9rem; color: var(--ink-soft); }
+.opening-go { margin-top: 1.4rem; }
+.go {
+  display: inline-flex;
+  align-items: center;
+  gap: .6em;
+  padding: .7em 1.15em;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: .76rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+}
+.go:hover { background: var(--ink); color: var(--paper); }
+.go span { display: inline-block; animation: nudge 2.6s var(--ease) infinite; }
+@keyframes nudge { 0%, 60%, 100% { transform: none; } 30% { transform: translateY(.3em); } }
+
+@media (min-width: 60em) {
+  /* One screen tall, plus a short track for the first scroll. */
+  html.js .opening { height: calc(100vh + 62vh); height: calc(100svh + 62svh); }
+  .opening-stage {
+    position: sticky;
+    top: var(--mast);
+    height: calc(100vh - var(--mast));
+    height: calc(100svh - var(--mast));
+    min-height: 37rem;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    column-gap: clamp(2rem, 5vw, 5rem);
+    row-gap: 0;
+    align-items: start;
+    padding-block: clamp(1.5rem, 5vh, 3.5rem) clamp(1.25rem, 4vh, 2.5rem);
+    overflow: hidden;
+    overflow: clip;
+  }
+  .opening-copy { grid-column: 1; grid-row: 1; }
+  .opening-window {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    max-width: 40rem;
+    transform-origin: 60% 50%;
+    transform: rotate(calc(var(--p) * -1.6deg)) scale(calc(1 - var(--p) * .09));
+    will-change: transform;
+  }
+  /* As the first scroll begins, the window is lifted onto a mount and
+     labelled: it becomes an object in an archive. */
+  .opening-mount::before {
+    content: "";
+    position: absolute;
+    inset: -1.6rem -1.6rem -1.6rem -1.6rem;
+    background: var(--paper-light);
+    border: 1px solid var(--line);
+    box-shadow: 0 30px 60px -34px rgba(23, 21, 15, .5);
+    opacity: var(--p);
+  }
+  .opening-mount::after {
+    content: "EXHIBIT 001";
+    position: absolute;
+    top: -1.25rem;
+    left: -.6rem;
+    font: .58rem/1 var(--mono);
+    letter-spacing: .14em;
+    color: var(--ink-faint);
+    opacity: var(--p);
+  }
+  .opening-mount .sp { position: relative; }
+  .opening-window figcaption { position: relative; margin-top: 2.1rem; }
+  .opening-year {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    margin-left: -.06em;
+    margin-bottom: -.06em;
+    font-size: clamp(9rem, 23vw, 22rem);
+  }
+  .opening-hook {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    position: relative;
+    margin-left: clamp(7rem, 17vw, 17rem);
+    padding-bottom: .4rem;
+  }
+  .opening { --roll: clamp(0, calc((var(--p) - .12) * 1.6), 1); }
+}
+@media (min-width: 60em) {
+  /* The first screen must hold the title, the hook and the way onward. */
+  .opening-title { font-size: clamp(3.6rem, min(10.5vw, 15.5vh), 10.5rem); }
+  .opening-sub { font-size: clamp(1.2rem, min(1.9vw, 3.4vh), 1.9rem); }
+  .hook { font-size: clamp(1.1rem, min(1.55vw, 2.9vh), 1.5rem); }
+  .hook-after { font-size: .95rem; margin-top: .6rem; }
+  .opening-go { margin-top: 1rem; }
+  .opening-year { font-size: clamp(7rem, min(23vw, 36vh), 22rem); }
+}
+
+/* ── Reading column ── */
+.prose > * + * { margin-top: 1.15em; }
+.prose p { text-wrap: pretty; hanging-punctuation: first; }
+
+.lede {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 1.15rem + .6vw, 1.6rem);
+  font-weight: 380;
+  line-height: 1.36;
+}
+.lede::first-letter {
+  float: left;
+  margin: .06em .09em 0 -.03em;
+  font-size: 3.35em;
+  font-weight: 400;
+  font-variation-settings: "WONK" 1;
+  line-height: .74;
+  color: var(--accent);
+}
+
+.subhead {
+  margin-top: 2.2em !important;
+  font-family: var(--serif);
+  font-size: clamp(1.45rem, 1.25rem + .8vw, 1.95rem);
+  font-weight: 450;
+  font-variation-settings: "WONK" 1;
+  line-height: 1.14;
+  letter-spacing: -.012em;
+  text-wrap: balance;
+}
+.subhead + * { margin-top: .7em !important; }
+
+.pull {
+  margin-block: 1.7em !important;
+  padding-top: .7em;
+  border-top: 2px solid var(--accent);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.5rem, 1.25rem + 1.3vw, 2.3rem);
+  font-weight: 350;
+  line-height: 1.16;
+  letter-spacing: -.012em;
+  text-wrap: balance;
+}
+@media (min-width: 60em) {
+  .pull { margin-left: -7rem; }
+}
+
+.quote {
+  position: relative;
+  margin-block: 1.8em !important;
+  padding-left: 1.4rem;
+  border-left: 1px solid var(--fg);
+}
+.quote blockquote {
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 1.1rem + .5vw, 1.42rem);
+  line-height: 1.36;
+  quotes: "“" "”";
+}
+.quote blockquote p::before { content: open-quote; }
+.quote blockquote p::after { content: close-quote; }
+.quote blockquote p::before { position: absolute; margin-left: -.46em; }
+.quote figcaption,
+.arch-quote figcaption {
+  margin-top: .7rem;
+  font-size: .82rem;
+  line-height: 1.45;
+  color: var(--fg-soft);
+}
+
+/* Citations: small, steady, out of the way. */
+.cite { font-size: .62em; line-height: 0; vertical-align: .62em; margin-left: .12em; }
+.cite a {
+  font-family: var(--mono);
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  padding: .3em .12em;
+}
+.cite a:hover { text-decoration: underline; }
+.cite--next { margin-left: 0; }
+.cite--next::before { content: ","; color: var(--fg-faint); margin-right: .1em; }
+
+/* Margin notes. Inline on small screens, in the margin on large ones. */
+.marginal {
+  padding: .8rem 0 0;
+  border-top: 1px solid var(--line);
+  font-size: .86rem;
+  line-height: 1.5;
+  color: var(--fg-soft);
+}
+.marginal-label {
+  margin-bottom: .35rem;
+  font-family: var(--mono);
+  font-size: .64rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+@media (min-width: 75em) {
+  .marginal {
+    float: right;
+    clear: right;
+    width: 15rem;
+    margin: .3rem -18.5rem 1rem 0 !important;
+  }
+}
+
+.plain-list { padding-left: 1.1em; }
+.plain-list li { position: relative; }
+.plain-list li + li { margin-top: .5em; }
+.plain-list li::before { content: ""; position: absolute; left: -1.05em; top: .72em; width: .5em; height: 1px; background: var(--accent); }
+
+/* A compact dated list. */
+.chron { margin-block: 1.8em !important; border-top: 1px solid var(--fg); }
+.chron-title {
+  padding: .6rem 0;
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.chron li {
+  display: grid;
+  grid-template-columns: 7.2rem 1fr;
+  gap: 1rem;
+  padding: .6rem 0;
+  border-top: 1px solid var(--line);
+  font-size: .92rem;
+  line-height: 1.45;
+}
+.chron-date { font-family: var(--mono); font-size: .74rem; letter-spacing: .03em; padding-top: .18em; color: var(--fg-soft); }
+@media (max-width: 30em) {
+  .chron li { grid-template-columns: 1fr; gap: .15rem; }
+}
+.chron--inset { margin-block: 0 !important; border-top: 0; }
+.chron--inset li:first-child { border-top: 0; }
+/* What kind of statement is this? Fact, position, allegation, ruling, open. */
+.kind {
+  display: inline-block;
+  margin-right: .35em;
+  padding: .05em .45em;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  vertical-align: .1em;
+  white-space: nowrap;
+}
+.kind--fact { color: var(--fg); }
+.kind--ruling { color: var(--bg); background: var(--fg); border-color: var(--fg); }
+.kind--position { color: var(--accent); }
+.kind--allegation { color: var(--accent); border-style: dashed; }
+.kind--open { color: var(--fg-soft); border-style: dotted; }
+
+/* ── "Open the archive" ── */
+.archive {
+  margin-block: 1.7em !important;
+  border-block: 1px solid var(--line);
+}
+.archive > summary {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: baseline;
+  gap: .2rem .9rem;
+  padding: .85rem 0;
+  list-style: none;
+  cursor: pointer;
+}
+.archive > summary::-webkit-details-marker { display: none; }
+.archive-open {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.archive-title { font-family: var(--serif); font-style: italic; font-size: 1.08rem; line-height: 1.3; }
+.archive > summary::after {
+  content: "+";
+  font: 400 1.25rem/1 var(--mono);
+  color: var(--accent);
+  transition: transform .25s var(--ease);
+}
+.archive[open] > summary::after { transform: rotate(45deg); }
+.archive > summary:hover .archive-title { color: var(--accent); }
+.archive-body {
+  padding: .4rem 0 1.4rem;
+  font-size: .93rem;
+  line-height: 1.55;
+  color: var(--fg);
+}
+.archive-body > * + * { margin-top: 1rem; }
+.arch-quote { padding-left: 1rem; border-left: 2px solid var(--accent); }
+.arch-quote blockquote { font-family: var(--serif); font-size: 1.1rem; line-height: 1.42; }
+.arch-facts > div { display: grid; grid-template-columns: 8.5rem 1fr; gap: .9rem; padding: .45rem 0; border-top: 1px solid var(--line-soft); }
+.arch-facts dt { font-family: var(--mono); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; color: var(--fg-soft); padding-top: .2em; }
+.arch-links li + li { margin-top: .3rem; }
+.arch-links span { color: var(--fg-soft); }
+.arch-figure figcaption { margin-top: .5rem; font-size: .8rem; color: var(--fg-soft); }
+.arch-figure img { border: 1px solid var(--line); }
+@media (max-width: 30em) {
+  .archive > summary { grid-template-columns: 1fr auto; }
+  .archive-open { grid-column: 1; }
+  .archive-title { grid-column: 1; grid-row: 2; }
+  .archive > summary::after { grid-row: 1 / 3; align-self: center; }
+  .arch-facts > div { grid-template-columns: 1fr; gap: .1rem; }
+}
+
+/* ── Plates: photographs and screenshots, mounted and captioned ── */
+.plate-frame {
+  position: relative;
+  padding: clamp(.5rem, 1.4vw, .9rem);
+  background: var(--bg-lift);
+  border: 1px solid var(--line);
+  box-shadow: 0 22px 40px -30px rgba(0, 0, 0, .55);
+}
+.plate img { width: 100%; }
+.plate--tilt .plate-frame { transform: rotate(-.7deg); }
+.plate figcaption,
+.exhibit-cap,
+.scene-cap {
+  margin-top: .9rem;
+  max-width: 44rem;
+  font-size: .82rem;
+  line-height: 1.5;
+  color: var(--fg-soft);
+}
+.credit { display: inline-block; font-family: var(--mono); font-size: .68rem; letter-spacing: .02em; color: var(--fg-faint); }
+.credit a { text-decoration-color: var(--line); }
+.plate--text { max-width: var(--measure); }
+.plate--margin { max-width: 22rem; }
+@media (min-width: 60em) {
+  .plate--wide { padding-left: 7rem; }
+  .plate--wide.plate--left { padding-left: 0; padding-right: 12rem; }
+}
+
+.ornament {
+  width: 3.2rem;
+  height: 1px;
+  margin: .6rem 0;
+  background: var(--fg);
+}
+
+/* ── Exhibits share a frame language ── */
+.exhibit { position: relative; }
+.exhibit-cap { padding-top: .75rem; border-top: 1px solid var(--line); }
+.b--full > .exhibit-cap,
+.scene-cap { margin-inline: var(--gutter); }
+
+/* ── Who is who (chapter 3): a ledger, not a row of cards ── */
+.entities { border-top: 2px solid var(--fg); }
+.entities-h {
+  padding-top: .8rem;
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2.2rem);
+  font-weight: 450;
+  font-variation-settings: "WONK" 1;
+  line-height: 1.1;
+}
+.entities-intro { max-width: var(--measure); margin-top: .7rem; color: var(--fg-soft); }
+.entities-grid { margin-top: 1.6rem; }
+.entity {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .4rem 2rem;
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--line);
+}
+.entity dt { font-family: var(--serif); font-size: 1.5rem; line-height: 1.1; font-weight: 450; }
+.entity-kind {
+  display: block;
+  margin-bottom: .45rem;
+  font-family: var(--mono);
+  font-size: .64rem;
+  font-weight: 400;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.entity dd { font-size: .95rem; line-height: 1.55; max-width: 38rem; }
+@media (min-width: 48em) {
+  .entity { grid-template-columns: 17rem 1fr; }
+}

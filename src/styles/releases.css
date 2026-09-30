@@ -1,0 +1,155 @@
+/* ─────────────────────────────────────────────────────────────
+   Interlude: the release collection, as a crate of record sleeves
+   ───────────────────────────────────────────────────────────── */
+
+.releases {
+  position: relative;
+  background: var(--bg);
+  color: var(--fg);
+  padding-block: clamp(5rem, 14vh, 9rem) clamp(4rem, 10vh, 7rem);
+}
+.releases-inner { max-width: 84rem; margin-inline: auto; padding-inline: var(--gutter); }
+.releases-head .chapter-title { padding-top: 1.6rem; max-width: 11em; }
+.releases-head .chapter-dek { max-width: 38rem; }
+
+.crate-search {
+  display: grid;
+  gap: .9rem;
+  margin-top: 2.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+}
+.crate-search[hidden] { display: none; }
+.crate-search label { font-family: var(--mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--fg-soft); }
+.crate-search input {
+  width: 100%;
+  max-width: 30rem;
+  padding: .7rem 0;
+  border: 0;
+  border-bottom: 2px solid var(--fg);
+  border-radius: 0;
+  background: none;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  color: var(--fg);
+}
+.crate-search input::placeholder { color: var(--fg-faint); opacity: 1; }
+.crate-search input:focus-visible { outline: 0; border-bottom-color: var(--accent); box-shadow: 0 2px 0 var(--accent); }
+.crate-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip {
+  min-height: 2.25rem;
+  padding: .3rem .9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: .72rem;
+  letter-spacing: .06em;
+}
+.chip:hover { border-color: var(--fg); }
+.chip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.crate-count { min-height: 1.4em; font-size: .85rem; color: var(--fg-soft); }
+
+.crate {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.2rem, 1fr));
+  gap: 2.4rem 1.5rem;
+  margin-top: 2.6rem;
+}
+.record { position: relative; min-width: 0; content-visibility: auto; contain-intrinsic-size: auto 17rem; }
+.record[hidden] { display: none; }
+
+/* The disc, waiting behind its sleeve. */
+.record::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, var(--night) 0 5%, #d9572b 5.5% 17%, transparent 17.5%),
+    repeating-radial-gradient(circle, #07080c 0 2px, #1c1f2a 2px 3px);
+  transform: scale(.94);
+  transition: transform .45s var(--ease);
+}
+.record:hover::before,
+.record:focus-within::before { transform: translateX(19%) scale(.94); }
+
+.sleeve {
+  --s-bg: #ece6d8;
+  --s-fg: #17150f;
+  --s-hi: #1d3fc4;
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--s-bg);
+  color: var(--s-fg);
+  box-shadow: 0 0 0 1px rgba(236, 230, 216, .16);
+}
+.sleeve--c1 { --s-bg: #1d3fc4; --s-fg: #f3ede2; --s-hi: #f2c14e; }
+.sleeve--c2 { --s-bg: #d9572b; --s-fg: #17150f; --s-hi: #f3ede2; }
+.sleeve--c3 { --s-bg: #17150f; --s-fg: #f2c14e; --s-hi: #d9572b; }
+.sleeve--c4 { --s-bg: #f2c14e; --s-fg: #17150f; --s-hi: #1d3fc4; }
+.sleeve--c5 { --s-bg: #2c6559; --s-fg: #f3ede2; --s-hi: #f2c14e; }
+
+.sleeve-ver {
+  position: absolute;
+  left: 8%;
+  bottom: 14%;
+  font-family: var(--serif);
+  font-size: clamp(2.3rem, 3.4vw, 3.1rem);
+  font-weight: 400;
+  font-variation-settings: "opsz" 144, "WONK" 1;
+  line-height: .8;
+  letter-spacing: -.04em;
+}
+.sleeve-name,
+.sleeve-year {
+  position: absolute;
+  font-family: var(--mono);
+  font-size: .56rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.sleeve-name { left: 8%; top: 8%; }
+.sleeve-year { right: 8%; top: 8%; }
+.sleeve-shape { position: absolute; background: var(--s-hi); }
+
+/* Six arrangements. */
+.sleeve--l0 .sleeve-shape { width: 78%; aspect-ratio: 1; right: -22%; bottom: -22%; border-radius: 50%; }
+.sleeve--l1 .sleeve-shape { inset: 0 auto 0 0; width: 30%; }
+.sleeve--l1 .sleeve-ver { left: auto; right: 8%; }
+.sleeve--l1 .sleeve-name { left: 36%; }
+.sleeve--l2 .sleeve-shape { inset: 34% 0 auto 0; height: 18%; box-shadow: 0 1.35rem 0 -.45rem var(--s-hi); }
+.sleeve--l2 .sleeve-ver { bottom: 8%; }
+.sleeve--l3 .sleeve-shape { inset: 0; clip-path: polygon(100% 0, 100% 100%, 22% 100%); }
+.sleeve--l3 .sleeve-ver { bottom: auto; top: 22%; }
+.sleeve--l3 .sleeve-year { top: auto; bottom: 8%; color: var(--s-bg); }
+.sleeve--l4 .sleeve-shape {
+  top: 20%;
+  right: 8%;
+  width: 46%;
+  height: 46%;
+  background: radial-gradient(circle, var(--s-hi) 0 34%, transparent 36%) 0 0 / 25% 25%;
+}
+.sleeve--l5 .sleeve-shape { width: 84%; aspect-ratio: 2; left: 8%; top: 22%; border-radius: 999px 999px 0 0; }
+.sleeve--l5 .sleeve-ver { bottom: 8%; }
+
+.record-title { margin-top: .8rem; font-family: var(--serif); font-size: 1.12rem; line-height: 1.15; }
+.record-ver { font-weight: 600; }
+.record-name { font-style: italic; }
+.record-meta { margin-top: .3rem; font-family: var(--mono); font-size: .64rem; line-height: 1.5; letter-spacing: .03em; color: var(--fg-soft); }
+.record-note { margin-top: .4rem; font-size: .8rem; line-height: 1.42; color: var(--fg-soft); }
+.record-note a { white-space: nowrap; color: var(--fg); }
+
+.crate-empty { margin-top: 2rem; font-family: var(--serif); font-style: italic; font-size: 1.3rem; }
+.crate-foot { margin-top: 3rem; padding-top: 1rem; max-width: 44rem; border-top: 1px solid var(--line); font-size: .82rem; line-height: 1.5; color: var(--fg-soft); }
+
+@media (max-width: 30em) {
+  .crate { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.1rem; }
+}

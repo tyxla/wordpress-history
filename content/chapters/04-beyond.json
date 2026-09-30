@@ -1,0 +1,107 @@
+{
+  "id": "beyond",
+  "label": "Chapter 4",
+  "title": "Beyond the blog",
+  "years": "2005–2012",
+  "numeral": "2010",
+  "tick": "2010",
+  "tone": "paper",
+  "dek": "Release by release, “blog” stopped being a big enough word for what people were building.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "Pages had arrived in 2005 under a modest heading: “Manage More Than Your Blog.”[^wp15] Two years later, version 2.1 let any page stand as a site’s front door, “making it much easier to use WordPress as a content management system.”[^wp21]"
+    },
+    "A content management system, or CMS, runs a whole website: standing pages, menus, people with different permissions, kinds of content its authors never imagined. WordPress acquired these in pieces — user roles in 2.0, widgets in 2.2, tags in 2.3, a history of revisions in 2.6.[^wp20][^wp22][^wp23][^wp26]",
+    "The pieces also had to be usable. For 2.7, in 2008, a redesigned admin was tested by outside researchers first. Every participant preferred the rough prototype, codenamed Crazyhorse, to what they had — “and it wasn’t even pretty,” Jane Wells reported.[^crazyhorse]",
+    "WordPress 3.0, on 17 June 2010, gathered it up. Custom post types let a site hold things that were neither posts nor pages: products, events, recipes. Menus, adapted from a navigation system the core team asked the theme company WooThemes to contribute, could be arranged without editing a file.[^menus] A separate edition for running many sites at once was folded in, so one installation could serve “one blog or ten million.”[^wp30]",
+    {
+      "type": "exhibit",
+      "name": "beyond",
+      "caption": "Kiln Diary around 2010, in a reconstruction of the Twenty Ten theme: a menu across the top, and a set of “pots” that are their own kind of content. Beside it, three invented sites of kinds that had become ordinary."
+    },
+    "By then the British Prime Minister’s office was reported to have relaunched its site on WordPress, and one American university ran more than three thousand blogs for students and staff on a single installation.[^number10][^umw] Their keepers had new things to think about: updates, permissions, plugins that disagreed with one another.",
+    {
+      "type": "aside",
+      "label": "A correction worth making",
+      "text": "Custom post types are often dated to 3.0. An interface for them was already in 2.9, and custom taxonomies in 2.5; version 3.0 is where they became practical.[^wp29][^wp25]"
+    },
+    {
+      "type": "archive",
+      "title": "From blog to CMS, release by release",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "2.0 · Dec 2005",
+              "User roles; a visual editor; Akismet bundled.[^wp20]"
+            ],
+            [
+              "2.1 · Jan 2007",
+              "A page can be the front page.[^wp21]"
+            ],
+            [
+              "2.2 · May 2007",
+              "Widgets, “originally available as a plugin.”[^wp22]"
+            ],
+            [
+              "2.3 · Sept 2007",
+              "Tags and a new taxonomy system; update notifications.[^wp23]"
+            ],
+            [
+              "2.5 · Mar 2008",
+              "A redesign with the studio Happy Cog; galleries and shortcodes.[^wp25]"
+            ],
+            [
+              "2.6 · July 2008",
+              "Post revisions.[^wp26]"
+            ],
+            [
+              "2.7 · Dec 2008",
+              "The Crazyhorse admin; one-click upgrades; a plugin installer.[^wp27]"
+            ],
+            [
+              "2.9 · Dec 2009",
+              "Trash, an image editor, post thumbnails.[^wp29]"
+            ],
+            [
+              "3.0 · June 2010",
+              "Menus, post types, Multisite, and Twenty Ten — the first new default theme since Kubrick. 218 people credited.[^wp30]"
+            ],
+            [
+              "3.4 · June 2012",
+              "The theme customizer.[^wp34]"
+            ],
+            [
+              "3.5 · Dec 2012",
+              "A re-imagined flow for uploading media and building galleries.[^wp35]"
+            ]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "This is a landmark for us, as it is the first time we’ve won this award, and it marks a shift in the public perception of WordPress, from blog software to full-featured CMS.",
+          "by": "WordPress.org news",
+          "where": "on winning an open-source CMS award",
+          "date": "2009-11-18",
+          "cite": "cms-award"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "How the team itself grew",
+      "items": [
+        {
+          "type": "note",
+          "text": "By late 2006 three people could commit code: Matt Mullenweg, Ryan Boren and, newly, Mark Jaquith.[^wp205] By the 3.0 announcement the list of committers had twelve names.[^wp30] In January 2010 Mullenweg wrote that commit access should become “more a recognition of trust, quality, and most importantly activity,” separate from the title of lead developer.[^dd32]"
+        },
+        {
+          "type": "note",
+          "text": "After 3.0 the team paused: “We’re going to take a release cycle off to focus on all of the things around WordPress.”[^wp30]"
+        }
+      ]
+    }
+  ]
+}

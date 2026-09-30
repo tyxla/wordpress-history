@@ -1,0 +1,104 @@
+{
+  "id": "shared-work",
+  "label": "Chapter 9",
+  "title": "Growing pains, shared responsibilities",
+  "years": "2005–2026",
+  "numeral": "2025",
+  "tick": "2025",
+  "tone": "paper",
+  "dek": "Software used this widely cannot be looked after by whoever happens to turn up. Over twenty years, WordPress spread the work across many more people.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "Look back through these chapters and there is an argument in nearly every one: hidden articles in 2005, theme licences in 2008, a release date in 2018. What is striking is what came after each. The project apologised, or wrote the rule down, or changed how it worked."
+    },
+    "After the first, Matt Mullenweg promised that “any future actions will get community feedback before we do anything.”[^response] After the second, several leading theme shops chose the same free licence as WordPress itself.[^themes-gpl-book] When the block editor strained relations with volunteer teams, he acknowledged “project management fails”,[^portland-qa] and a standing programme then spent nearly three and a half years collecting feedback on site editing before it was called mature.[^fse-outreach]",
+    {
+      "type": "h3",
+      "text": "Writing the roles down"
+    },
+    "The project is still led, as it has been from the start, by its co-founder. Around him, more of the work has been shared out. In 2010 Mullenweg set out to separate the right to commit code from the title of lead developer, so that more people could hold it.[^dd32] From 2012 each release had its own lead.[^release-leads] In 2019 the project gained an executive director to “oversee and direct all contributor teams”[^exec-director] — Josepha Haden Chomphosy first, Mary Hubbard since 2024.[^hubbard] A public register of pledges lists whose time companies say they sponsor.[^fftf-pledges]",
+    "More people are credited now: 218 for WordPress 3.0, 482 for 4.7, more than 900 for 6.8 in 2025 — over a quarter of those for the first time — though the way contributors are counted has widened since 2018.[^wp30][^wp47][^wp68]",
+    {
+      "type": "quote",
+      "text": "If there are 100 new contributors that’s more important than 100 more changes to WP.",
+      "by": "Andrew Nacin",
+      "where": "as tweeted from a contributors’ hack day",
+      "date": "2012-08",
+      "cite": "hack-day-2012"
+    },
+    "None of this settles the oldest questions in open source: who decides, and how those who benefit should give back. They are asked of WordPress as of every shared project its size. The project’s own essay on sustaining itself starts from a generous premise: “The Free Rider Problem doesn’t assume that ALL free riders are inherently bad.”[^free-rider]",
+    {
+      "type": "pull",
+      "text": "The code is free to everyone. Looking after it is a job that has to be shared."
+    },
+    {
+      "type": "archive",
+      "title": "How the work came to be shared",
+      "items": [
+        {
+          "type": "chronology",
+          "items": [
+            {
+              "date": "2006",
+              "text": "A third person gains the right to commit code: Mark Jaquith joins Matt Mullenweg and Ryan Boren.[^wp205]"
+            },
+            {
+              "date": "2010",
+              "text": "The aim is set for commit access to be “more a recognition of trust, quality, and most importantly activity.”[^dd32]"
+            },
+            {
+              "date": "2012",
+              "text": "Release leads begin.[^release-leads] The WordPress Foundation starts paying the organising fees of local meetup groups.[^meetup-2012]"
+            },
+            {
+              "date": "2013",
+              "text": "Sites start installing security fixes on their own.[^wp37]"
+            },
+            {
+              "date": "2016",
+              "text": "An accessibility standard for all new code.[^a11y-2016]"
+            },
+            {
+              "date": "2019",
+              "text": "An executive director; public pledges for Five for the Future.[^exec-director][^fftf-open]"
+            },
+            {
+              "date": "2020",
+              "text": "WordPress 5.6 is shipped by an all-women and non-binary release squad.[^wp56]"
+            },
+            {
+              "date": "2025",
+              "text": "A coordinating Core Program Team is created.[^core-program]"
+            },
+            {
+              "date": "2026",
+              "text": "A Core Security Initiative is announced.[^security-initiative]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "What the block editor’s launch taught",
+      "items": [
+        {
+          "type": "quote",
+          "text": "I spent six months going to the angriest communities and listening.",
+          "by": "Josepha Haden Chomphosy",
+          "where": "quoted in the project’s official history, Building Blocks",
+          "cite": "building-blocks-8"
+        },
+        {
+          "type": "note",
+          "text": "At the State of the Word two days after WordPress 5.0, Mullenweg listed lessons from the release, among them the “importance of triage and code freezes” and to “always announce release dates,” according to WP Tavern’s report.[^phases]"
+        },
+        {
+          "type": "note",
+          "text": "The feedback programme for site editing began in May 2020 “with the expectation that the Site Editor would ship in the following 6 or so months” and “turned into nearly 3.5 years of feedback loops.”[^fse-outreach]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "prologue",
+  "label": "Prologue",
+  "title": "Before WordPress",
+  "years": "2001–2003",
+  "numeral": "2001",
+  "tick": "2001",
+  "tone": "paper",
+  "dek": "A programmer in Corsica writes a weblog tool and then falls silent. The people using it have to decide what to do with what he left.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "On 9 June 2001 Michel Valdrighi told the readers of his weblog that he had “started the development of B2, a PHP+MySQL alternative to Blogger and GreyMatter.”[^michel-2001]"
+    },
+    "By his own later estimate about two thousand weblogs came to run on it.[^cafelog-return] Then the updates stopped. The last release was dated 5 November 2002.[^cafelog-2003] By March the b2 website itself carried a post headed “Michel’s whereabouts”; his sister answered that he was alive, in Corsica, and needed time.[^cafelog-whereabouts]",
+    {
+      "type": "aside",
+      "label": "A kindness in the comments",
+      "text": "Under that post a reader asked Michel’s sister to pass on that he had “inadvertently built a commmunity (that’s right…3 M’s) of people.”[^cafelog-whereabouts]"
+    },
+    "One user was Matt Mullenweg, nineteen, in Houston. On 24 January 2003 he wrote that his “logging software hasn’t been updated for months, and the main developer has disappeared”. But b2 was published under the GPL, a licence that lets anyone copy and change the code — so he could start a fork: a new project begun from a copy of the old.[^dilemma]",
+    {
+      "type": "quote",
+      "text": "If you’re serious about forking b2 I would be interested in contributing.",
+      "by": "Mike Little",
+      "where": "comment on Matt Mullenweg’s post",
+      "date": "2003-01-25",
+      "cite": "dilemma"
+    },
+    "Mike Little was a programmer in the north of England.[^mike-little] For more than a year, his was the only comment the post received.[^dilemma]",
+    "The project needed a name. It came by telephone from a Houston friend, Christine — now Christine Tremoulet — who had “even checked the domain”: WordPress.[^about-2003] The first code was committed at seventeen minutes past midnight, Houston time, on 1 April 2003.[^core-r2]",
+    {
+      "type": "exhibit",
+      "name": "fork",
+      "caption": "One stalled codebase, three continuations. b2evolution began the same spring; b2++ already existed, and was later renamed WordPress MU. Positions along the time axis are approximate."
+    },
+    "It was not the only answer: François Planque in France started b2evolution, and Donncha Ó Caoimh in Cork had built b2++.[^planque][^donncha-interview] Then, on 23 May, Michel came back — “I am still jobless,” he wrote — and said WordPress would become b2’s official branch “once they get a release out.”[^cafelog-return]",
+    {
+      "type": "pull",
+      "text": "Four days later, they did."
+    },
+    {
+      "type": "archive",
+      "title": "What b2 looked like",
+      "items": [
+        {
+          "type": "figure",
+          "asset": "b2-admin"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "Michel returns, and then joins in",
+      "items": [
+        {
+          "type": "quote",
+          "text": "Matt Mullenweg and Mike Little are leading the new WordPress branch of b2, that is going to become the new official branch once they get a release out. If you want to help with WordPress, don’t hesitate to contact either of them!",
+          "by": "Michel Valdrighi",
+          "where": "cafelog.com",
+          "date": "2003-05-23",
+          "cite": "cafelog-return"
+        },
+        {
+          "type": "note",
+          "text": "That August he began contributing to the fork of his own software. His first commit message read: “rewrote convert_chars - hi again guys! :)”. He made 214 commits in all, the last in February 2005.[^core-r306]"
+        },
+        {
+          "type": "note",
+          "text": "Why “b2”? According to the project’s official history, the name joined “blog” to the Blur track “Song 2”.[^milestones]"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "“The Blogging Software Dilemma”, in Matt’s words",
+      "items": [
+        {
+          "type": "quote",
+          "text": "Fortunately, b2/cafelog is GPL, which means that I could use the existing codebase to create a fork, integrating all the cool stuff that Michel would be working on right now if only he was around.",
+          "by": "Matt Mullenweg",
+          "where": "ma.tt",
+          "date": "2003-01-24",
+          "cite": "dilemma"
+        },
+        {
+          "type": "note",
+          "text": "He went on to list what the new thing should be: “the flexibility of MovableType, the parsing of TextPattern, the hackability of b2, and the ease of setup of Blogger. Someday, right?” Eleven months later he added a line to the foot of the post: “This became WordPress.”[^dilemma]"
+        },
+        {
+          "type": "note",
+          "text": "On why the fork did not keep the b2 name, he said in 2013: “it’s okay to fork code, but to call out the same thing is impolite.”[^mullenweg-interview]"
+        }
+      ]
+    }
+  ]
+}

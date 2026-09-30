@@ -1,0 +1,104 @@
+{
+  "id": "economy",
+  "label": "Chapter 5",
+  "title": "An economy grows around it",
+  "years": "From 2007",
+  "numeral": "2011",
+  "tick": "2011",
+  "tone": "paper",
+  "dek": "Free software turned out to be something a great many people could earn a living from — and a reason to ask how the work of maintaining it should be shared.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "Nothing in the GPL forbids selling. Around 2007, designers began charging for “premium” themes — Brian Gardner’s Revolution, that August, was among the first — and a market formed that nobody had planned.[^premium-themes]"
+    },
+    "It came with an argument: must a theme sold for money carry WordPress’s free licence? In December 2008, by one contemporary count, about two hundred themes were removed from the official directory because their authors also sold themes under other licences.[^theme-purge] A legal opinion published in 2009 held that a theme’s PHP code must be GPL, though its images and styles need not be.[^themes-gpl] Several leading theme shops adopted the licence that year; the question was never tested in court.[^themes-gpl-book]",
+    "Then came shops. In 2011 the theme company WooThemes hired two developers from a small e-commerce plugin, Jigoshop, and — as the licence allows — copied its code to start WooCommerce.[^woo-fork][^woo-arrived] Jigoshop’s makers said the offer that preceded it had “grossly undervalued the business.”[^jigoshop] Automattic bought WooCommerce in 2015;[^woomattic] it now runs on about one WordPress site in five.[^w3techs-wp-history]",
+    {
+      "type": "exhibit",
+      "name": "shop",
+      "caption": "Kiln Diary opens a shop. The layout is a generic storefront of the early 2010s, not a copy of any product, and the basket leads nowhere."
+    },
+    "Around all this grew specialist hosts, agencies, and plugin makers with payrolls. Each depended on the free core, and the core on whoever turned up to maintain it. In 2014 Mullenweg proposed a rule of thumb: a company that profits from WordPress should put five per cent of its people to work on it. He called it Five for the Future.[^fftf]",
+    {
+      "type": "quote",
+      "text": "This ratio is probably the bare minimum for a sustainable ecosystem, avoiding the tragedy of the commons.",
+      "by": "Matt Mullenweg",
+      "where": "“Five for the Future”",
+      "date": "2014-09-30",
+      "cite": "fftf"
+    },
+    "The idea was admired and doubted at once. Ben Metcalfe, then with the hosting company WP Engine, asked what say contributors would get: “It does begin to feel a little bit too Cathedral and not enough Bazaar.”[^metcalfe] Ten years on, the project’s own figures for one release showed pledged contributors as a quarter of the people credited and three-quarters of the credits, with one company, Automattic, far ahead.[^stats-66]",
+    {
+      "type": "pull",
+      "text": "Volunteers, sponsored staff and businesses were all doing real work. None of them was the whole story."
+    },
+    {
+      "type": "archive",
+      "title": "Who built WordPress 6.6?",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Source",
+              "“WordPress 6.6 Statistics”, published by the project on 12 September 2024. It counts credits (“props”) for core source code.[^stats-66]"
+            ],
+            [
+              "People",
+              "About 640, from at least 53 countries and 129 identified companies."
+            ],
+            [
+              "Pledged",
+              "26.5% of contributors were pledged through Five for the Future. They received 75.5% of all props."
+            ],
+            [
+              "Largest",
+              "Automattic, 3,562 contributions from 105 people. Next: Yoast 396, GoDaddy 335."
+            ],
+            [
+              "Caution",
+              "Props undercount review, triage, support, translation and event organising — much of the work described in chapter 3."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "The theme licence dispute, 2007–2010",
+      "items": [
+        {
+          "type": "quote",
+          "text": "PHP in WordPress themes must be GPL, artwork and CSS may be but are not required.",
+          "by": "Matt Mullenweg, summarising the legal opinion",
+          "where": "wordpress.org",
+          "date": "2009-07-02",
+          "cite": "themes-gpl"
+        },
+        {
+          "type": "note",
+          "text": "The other side of the argument was put by Thesis’s author, Chris Pearson, who maintained that his work stood apart from WordPress. After a live debate with Mullenweg on 14 July 2010, he announced a split licence eight days later: GPL for the PHP, proprietary for the rest.[^thesis][^syn-thesis]"
+        },
+        {
+          "type": "note",
+          "text": "One seller’s account of the earlier caution, from Brian Gardner in 2014: “We were almost scared of the open source concept where the design and images and the code we felt was all ours and really wasn’t derivative of WordPress itself so we sold things on a proprietary level.”[^premium-themes]"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "How big is the WordPress economy?",
+      "items": [
+        {
+          "type": "note",
+          "text": "The only headline estimate found is $596.7 billion for 2020, from a study commissioned by a hosting company, WP Engine, and published in June 2021. Its author acknowledged that “no reliable benchmark valuation of the WordPress economy currently exists” and that a method had to be invented. It estimates economic activity on WordPress-powered sites, not the revenue of WordPress companies, and no independent estimate has been found to compare it with.[^economy-study]"
+        },
+        {
+          "type": "note",
+          "text": "Consolidation followed growth. Between 2018 and 2022 StudioPress, Yoast, Easy Digital Downloads, Pagely and Advanced Custom Fields all changed hands; a recap of the 2021 State of the Word counted 42 acquisitions in a year.[^sotw-2021]"
+        }
+      ]
+    }
+  ]
+}

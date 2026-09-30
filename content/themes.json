@@ -1,0 +1,79 @@
+[
+  {
+    "id": "classic",
+    "name": "Classic",
+    "year": "2003",
+    "version": "0.72",
+    "wardrobe": true,
+    "credit": "Design by Dave Shea, with modifications by Matt Mullenweg. Announced in version 0.72 and named “Classic” when themes arrived in 1.5.[^wp072][^wp15]",
+    "about": "Reconstruction from the theme’s stylesheet: the sage header, the italic Times title and the dotted rules are as written there. The header green is darkened a little for legibility, and Lucida Grande falls back to your system’s sans-serif."
+  },
+  {
+    "id": "kubrick",
+    "name": "Kubrick",
+    "year": "2005",
+    "version": "1.5",
+    "wardrobe": true,
+    "screenshot": "kubrick-2005",
+    "credit": "Designed and built by Michael Heilemann, and adapted for WordPress by Matt Mullenweg and Ryan Boren. The default theme from 1.5 to 2.9.[^wp15][^heilemann]",
+    "about": "Reconstruction. The original’s blue header and grey footer were image files; here they are drawn as gradients."
+  },
+  {
+    "id": "twentyten",
+    "name": "Twenty Ten",
+    "year": "2010",
+    "version": "3.0",
+    "wardrobe": true,
+    "credit": "No single designer is named; the first commit thanks “Ian Stewart, Matt Thomas, and others.”[^twentyten-commit] The first new default in five years.[^wp30]",
+    "about": "Reconstruction. Georgia and Helvetica are the theme’s own choices. Its header was a photograph of a tree-lined lane, replaced here by a drawn landscape."
+  },
+  {
+    "id": "twentythirteen",
+    "name": "Twenty Thirteen",
+    "year": "2013",
+    "version": "3.6",
+    "wardrobe": true,
+    "screenshot": "theme-twentythirteen",
+    "credit": "Design by Joen Asmussen; development by Konstantin Obenland and Lance Willett.[^twentythirteen-intro]",
+    "about": "Reconstruction. The original’s typefaces, Bitter and Source Sans Pro, are approximated by fonts on your device, and the header circles are redrawn."
+  },
+  {
+    "id": "twentynineteen",
+    "name": "Twenty Nineteen",
+    "year": "2018",
+    "version": "5.0",
+    "wardrobe": true,
+    "credit": "Led by Allan Cole, with Kjell Reigstad as design coach. It arrived with the block editor.[^twentynineteen-intro][^wp50]",
+    "about": "Reconstruction, and a close one: the original also used the fonts already on the reader’s device, a serif for text and a sans-serif for headings."
+  },
+  {
+    "id": "twentytwentyone",
+    "name": "Twenty Twenty-One",
+    "year": "2020",
+    "version": "5.6",
+    "wardrobe": true,
+    "screenshot": "theme-twentytwentyone",
+    "credit": "Design lead Mel Choyce-Dwan; development lead Carolina Nymark.[^wp56]",
+    "about": "Reconstruction. The pastel green and the system font stack are the theme’s own."
+  },
+  {
+    "id": "twentytwentytwo",
+    "name": "Twenty Twenty-Two",
+    "year": "2022",
+    "version": "5.9",
+    "wardrobe": true,
+    "screenshot": "theme-twentytwentytwo",
+    "credit": "Design by Kjell Reigstad; development led by Jeff Ong. The first default block theme.[^twentytwentytwo-intro][^wp59]",
+    "about": "Reconstruction. Source Serif is approximated by a serif on your device, and the original’s bird illustrations are not redrawn."
+  },
+  {
+    "id": "twentytwentyfive",
+    "name": "Twenty Twenty-Five",
+    "year": "2024",
+    "version": "6.7",
+    "wardrobe": true,
+    "screenshot": "theme-twentytwentyfive",
+    "credit": "Design lead Beatriz Fialho; development leads Carolina Nymark and Juan Aldasoro.[^twentytwentyfive-intro]",
+    "about": "Reconstruction. The original’s typeface, Manrope, is approximated by your system’s sans-serif."
+  }
+]

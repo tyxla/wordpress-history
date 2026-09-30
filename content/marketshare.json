@@ -1,0 +1,84 @@
+{
+  "note": "W3Techs usage statistics for WordPress. 'all' is the share of all websites in W3Techs' sample; 'cms' is the share of websites whose content management system W3Techs can identify. Values are for 1 January of each year unless the date says otherwise.",
+  "source": [
+    "w3-yearly",
+    "w3-ms"
+  ],
+  "series": [
+    {
+      "id": "cms",
+      "label": "Of websites whose CMS is known"
+    },
+    {
+      "id": "all",
+      "label": "Of all websites"
+    }
+  ],
+  "points": [
+    {
+      "date": "2015-01-01",
+      "all": 23.3,
+      "cms": 60.7
+    },
+    {
+      "date": "2016-01-01",
+      "all": 25.6,
+      "cms": 58.8
+    },
+    {
+      "date": "2017-01-01",
+      "all": 27.3,
+      "cms": 58.5
+    },
+    {
+      "date": "2018-01-01",
+      "all": 29.2,
+      "cms": 60.0
+    },
+    {
+      "date": "2019-01-01",
+      "all": 32.7,
+      "cms": 59.7
+    },
+    {
+      "date": "2020-01-01",
+      "all": 35.4,
+      "cms": 62.1
+    },
+    {
+      "date": "2021-01-01",
+      "all": 39.5,
+      "cms": 64.1
+    },
+    {
+      "date": "2022-01-01",
+      "all": 43.2,
+      "cms": 65.2
+    },
+    {
+      "date": "2023-01-01",
+      "all": 43.1,
+      "cms": 63.7
+    },
+    {
+      "date": "2024-01-01",
+      "all": 43.1,
+      "cms": 62.9
+    },
+    {
+      "date": "2025-01-01",
+      "all": 43.6,
+      "cms": 62.0
+    },
+    {
+      "date": "2026-01-01",
+      "all": 43.0,
+      "cms": 60.2
+    },
+    {
+      "date": "2026-09-30",
+      "all": 40.2,
+      "cms": 58.7
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+/* ─────────────────────────────────────────────────────────────
+   Hello, World. — base: type, colour, layout grid
+   ───────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces-italic.woff2") format("woff2");
+  font-weight: 300 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Next";
+  src: url("../fonts/atkinson-next.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Next";
+  src: url("../fonts/atkinson-next-italic.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Mono";
+  src: url("../fonts/atkinson-mono.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Metric-matched fallbacks keep the page from jumping while fonts load. */
+@font-face {
+  font-family: "Fraunces Fallback";
+  src: local("Georgia");
+  size-adjust: 98%;
+  ascent-override: 96%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Atkinson Fallback";
+  src: local("Arial");
+  size-adjust: 101.5%;
+  ascent-override: 93%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+:root {
+  /* Paper, ink and one confident blue. */
+  --paper: #f3ede2;
+  --paper-deep: #e8dfce;
+  --paper-light: #fbf8f1;
+  --ink: #17150f;
+  --ink-soft: #4a4539;
+  --ink-faint: #6b6555;
+  --blue: #1d3fc4;
+  --blue-deep: #142b8c;
+  --blue-wash: #dde3f6;
+  --ochre: #b8801c;
+  --night: #11131b;
+  --night-lift: #1b1e2b;
+  --night-ink: #ece6d8;
+  --night-soft: #bdb7a8;
+  --night-blue: #a3b7ff;
+
+  --serif: "Fraunces", "Fraunces Fallback", "Iowan Old Style", Georgia, serif;
+  --sans: "Atkinson Next", "Atkinson Fallback", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Atkinson Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --measure: 34rem;
+  --gutter: clamp(1.25rem, 5vw, 3.5rem);
+  --mast: 3.25rem;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  /* Semantic colours, re-pointed by darker scenes. */
+  --bg: var(--paper);
+  --bg-lift: var(--paper-light);
+  --bg-sunk: var(--paper-deep);
+  --fg: var(--ink);
+  --fg-soft: var(--ink-soft);
+  --fg-faint: var(--ink-faint);
+  --accent: var(--blue);
+  --line: rgba(23, 21, 15, .22);
+  --line-soft: rgba(23, 21, 15, .11);
+  --numeral: #e2d8c4;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--mast) + 1rem);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 clamp(1.0625rem, 1rem + .3vw, 1.1875rem)/1.62 var(--sans);
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* A whisper of paper grain. Decorative; sits behind everything. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .09 0 0 0 0 .08 0 0 0 0 .06 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+h1, h2, h3, p, figure, blockquote, ul, ol, dl, dd, pre, fieldset { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+fieldset { border: 0; min-width: 0; }
+img, svg, picture { display: block; max-width: 100%; }
+img { height: auto; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+hr { border: 0; }
+
+a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: .06em;
+  text-underline-offset: .18em;
+  text-decoration-color: var(--accent);
+}
+a:hover { color: var(--accent); }
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection { background: var(--blue); color: var(--paper-light); }
+
+code, pre, kbd { font-family: var(--mono); font-size: .88em; }
+code { background: var(--line-soft); padding: .08em .3em; border-radius: 3px; }
+pre code { background: none; padding: 0; }
+
+.sprite { position: absolute; }
+
+.skip {
+  position: fixed;
+  top: .5rem;
+  left: .5rem;
+  z-index: 100;
+  padding: .6rem 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+.skip:focus { transform: none; }
+
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Small archival labels: dates, release numbers, captions. */
+.eyebrow,
+.chapter-kicker,
+.exhibit-kind,
+.mono {
+  font-family: var(--mono);
+  font-size: .72rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.exhibit-kind {
+  display: inline-block;
+  margin-right: .5em;
+  padding: .1em .5em;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  font-size: .62rem;
+  line-height: 1.5;
+  vertical-align: .12em;
+  white-space: nowrap;
+  color: var(--fg-soft);
+}
+
+/* ── The page grid ──
+   full  → edge to edge
+   wide  → the exhibition width
+   text  → the reading column, set left of centre with room for margin notes */
+.chapter-head,
+.chapter-body {
+  display: grid;
+  grid-template-columns:
+    [full-start] var(--gutter)
+    [wide-start text-start] minmax(0, 1fr)
+    [text-end wide-end] var(--gutter) [full-end];
+}
+.chapter-head > *,
+.chapter-body > * { grid-column: text; min-width: 0; }
+.chapter-body > .b--wide { grid-column: wide; }
+.chapter-body > .b--full { grid-column: full; }
+
+@media (min-width: 60em) {
+  .chapter-head,
+  .chapter-body {
+    grid-template-columns:
+      [full-start] minmax(var(--gutter), 1fr)
+      [wide-start] minmax(0, 7rem)
+      [text-start] var(--measure)
+      [text-end] minmax(0, 19rem)
+      [wide-end] minmax(var(--gutter), 1fr) [full-end];
+  }
+}
+
+/* ── Chapters ── */
+.chapter {
+  position: relative;
+  overflow-x: clip;
+  background: var(--bg);
+  color: var(--fg);
+  padding-block: clamp(5rem, 14vh, 9rem) clamp(4rem, 10vh, 7rem);
+}
+.chapter + .chapter,
+.opening + .chapter { border-top: 1px solid var(--line); }
+
+/* A cooler, quieter sheet for the chapter about disagreements. */
+.chapter--cool {
+  --bg: #eceae4;
+  --bg-lift: #f6f5f1;
+  --bg-sunk: #dfddd5;
+  --numeral: #dcd9d0;
+}
+
+/* Night scenes. */
+.chapter--night,
+.releases {
+  --bg: var(--night);
+  --bg-lift: var(--night-lift);
+  --bg-sunk: #0b0d13;
+  --fg: var(--night-ink);
+  --fg-soft: var(--night-soft);
+  --fg-faint: #9a9484;
+  --accent: var(--night-blue);
+  --line: rgba(236, 230, 216, .26);
+  --line-soft: rgba(236, 230, 216, .12);
+  --numeral: #1d2130;
+}
+.chapter--night ::selection,
+.releases ::selection { background: var(--night-blue); color: var(--night); }
+
+.chapter-head {
+  position: relative;
+  row-gap: 0;
+  margin-bottom: clamp(2.5rem, 7vh, 5rem);
+}
+.chapter-kicker {
+  grid-column: wide;
+  display: flex;
+  gap: 1.2em;
+  align-items: baseline;
+  padding-top: .7rem;
+  border-top: 1px solid var(--fg);
+  color: var(--fg);
+}
+.chapter-years { color: var(--fg-soft); }
+
+.chapter-numeral {
+  grid-column: wide-start / full-end;
+  grid-row: 2;
+  justify-self: end;
+  margin-top: -.02em;
+  margin-right: calc(var(--gutter) * -.2);
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: clamp(8.5rem, 34vw, 27rem);
+  font-variation-settings: "opsz" 144, "WONK" 0;
+  font-variant-numeric: lining-nums;
+  line-height: .78;
+  letter-spacing: -.045em;
+  color: var(--numeral);
+  user-select: none;
+  white-space: nowrap;
+}
+.chapter-numeral::before,
+.opening-year [data-n]::before { content: attr(data-n); }
+.chapter-title {
+  grid-column: wide;
+  grid-row: 2;
+  align-self: end;
+  position: relative;
+  max-width: 13em;
+  padding-top: clamp(4.5rem, 16vw, 12rem);
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.35rem, 1.4rem + 4.6vw, 5.4rem);
+  font-variation-settings: "WONK" 1;
+  line-height: 1.02;
+  letter-spacing: -.022em;
+  text-wrap: balance;
+}
+.dot { color: var(--accent); }
+.chapter-dek {
+  margin-top: clamp(1.25rem, 3vw, 2rem);
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 1.05rem + .7vw, 1.55rem);
+  font-weight: 350;
+  line-height: 1.35;
+  color: var(--fg-soft);
+  text-wrap: pretty;
+}
+.chapter-head--quiet .chapter-title { padding-top: clamp(2rem, 6vw, 4rem); }
+
+/* Vertical rhythm between the big pieces of a chapter. */
+.chapter-body { row-gap: clamp(2.5rem, 6vh, 4.5rem); }
+
+/* ── Motion preferences ──
+   Transitions are decoration. The reduced presentation keeps every state,
+   drops the movement between them. */
+@media (prefers-reduced-motion: reduce) {
+  html:not([data-motion="full"]) { scroll-behavior: auto; }
+  html:not([data-motion="full"]) *,
+  html:not([data-motion="full"]) *::before,
+  html:not([data-motion="full"]) *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+html[data-motion="reduced"] { scroll-behavior: auto; }
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: .001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+}
+
+@media print {
+  .masthead, .ruler, .skip { display: none !important; }
+  body::before { display: none; }
+  .chapter { padding-block: 2rem; break-inside: auto; }
+  details.archive > .archive-body { display: block !important; }
+}
+
+/* 404 */
+.notfound { display: grid; min-height: 100vh; place-items: center; padding: var(--gutter); }
+.notfound main { max-width: 30rem; }
+.notfound p { margin-top: 1rem; }

@@ -1,0 +1,150 @@
+/* ─────────────────────────────────────────────────────────────
+   The living website: a framed, fictional site ("Kiln Diary")
+   Sizes inside are in em so a specimen scales with its frame.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --pot: #b8653a;
+  --pot-in: #7f4022;
+  --pot-glaze: #efe4cd;
+  --pot-shadow: rgba(30, 20, 10, .16);
+}
+
+.sp {
+  position: relative;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #111;
+  background: #fff;
+  border: 1px solid #17150f;
+  box-shadow: 0 1.6em 3em -1.9em rgba(23, 21, 15, .7);
+  text-align: left;
+  overflow: hidden;
+  container-type: inline-size;
+}
+.sp--hero { font-size: clamp(13px, 9px + .55vw, 17px); }
+.sp p, .sp ul, .sp li { margin: 0; padding: 0; }
+.sp ul { list-style: none; }
+.pot { width: 100%; height: auto; }
+
+/* ── Browser furniture ── */
+.sp-chrome { font: 11px/1 var(--sans); color: #222; user-select: none; }
+.sp-address {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sp-address > span { overflow: hidden; text-overflow: ellipsis; }
+.sp-dots { display: inline-flex; gap: 5px; }
+.sp-dots i { width: 9px; height: 9px; border-radius: 50%; background: #b9b2a3; }
+
+/* 2003: a title bar, chunky buttons, an "Address" field. */
+.sp-chrome--2003 { background: #d9d4c6; border-bottom: 1px solid #17150f; }
+.sp-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 6px 5px 8px;
+  background: linear-gradient(90deg, #1f3a93, #5a78c9);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+.sp-titletext { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp-winbtns { display: inline-flex; gap: 3px; }
+.sp-winbtns i {
+  width: 13px;
+  height: 12px;
+  background: #d9d4c6;
+  border: 1px solid;
+  border-color: #fff #55524a #55524a #fff;
+}
+.sp-chrome--2003 .sp-toolbar { display: flex; align-items: center; gap: 4px; padding: 5px 6px; }
+.sp-tool {
+  padding: 4px 7px;
+  border: 1px solid;
+  border-color: #fff #7d796d #7d796d #fff;
+  background: #d9d4c6;
+}
+.sp-chrome--2003 .sp-address { margin-left: 4px; }
+.sp-chrome--2003 .sp-address b { font-weight: 400; color: #444; }
+.sp-chrome--2003 .sp-address > span {
+  flex: 1;
+  padding: 4px 6px;
+  background: #fff;
+  border: 1px solid;
+  border-color: #7d796d #fff #fff #7d796d;
+}
+@container (max-width: 380px) {
+  .sp-tool { display: none; }
+}
+
+/* c. 2010: tabs on top, softer corners. */
+.sp-chrome--2010 { background: #cbc6b9; border-bottom: 1px solid #8f897a; }
+.sp-tabs { display: flex; align-items: flex-end; gap: 10px; padding: 7px 8px 0; }
+.sp-tabs .sp-dots { padding-bottom: 7px; }
+.sp-tab {
+  max-width: 60%;
+  padding: 6px 14px 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #eeebe3;
+  border-radius: 6px 6px 0 0;
+}
+.sp-chrome--2010 .sp-toolbar { display: flex; align-items: center; gap: 8px; padding: 5px 8px; background: #eeebe3; }
+.sp-arrows { font-size: 15px; letter-spacing: 3px; color: #5c5c5c; }
+.sp-chrome--2010 .sp-address > span { flex: 1; padding: 4px 9px; background: #fff; border: 1px solid #bdb7a9; border-radius: 3px; color: #444; }
+
+/* c. 2020: almost nothing. */
+.sp-chrome--2020 { display: flex; align-items: center; gap: 12px; padding: 8px 10px; background: #efede8; border-bottom: 1px solid #d5d1c7; }
+.sp-chrome--2020 .sp-address > span { flex: 1; padding: 5px 12px; background: #fff; border-radius: 999px; color: #555; text-align: center; }
+
+/* ── The site inside ── */
+.sp-viewport { background: #fff; }
+.site { --link: #00e; font-family: "Times New Roman", Times, serif; font-size: 1em; color: #000; background: #fff; }
+.site-page { padding: 1.2em 1.4em 1em; }
+.site-title { font-size: 2em; font-weight: 700; line-height: 1.1; }
+.site-tagline { margin-top: .15em; font-size: .92em; }
+.site-banner { display: none; }
+.site-nav { display: flex; flex-wrap: wrap; gap: .2em 1.1em; }
+.site-body { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.4em; margin-top: 1em; }
+.site-body:has(> .site-side) { grid-template-columns: minmax(0, 1fr) 8.6em; }
+.post-date { font-size: .85em; }
+.post-title { font-size: 1.5em; font-weight: 700; line-height: 1.15; margin-top: .15em; }
+.post-meta { font-size: .8em; margin-top: .2em; }
+.post-content { margin-top: .7em; }
+.post-figure { width: 46%; min-width: 8em; margin-top: .8em; }
+.post-figcap { display: block; font-size: .78em; font-style: italic; }
+.post-foot { margin-top: .8em; font-size: .85em; color: var(--link); text-decoration: underline; }
+.side-h { font-weight: 700; margin-top: .9em; }
+.side-h:first-child { margin-top: 0; }
+.site-side li { color: var(--link); text-decoration: underline; font-size: .92em; }
+.site-foot { margin-top: 1.4em; padding-top: .6em; border-top: 1px solid #999; font-size: .8em; }
+.section-h { margin-top: 1.4em; font-weight: 700; }
+.pots { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.6em, 1fr)); gap: .9em; margin-top: .7em; }
+.pots-item { display: grid; gap: .25em; }
+.pots-pic { display: block; padding: .5em; background: #f3efe6; }
+.pots-name { font-size: .85em; line-height: 1.2; }
+.pots-price { font-size: .85em; color: #555; }
+
+/* 2003, plain: barely styled, which is rather the point. */
+.site[data-theme="plain"] .site-head { padding-bottom: .6em; border-bottom: 1px solid #000; }
+.site[data-theme="plain"] .site-tagline { font-style: italic; }
+.site[data-theme="plain"] .site-side { padding-left: 1em; border-left: 1px solid #bbb; }
+
+/* A caret that suggests someone is still typing. */
+.caret {
+  display: inline-block;
+  width: .08em;
+  height: .95em;
+  margin-left: .06em;
+  vertical-align: -.1em;
+  background: currentColor;
+  animation: blink 1.05s steps(1) 9;
+}
+@keyframes blink { 50% { opacity: 0; } }

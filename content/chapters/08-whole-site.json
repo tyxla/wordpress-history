@@ -1,0 +1,146 @@
+{
+  "id": "whole-site",
+  "label": "Chapter 8",
+  "title": "Beyond the post, toward the whole site",
+  "years": "2019–2024",
+  "numeral": "2022",
+  "tick": "2022",
+  "tone": "paper",
+  "dek": "Once a paragraph could be a block, so could a header, a footer, a menu — and then the design of the whole site.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "The block editor changed how a post was written. It left the header, the footer and the page templates where they had always been: in a theme’s PHP files."
+    },
+    "Phase two set out to close that gap, in instalments: patterns — ready-made arrangements of blocks — in 2020;[^wp55] block-editable templates and `theme.json`, one file for a theme’s colours and type, in 2021;[^wp58] and on 25 January 2022, WordPress 5.9: “Full site editing is here.”[^wp59]",
+    {
+      "type": "exhibit",
+      "name": "siteScene",
+      "caption": "The Site Editor, redrawn and simplified. The order of events is accurate; the screen is a reconstruction, not a screenshot.",
+      "steps": [
+        {
+          "label": "2018 · the post",
+          "text": "With 5.0, what can be edited as blocks is the content of a single post. The header above it and the footer below belong to the theme’s code."
+        },
+        {
+          "label": "2020–21 · patterns and templates",
+          "text": "Patterns arrive in 5.5. In 5.8, the template that surrounds a post can itself be opened in the block editor.[^wp58]"
+        },
+        {
+          "label": "2022 · the whole site",
+          "text": "In 5.9 the Site Editor opens everything. Header and footer become “template parts” made of blocks, and Twenty Twenty-Two is “the first default block theme in the history of WordPress.”[^wp59]"
+        },
+        {
+          "label": "Styles",
+          "text": "One panel changes colour and type everywhere at once. From 6.0, a theme can ship several complete looks, called style variations.[^wp60]"
+        }
+      ]
+    },
+    {
+      "type": "exhibit",
+      "name": "variations",
+      "caption": "Four invented style variations for one block theme. The post has not changed since 2003.",
+      "options": [
+        {
+          "id": "paper",
+          "name": "Paper"
+        },
+        {
+          "id": "kiln",
+          "name": "Kiln"
+        },
+        {
+          "id": "night",
+          "name": "Night shift"
+        },
+        {
+          "id": "poster",
+          "name": "Poster"
+        }
+      ]
+    },
+    "It took longer than planned. Version 5.9 slipped six weeks,[^wp59-delay] and the Site Editor wore a “beta” label until March 2023.[^wp62] Theme authors had already said the pace was hard to keep up with: “There is some broken trust between theme authors and WordPress at the moment,” Justin Tadlock wrote in 2020.[^tadlock-2020]",
+    "Other things were built in these years. Openverse, a search engine for openly licensed images, joined the project.[^openverse] WordPress 5.6 came “from an all-women and non-binary identifying release squad.”[^wp56] And Adam Zieliński got all of WordPress running inside a browser tab with no server behind it — the experiment that became Playground.[^playground]",
+    "On 27 May 2023 the project marked twenty years since its first release.[^wp20-birthday] That August, version 6.3 was declared “the capstone of Phase 2.”[^wp63]",
+    {
+      "type": "archive",
+      "title": "A short glossary, from the documentation",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Block",
+              "“Everything from a paragraph, to a video, to the site title is represented as a block.”[^key-concepts]"
+            ],
+            [
+              "Pattern",
+              "“…a group of blocks that have been combined together creating a design pattern.”[^key-concepts]"
+            ],
+            [
+              "Template part",
+              "One of the “reusable areas within a template, including semantic areas like header, sidebar, and footer.”[^key-concepts]"
+            ],
+            [
+              "theme.json",
+              "“…a configuration file that lets you define the global settings, styles, and more for your theme.”[^theme-json]"
+            ],
+            [
+              "Style variation",
+              "“In a way, they are ‘skins’ for your theme.”[^style-variations]"
+            ],
+            [
+              "Site Editor",
+              "The name settled on in November 2022 for what had been called full site editing.[^site-editor-name]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "WordPress in a browser tab",
+      "items": [
+        {
+          "type": "quote",
+          "text": "This early demo runs a full WordPress directly in the browser without a PHP server! While it isn’t fully stable yet, it is a major breakthrough that could transform learning, contributing, and using WordPress.",
+          "by": "Adam Zieliński",
+          "where": "make.wordpress.org/core",
+          "date": "2022-09-23",
+          "cite": "playground"
+        },
+        {
+          "type": "note",
+          "text": "How it works, in his words: “PHP is compiled to WASM,” the code and files are bundled up, and a service worker “traps HTTP requests and re-routes them to WordPress.”[^playground] The project was renamed WordPress Playground in December 2022.[^playground-rename] By August 2026 it could start up WordPress from any era, back to 0.7 — the release described in chapter 1.[^playground-eras]"
+        }
+      ]
+    },
+    {
+      "type": "archive",
+      "title": "A community that could not meet",
+      "items": [
+        {
+          "type": "chronology",
+          "items": [
+            {
+              "date": "12 Feb 2020",
+              "text": "The first WordCamp Asia, due to open in Bangkok nine days later, is cancelled over COVID-19.[^wcasia-2020]"
+            },
+            {
+              "date": "Dec 2020",
+              "text": "Learn WordPress is announced: workshops, courses and lesson plans online.[^learn]"
+            },
+            {
+              "date": "13 Sept 2021",
+              "text": "Applications for in-person WordCamps reopen.[^in-person]"
+            },
+            {
+              "date": "Feb 2023",
+              "text": "WordCamp Asia is finally held, in Bangkok, three years late.[^wc-past]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

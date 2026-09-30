@@ -1,0 +1,7 @@
+{
+  // Spacefast builds this repository on every push and publishes dist/.
+  "build": {
+    "buildCommand": "node build.mjs --strict",
+    "outputDirectory": "dist"
+  }
+}

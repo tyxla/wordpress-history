@@ -1,0 +1,74 @@
+{
+  "id": "beginning",
+  "label": "Chapter 1",
+  "title": "A beginning, not a business plan",
+  "years": "2003",
+  "numeral": "2003",
+  "tick": "2003",
+  "tone": "paper",
+  "dek": "The first release was small, free, and mostly someone else’s code. What it added was care.",
+  "blocks": [
+    {
+      "type": "lede",
+      "text": "WordPress 0.7 went out around midnight between 26 and 27 May 2003. “I am very happy to announce that the first release of WordPress is now available for download,” Matt wrote.[^wp07]"
+    },
+    "It was still recognisably b2; most files kept names like `b2login.php` until a “great renaming” that December.[^renaming] What was new were small considerations: Texturize, which curled straight quotation marks; a link manager and hand-written excerpts, both by Mike Little; a simpler admin screen.[^wp07]",
+    "Installing it meant opening a configuration file in a text editor, uploading everything, and visiting an install script. The readme called this the “5-minute install”. The word “famous” arrived a year later.[^core-r58]",
+    {
+      "type": "exhibit",
+      "name": "closeup",
+      "caption": "Kiln Diary as it begins. The layout illustrates a plain weblog of the period; it is not a copy of the template that shipped with 0.7.",
+      "notes": [
+        "A title, a date, a paragraph, a picture. The page was a PHP file that a careful person could edit — “not actually a template,” the readme warned, “but a PHP file that you’re manipulating.”[^core-r58]",
+        "The list of links came from the new link manager, which the announcement promised had “everything you’d expect.”[^wp07]",
+        "Curled quotes and apostrophes, applied automatically: “So good it’ll make your quotes curl.”[^wp07]"
+      ]
+    },
+    "It was spare-time work.[^road-10] The homepage described “a semantic personal publishing platform with a focus on aesthetics, web standards, and usability,” and its footer already said “Code is poetry.”[^home-2003] The readme’s list of requirements ended with a request for a link back, “its only mean of promotion.”[^core-r58]",
+    "Two days later Donncha Ó Caoimh was asked to join. “It took me all of 5 seconds to agree,” he wrote.[^donncha-2003] By January 2004 there was a version 1.0, with tidy permanent links and comment moderation, finished over a student’s Christmas break.[^wp10][^road-10]",
+    {
+      "type": "aside",
+      "label": "About those jazz names",
+      "text": "Version 1.0 shipped in a file labelled “platinum”. The first musician appeared three weeks later, on 1.0.1 “Miles”; the official history now files Miles Davis under 1.0.[^miles][^wp-history]"
+    },
+    {
+      "type": "archive",
+      "title": "The first announcement, 27 May 2003",
+      "items": [
+        {
+          "type": "facts",
+          "rows": [
+            [
+              "Released",
+              "Around midnight US Central time, 26–27 May 2003. Matt’s own blog says the 26th; wordpress.org says the 27th.[^wp07]"
+            ],
+            [
+              "Licence",
+              "“WordPress is available completely free of charge under the GPL license. Enjoy!”[^wp07]"
+            ],
+            [
+              "New",
+              "Texturize · WordPress Links · XHTML 1.1 markup · intelligent line breaks · a new administration interface · manual excerpts · new default templates"
+            ],
+            [
+              "Still to come",
+              "The b2 file names lasted until 11 December 2003.[^renaming]"
+            ]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The WordPress install went very smoothly. I notice there are a LOT fewer files littered around than there were in b2.",
+          "by": "Alex King",
+          "where": "alexking.org, on release night",
+          "date": "2003-05-27",
+          "cite": "alexking-2003"
+        },
+        {
+          "type": "note",
+          "text": "The readme also carried a thank-you: “WordPress is built from b2, which comes from Michel V. We wouldn’t be here without him, so why don’t you grab him something from his wishlist?”[^core-r58]"
+        }
+      ]
+    }
+  ]
+}
